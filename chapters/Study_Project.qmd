@@ -1,0 +1,148 @@
+---
+title: "It All Begins Here: Project Budget Review"
+date: 2025-03-01
+author: Jianyuan(Andy) Hu
+---
+
+# Context
+
+Dream College headquarted in Toronto and operates 3 campuses in Toronto, Montreal and Ottawa. 
+
+Now is September 2024, many Canadian colleges are being faced with the international student landscape changing drastically and need to plan for a budget storm looming ever closer. Dream College has been facing their own financial challenges. 
+
+A senior leadership meeting just wrapped up and requested all departments to review their current budget and compared to their own last year budget down to program level and see what could be done. The senior leadership wants department review done and suggestive "cost-effective" measures put forward in two weeks. 
+
+Sitting in Financial Services department, you really need to get the departmental budget report out AS SOON AS POSSIBLE, so that all departments can have more time to comtemplate on their own budget. "Time is key, time is key ..." You keep reminding yourself... "I didn't bring a sleeping bag with me today, I'd better be able to go home at some point..."
+
+# Main Task
+
+Create ready-to-distribute departmental budget reports. 
+
+# Specific Tasks
+
+1. Read data from the given Excel workbook
+
+2. Filter for only Operating and Strategic Intiatives under Activity_Type
+
+3. Fix any data type issues as needed
+
+4. Add the following columns to the budget transaction data:
+
+    - Budget control code
+        - this code has the following structure (Operating_Unit, Department, Program_ID), all separated by a space
+    
+    - Year_over_Year_Diff
+        - Current_Year_Budget minus Last_Year_Budget
+    
+    - Program_Name
+    
+    - Account_Description & Spend_Category
+    
+    - Department_Description
+    
+    - Operating_Unit_Description
+
+5. Clean up Budget_File column:
+  
+    - "CLPI" should say "Corporate Learning and Performance Improvement"
+    
+    - "Athletics - Student Supported" should say "Athletics"
+    
+    - "Facility Mgt Serv - Plant & Ship" should say "Facility-Plant & Ship"
+    
+    - "Facility Mgt Serv - Admin" should say "Facility-Admin", 
+    
+    - "Facility Mgt Serv - Security" should say "Facility-Security"
+    
+    - "Facility Mgt Serv - Health & Safety" should say "Facility-Health & Safety"
+    
+    - "Facility Mgt Serv - Sustainability" should say "Facility-Health & Safety"
+
+    - Any "Serv" should say "Service"
+
+6. Rename Budget_File to Responsbility_Centre
+
+7. Summarize Current_Year_Budget, Last_Year_Budget and Year_over_Year_Diff by Department_Description, Responsilibity_Centre, Program_Name, Spend_Category and Operating_Unit_Description
+
+8. Generate Excel output for 
+
+9. Generate departmental summarized budget data as Excel output
+
+10. (Optional, Intermediate) Recreate the Spend_Category
+    - account description contains keyword "Software" are "Software"
+
+    - accounts start with 40,41,42,43 are "Personnel"
+
+    - accounts start with 440-443 are "Instructional"
+
+    - accounts start with 444-469 are "Operational"
+
+    - accounts start with 471-477 or 499-511 are "Facility Maintenance"
+
+    - accounts start with 478 are "Taxes"
+
+    - accounts start with 48 are "Equipment Rental"
+
+    - accounts start with 495-496 are "Student Bursary"
+
+    - accounts start with 490-491 or 550-560 are "Tech Hardware"
+
+    - accounts start with 6 are "Internal Transfer"
+
+    - all else are "Other"
+
+11. (Optional, Intermediate) Budget_File column needs more cleanup
+
+    - Anything ends with "(space)T" should say "Toronto Campus"
+
+    - Anything ends with "(space)O" should say "Ottawa Campus"
+
+    - Anything ends with "(space)M" should say "Montreal Campus"
+
+12. Build a bar chart to display Current_Year_Budget, by Spend_Category, for each Opearting Unit (Department_Description)
+
+    - Spend_Category on horizontal axis
+
+    - Current_Year_Budget on verticle axis
+
+    - title: Budget Spend Composition, to be centred
+
+    - subtitle: For All Departments, to be centred
+
+    - each Operating Unit (Operating_Unit_Description) has its own chart, stacked together, sharing the same spend category.
+
+13. Create a new quarto document called "Budget_Report.qmd"
+
+    - add date
+
+    - add author
+
+    - make it html (webpage) format
+
+14. Create a budget spend table, summarizing Current_Year_Budget, Last_Year_Budget, Year_over_Year_Diff by 14. create a budget spend table, summarizing Current_Year_Budget, Last_Year_Budget, Year_over_Year_Diff by Responsilibity_Centre, Program_Name
+
+15. Render budget_report.qmd for IT department
+
+16. Tidy the output report up 
+
+    - hide unnecessary code blocks
+
+    - hide messages and warnings
+
+    - properly resize the bar chart
+
+    - properly render the spend in the report
+
+17. Add some description and structures to the report
+    - section 1: "Key Context"
+        - description: "As previously discussed during senior leadership meeting, the college has been undergoing through an efficiency review, in particular with each department's operating fund and strategic initiative fund. This report is designed to facilitate budget review by department on operating fund ans strategic review fund."
+    - section 2: "Spend Category by Campuses"
+        - In the report below, the current year's budget has been broken down to each spending category and by our operating units.
+    - section 3: "Year over Year Budget Variances"
+        - "Here, total budget has been broken down to individual key responsibility centre within each department and their associated operational programs."
+17. create a report for each department
+    - custom title, name and relevant information
+
+# Finale
+
+Make sure to pat on your shoulder! Look how far you have come and what you just have accomplished!😊🎉🎉

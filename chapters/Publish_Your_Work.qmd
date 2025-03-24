@@ -1,0 +1,47 @@
+---
+title: "Publish Your Work and Quarto"
+date: 2025-03-01
+author: Jianyuan(Andy) Hu
+---
+
+## What Is Publishing?
+
+When it comes to the word "Publish", people like to think publish an article, or an academic journal. However, for us average citizen or analyst, publishing doesn't have to be that high-profile. For example, if you need to create a report to your boss that documents your analysis and your analytics outputs (cross-tab tables, income statements, bar charts, you name it...), you would prefer to put them all together in one place, rather than your words in one document and all your charts and tables in another document. **That is also "publishing"**. Maybe because your work isn't read by everyone in the world, but your boss, it's just you probably never thought of publishing that way.
+
+That said, another reason why folks don't think that they are "publishing", is probably because the tools are usually pretty specialized to learn and use and more importantly, expensive. Good news here, is that **Quarto** is taking care of this barrier for you.  
+
+## What Is Quarto?
+
+In a nutshell, it is an open-source scientific and technical publishing system. You can weave together narrative text and code to produce elegantly formatted output as documents, web pages, blog posts, books and more. (https://quarto.org/)
+
+Quarto is built and maintained by Development of Quarto is sponsored by Posit, PBC. It originated from something called "R Markdown" that shared the same goals, but R Markdown was targeted principally at users of the R language. The same core team works on both Quarto and R Markdown:
+
+  - J.J. Allaire (https://github.com/jjallaire/)
+  - Christophe Dervieux (https://github.com/cderv)
+  - Carlos Scheidegger (https://github.com/cscheid)
+  - Charles Teague (https://github.com/dragonstyle)
+  - Yihui Xie (https://github.com/yihui)
+
+## Why Do I Like Quarto?
+
+In a nutshell, 4 reasons:
+
+1. Quarto is open-source, which means it is free to use and it is free for everyone to review and improve, just like R.
+2. Quarto is developed by a data-analyst driven community, which means they don't expect you to understand all the nuts and bolts to publish (e.g. html and css for websites). If you do understand those, you will be even more productive 
+3. Quarto can create and publish a variety types of documents: html(webpages), MS Word, PDF, just to name the common few.
+4. Quarto works with a variety of popular computing languages, like R, Python, SQL and many others, so you can work with the data tool that you like.
+
+## How to Begin Working with Quarto?
+
+To get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems. 
+
+At this stage, there are many publicly available walkthroughs to install Quarto. I will recommend a few here, one for each major personal computer environment. 
+
+- [Walkthrough - Install Quarto on Windows 10/11](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
+- [Walkthrough - Install Quarto on macOS](https://www.youtube.com/watch?v=aOGGPcWZKUs)
+
+Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same. 
+
+## Special Credit
+
+This website that you are reading, guess what? I made it with the help of Quarto!!
