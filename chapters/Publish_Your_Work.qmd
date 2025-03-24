@@ -42,6 +42,10 @@ At this stage, there are many publicly available walkthroughs to install Quarto.
 
 Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same. 
 
+## Let's GO!
+
+Now, please follow the video walkthroughs above and give it a try to install Quarto on your laptop, so we can get to work with publishing later!
+
 ## Special Credit
 
 This website that you are reading, guess what? I made it with the help of Quarto!!

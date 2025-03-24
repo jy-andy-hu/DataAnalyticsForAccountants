@@ -50,6 +50,16 @@
     ]
   },
   {
+    "objectID": "chapters/Start_with_R.html#lets-go",
+    "href": "chapters/Start_with_R.html#lets-go",
+    "title": "Start with R",
+    "section": "Let’s GO!",
+    "text": "Let’s GO!\nNow, please follow the video walkthroughs above and give it a try to install R and RStudio, so we can get the party started!",
+    "crumbs": [
+      "Start with R"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Data Analytics For Accounting Folks",
@@ -110,6 +120,16 @@
     ]
   },
   {
+    "objectID": "chapters/Publish_Your_Work.html#lets-go",
+    "href": "chapters/Publish_Your_Work.html#lets-go",
+    "title": "Publish Your Work and Quarto",
+    "section": "Let’s GO!",
+    "text": "Let’s GO!\nNow, please follow the video walkthroughs above and give it a try to install Quarto on your laptop, so we can get to work with publishing later!",
+    "crumbs": [
+      "Publish Your Work"
+    ]
+  },
+  {
     "objectID": "chapters/Publish_Your_Work.html#special-credit",
     "href": "chapters/Publish_Your_Work.html#special-credit",
     "title": "Publish Your Work and Quarto",
@@ -117,16 +137,6 @@
     "text": "Special Credit\nThis website that you are reading, guess what? I made it with the help of Quarto!!",
     "crumbs": [
       "Publish Your Work"
-    ]
-  },
-  {
-    "objectID": "chapters/Start_with_R.html#lets-go",
-    "href": "chapters/Start_with_R.html#lets-go",
-    "title": "Start with R",
-    "section": "Let’s GO!",
-    "text": "Let’s GO!\nNow, please follow the video walkthroughs above and give it a try to install R and RStudio, so we can get the party started!",
-    "crumbs": [
-      "Start with R"
     ]
   }
 ]
