@@ -99,7 +99,7 @@ Create ready-to-distribute departmental budget reports.
 
     - Anything ends with "(space)M" should say "Montreal Campus"
 
-12. Build a bar chart to display Current_Year_Budget, by Spend_Category, for each Opearting Unit (Department_Description)
+12. Build a bar chart to display Current_Year_Budget, by Spend_Category, for each Opearting Unit (Operataing_Unit_Description)
 
     - Spend_Category on horizontal axis
 
