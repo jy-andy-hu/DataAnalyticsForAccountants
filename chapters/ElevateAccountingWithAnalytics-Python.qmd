@@ -9,6 +9,10 @@ author: Jianyuan(Andy) Hu
 
 This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.
 
+## Length
+
+8 hours.
+
 ## Key Takeaways
 
 Upon completion of this course, you will understand:
