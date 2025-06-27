@@ -32,12 +32,14 @@ website:
     contents:
       - text: "From One Accountant to Another"
         href: index.qmd
-      - text: "Elevate Accounting with Analytics -  R Version"
-        href: chapters\ElevateAccountingWithAnalytics-R.qmd
-      - text: "Excel and Python: A Tale of Two Power Tools"
-        href: chapters\Excel-Python.qmd
-      - text: "Elevate Accounting with Analytics -  Python Version"
-        href: chapters\ElevateAccountingWithAnalytics-Python.qmd
+      - section: "Topics"
+        contents:
+          - text: "Elevate Accounting with Analytics -  R Version"
+            href: chapters\ElevateAccountingWithAnalytics-R.qmd
+          - text: "Excel and Python: A Tale of Two Power Tools"
+            href: chapters\Excel-Python.qmd
+          - text: "Elevate Accounting with Analytics -  Python Version"
+            href: chapters\ElevateAccountingWithAnalytics-Python.qmd
 format:
   html:
     theme: cerulean

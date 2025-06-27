@@ -4,6 +4,8 @@ date: 2025-03-01
 author: Jianyuan(Andy) Hu
 ---
 
+# A Bit About the Who and the Why
+
 As I am writing this, I have been a CPA for almost 5 years and almost 10 years since I started working as an accountant. Most of the work that I do is about getting numbers (whether with currency sign on or not) from one side to another, hoping that good business decisions can come out or other folks can get their work done much more effectively. I must say I really enjoy playing these roles and I am amazed how good data are changing co-wokers' and leadership professional life. 
 
 One thing boggles my mind to no end: accountants seem constantly "left out" of the data analytics world or they feel they don't belong to such a world. If you live and work in 2020s, you know so many aspired analysts or businesses would want data analytics and want more. So why? Why would accountants feel remote to data analytics? Why so many businesses or their financial units struggle to pull off business analytics projects even though they have identified the right use cases? One reason I found out, through my personal journey, is the technological literacy barrier. On the one hand, most of the accountants were not trained up with the technological literacy and thinking through their educational background, so it is hard for them to pivot to analytics or to lead business intelligence projects. On the other hand, the analytics folks welcome accounting folks with their open arms, but they usually are master of their fields, and they cannot relate to accounting folks' learning needs and bridge them over. The gap has been virtually left unattended long enough that CPA community starts feeling "left out", which is quite unfortunate.  
@@ -11,3 +13,9 @@ One thing boggles my mind to no end: accountants seem constantly "left out" of t
 I know the future of accounting lies with data analytics and the writing has been on the wall for a few years now. Many accounting folks need a bit of help, from one of their own, to overcome the fear of unknown technologies, to make that first step to write their first line of codes, to get their first project done, and to strategize and lead their organizational analytics projects. I am hoping to be that person for you, to get you to make that first baby-step. Hopefully, not too long, you will feel in good hands with me. If you want to find more about me, you can follow the LinkedIn button on this page. 
 
 Trust me, I am, by no means a genius and if I can do it, you can as well. Welcome to "Data Analytics For Accounting Folks", we are getting into analytics world together.
+
+# What's Here for You
+
+***On the navigation pane (on your left), you will be able to find many topics and sessions that I created and delivered before. I hope you will find something of great interests and values to you!!***
+
+If you like what you see and would like to collaborate on or deliver something, feel free to reach out through LinkedIn. You can reach me right here from this page through the LinkedIn logo (upper left corner, under "Data Analytics For Accounting Folks").

@@ -6,6 +6,7 @@
     "section": "",
     "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel.",
     "crumbs": [
+      "Topics",
       "Excel and Python: A Tale of Two Power Tools"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "",
     "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel.",
     "crumbs": [
+      "Topics",
       "Excel and Python: A Tale of Two Power Tools"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "Length",
     "text": "Length\n8 hours.",
     "crumbs": [
+      "Topics",
       "Excel and Python: A Tale of Two Power Tools"
     ]
   },
@@ -36,6 +39,7 @@
     "section": "Target Audience",
     "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their sta� begin to utilize these tools in their domain of work.",
     "crumbs": [
+      "Topics",
       "Excel and Python: A Tale of Two Power Tools"
     ]
   },
@@ -46,6 +50,7 @@
     "section": "Prerequisite(s)",
     "text": "Prerequisite(s)\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
     "crumbs": [
+      "Topics",
       "Excel and Python: A Tale of Two Power Tools"
     ]
   },
@@ -56,6 +61,7 @@
     "section": "",
     "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  Python Version"
     ]
   },
@@ -66,6 +72,7 @@
     "section": "",
     "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  Python Version"
     ]
   },
@@ -76,6 +83,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to Python: Learn the fundamentals of Python, an open-source general-purposed programming language and how to manage and set up Python to be productive.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nData Analytics with Python: Gain skills in designing modules for importing, exporting, processing and visualizing data using Python.\nReport Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  Python Version"
     ]
   },
@@ -86,6 +94,7 @@
     "section": "Target Audience",
     "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  Python Version"
     ]
   },
@@ -96,6 +105,7 @@
     "section": "Prerequisite(s)",
     "text": "Prerequisite(s)\n\nSome basic level of understanding about Python or programming tools such as R and others.\n\nIf you are coming from primarily Excel background and have little experiences in programming-based solutions, please consider starting with “Excel and Python: A Tale of Two Power Tools”. As it transitions you nicely from spreadsheet environment to programming environment.\n\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  Python Version"
     ]
   },
@@ -104,7 +114,7 @@
     "href": "index.html",
     "title": "Data Analytics For Accounting Folks",
     "section": "",
-    "text": "As I am writing this, I have been a CPA for almost 5 years and almost 10 years since I started working as an accountant. Most of the work that I do is about getting numbers (whether with currency sign on or not) from one side to another, hoping that good business decisions can come out or other folks can get their work done much more effectively. I must say I really enjoy playing these roles and I am amazed how good data are changing co-wokers’ and leadership professional life.\nOne thing boggles my mind to no end: accountants seem constantly “left out” of the data analytics world or they feel they don’t belong to such a world. If you live and work in 2020s, you know so many aspired analysts or businesses would want data analytics and want more. So why? Why would accountants feel remote to data analytics? Why so many businesses or their financial units struggle to pull off business analytics projects even though they have identified the right use cases? One reason I found out, through my personal journey, is the technological literacy barrier. On the one hand, most of the accountants were not trained up with the technological literacy and thinking through their educational background, so it is hard for them to pivot to analytics or to lead business intelligence projects. On the other hand, the analytics folks welcome accounting folks with their open arms, but they usually are master of their fields, and they cannot relate to accounting folks’ learning needs and bridge them over. The gap has been virtually left unattended long enough that CPA community starts feeling “left out”, which is quite unfortunate.\nI know the future of accounting lies with data analytics and the writing has been on the wall for a few years now. Many accounting folks need a bit of help, from one of their own, to overcome the fear of unknown technologies, to make that first step to write their first line of codes, to get their first project done, and to strategize and lead their organizational analytics projects. I am hoping to be that person for you, to get you to make that first baby-step. Hopefully, not too long, you will feel in good hands with me. If you want to find more about me, you can follow the LinkedIn button on this page.\nTrust me, I am, by no means a genius and if I can do it, you can as well. Welcome to “Data Analytics For Accounting Folks”, we are getting into analytics world together.",
+    "text": "A Bit About the Who and the Why\nAs I am writing this, I have been a CPA for almost 5 years and almost 10 years since I started working as an accountant. Most of the work that I do is about getting numbers (whether with currency sign on or not) from one side to another, hoping that good business decisions can come out or other folks can get their work done much more effectively. I must say I really enjoy playing these roles and I am amazed how good data are changing co-wokers’ and leadership professional life.\nOne thing boggles my mind to no end: accountants seem constantly “left out” of the data analytics world or they feel they don’t belong to such a world. If you live and work in 2020s, you know so many aspired analysts or businesses would want data analytics and want more. So why? Why would accountants feel remote to data analytics? Why so many businesses or their financial units struggle to pull off business analytics projects even though they have identified the right use cases? One reason I found out, through my personal journey, is the technological literacy barrier. On the one hand, most of the accountants were not trained up with the technological literacy and thinking through their educational background, so it is hard for them to pivot to analytics or to lead business intelligence projects. On the other hand, the analytics folks welcome accounting folks with their open arms, but they usually are master of their fields, and they cannot relate to accounting folks’ learning needs and bridge them over. The gap has been virtually left unattended long enough that CPA community starts feeling “left out”, which is quite unfortunate.\nI know the future of accounting lies with data analytics and the writing has been on the wall for a few years now. Many accounting folks need a bit of help, from one of their own, to overcome the fear of unknown technologies, to make that first step to write their first line of codes, to get their first project done, and to strategize and lead their organizational analytics projects. I am hoping to be that person for you, to get you to make that first baby-step. Hopefully, not too long, you will feel in good hands with me. If you want to find more about me, you can follow the LinkedIn button on this page.\nTrust me, I am, by no means a genius and if I can do it, you can as well. Welcome to “Data Analytics For Accounting Folks”, we are getting into analytics world together.\n\n\nWhat’s Here for You\nOn the navigation pane (on your left), you will be able to find many topics and sessions that I created and delivered before. I hope you will find something of great interests and values to you!!\nIf you like what you see and would like to collaborate on or deliver something, feel free to reach out through LinkedIn. You can reach me right here from this page through the LinkedIn logo (upper left corner, under “Data Analytics For Accounting Folks”).",
     "crumbs": [
       "From One Accountant to Another"
     ]
@@ -116,6 +126,7 @@
     "section": "",
     "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  R Version"
     ]
   },
@@ -126,6 +137,7 @@
     "section": "",
     "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  R Version"
     ]
   },
@@ -136,6 +148,7 @@
     "section": "Length",
     "text": "Length\n8 hours.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  R Version"
     ]
   },
@@ -146,6 +159,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nData Visualization Techniques: Discover how to create impactful visualizations with R.\nReport Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  R Version"
     ]
   },
@@ -156,6 +170,7 @@
     "section": "Target Audience",
     "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  R Version"
     ]
   },
@@ -166,6 +181,7 @@
     "section": "Prerequisite(s)",
     "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
     "crumbs": [
+      "Topics",
       "Elevate Accounting with Analytics -  R Version"
     ]
   }
