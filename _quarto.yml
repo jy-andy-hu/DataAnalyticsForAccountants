@@ -3,9 +3,9 @@ project:
   output-dir: docs
   render: 
     - index.qmd
-    - chapters\Start_with_R.qmd
-    - chapters\Publish_Your_Work.qmd
-    - chapters\Study_Project.qmd
+    - chapters\ElevateAccountingWithAnalytics-Python.qmd
+    - chapters\ElevateAccountingWithAnalytics-R.qmd
+    - chapters\Excel-Python.qmd
 
 website:
   title: "Data Analytics For Accounting Folks"
@@ -14,7 +14,7 @@ website:
     right: |
      This book was built with <a href="https://quarto.org/">Quarto</a>.
 
-  repo-url: https://github.com/jy-andy-hu/ElevateAccountingWithAnalytics
+  repo-url: https://github.com/jy-andy-hu/DataAnalyticsForAccountants
   repo-branch: main
   repo-actions: issue
 
@@ -27,17 +27,20 @@ website:
       href: http://linkedin.com/in/andyhu1
     - icon: github
       href: https://github.com/jy-andy-hu
+    - icon: person-square
+      href: https://jy-andy-hu.github.io/AllAboutMe/
     contents:
       - text: "From One Accountant to Another"
         href: index.qmd
-      - text: "Start with R"
-        href: chapters\Start_with_R.qmd
-      - text: "Publish Your Work"
-        href: chapters\Publish_Your_Work.qmd
-      - text: "Study Project"
-        href: chapters\Study_Project.qmd
+      - text: "Elevate Accounting with Analytics -  R Version"
+        href: chapters\ElevateAccountingWithAnalytics-R.qmd
+      - text: "Excel and Python: A Tale of Two Power Tools"
+        href: chapters\Excel-Python.qmd
+      - text: "Elevate Accounting with Analytics -  Python Version"
+        href: chapters\ElevateAccountingWithAnalytics-Python.qmd
 format:
   html:
     theme: cerulean
     css: styles.css
     toc: true
+    toc-location: left

@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jianyuan(Andy) Hu">
-<meta name="dcterms.date" content="2025-03-01">
+<meta name="dcterms.date" content="2025-06-30">
 
-<title>Data Analytics For Accounting Folks</title>
+<title>Excel and Python: A Tale of Two Power Tools – Data Analytics For Accounting Folks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2758f3edf7566fbbd16c4d45f09bd399.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2758f3edf7566fbbd16c4d45f09bd399.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">From One Accountant to Another</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Excel-Python.html">Excel and Python: A Tale of Two Power Tools</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Data Analytics For Accounting Folks</a> 
+      <a href="../">Data Analytics For Accounting Folks</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="http://linkedin.com/in/andyhu1" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/jy-andy-hu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
@@ -115,31 +115,43 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">From One Accountant to Another</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/ElevateAccountingWithAnalytics-R.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/ElevateAccountingWithAnalytics-R.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Elevate Accounting with Analytics - R Version</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Excel-Python.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Excel-Python.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Excel and Python: A Tale of Two Power Tools</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/ElevateAccountingWithAnalytics-Python.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/ElevateAccountingWithAnalytics-Python.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Elevate Accounting with Analytics - Python Version</span></a>
   </div>
 </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#length" id="toc-length" class="nav-link" data-scroll-target="#length">Length</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a>
+  <ul class="collapse">
+  <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target Audience</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisite(s)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jy-andy-hu/DataAnalyticsForAccountants/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -150,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Analytics For Accounting Folks</h1>
+<h1 class="title">Excel and Python: A Tale of Two Power Tools</h1>
 </div>
 
 
@@ -167,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 1, 2025</p>
+      <p class="date">June 30, 2025</p>
     </div>
   </div>
   
@@ -179,12 +191,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>As I am writing this, I have been a CPA for almost 5 years and almost 10 years since I started working as an accountant. Most of the work that I do is about getting numbers (whether with currency sign on or not) from one side to another, hoping that good business decisions can come out or other folks can get their work done much more effectively. I must say I really enjoy playing these roles and I am amazed how good data are changing co-wokers’ and leadership professional life.</p>
-<p>One thing boggles my mind to no end: accountants seem constantly “left out” of the data analytics world or they feel they don’t belong to such a world. If you live and work in 2020s, you know so many aspired analysts or businesses would want data analytics and want more. So why? Why would accountants feel remote to data analytics? Why so many businesses or their financial units struggle to pull off business analytics projects even though they have identified the right use cases? One reason I found out, through my personal journey, is the technological literacy barrier. On the one hand, most of the accountants were not trained up with the technological literacy and thinking through their educational background, so it is hard for them to pivot to analytics or to lead business intelligence projects. On the other hand, the analytics folks welcome accounting folks with their open arms, but they usually are master of their fields, and they cannot relate to accounting folks’ learning needs and bridge them over. The gap has been virtually left unattended long enough that CPA community starts feeling “left out”, which is quite unfortunate.</p>
-<p>I know the future of accounting lies with data analytics and the writing has been on the wall for a few years now. Many accounting folks need a bit of help, from one of their own, to overcome the fear of unknown technologies, to make that first step to write their first line of codes, to get their first project done, and to strategize and lead their organizational analytics projects. I am hoping to be that person for you, to get you to make that first baby-step. Hopefully, not too long, you will feel in good hands with me. If you want to find more about me, you can follow the LinkedIn button on this page.</p>
-<p>Trust me, I am, by no means a genius and if I can do it, you can as well. Welcome to “Data Analytics For Accounting Folks”, we are getting into analytics world together.</p>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel.</p>
+</section>
+<section id="length" class="level2">
+<h2 class="anchored" data-anchor-id="length">Length</h2>
+<p>8 hours.</p>
+</section>
+<section id="key-takeaways" class="level1">
+<h1>Key Takeaways</h1>
+<p>Upon completion of this course, you will:</p>
+<ul>
+<li><p>Learn dynamic array functions in Microsoft Excel.</p></li>
+<li><p>Utilize dynamic array functions to process, manage, and perform advanced operations on data in Excel.</p></li>
+<li><p>Explore Python and its integration with Excel. Discover Python for data analysis and data visualization.</p></li>
+<li><p>Apply Python in Excel to tackle data processing and data visualization tasks.</p></li>
+<li><p>Understand the potential, impact and trade-off of using Python in Excel.</p></li>
+<li><p>Understand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.</p></li>
+</ul>
+<section id="target-audience" class="level2">
+<h2 class="anchored" data-anchor-id="target-audience">Target Audience</h2>
+<p>This seminar will benefit the following groups:</p>
+<ul>
+<li><p>Analyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis.</p></li>
+<li><p>Manager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their sta� begin to utilize these tools in their domain of work.</p></li>
+</ul>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisite(s)</h2>
+<p>To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -594,7 +634,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/jy-andy-hu/DataAnalyticsForAccountants/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jy-andy-hu/DataAnalyticsForAccountants/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

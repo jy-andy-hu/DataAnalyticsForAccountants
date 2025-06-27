@@ -1,62 +1,102 @@
 [
   {
-    "objectID": "chapters/Study_Project.html",
-    "href": "chapters/Study_Project.html",
-    "title": "It All Begins Here: Project Budget Review",
+    "objectID": "chapters/Excel-Python.html",
+    "href": "chapters/Excel-Python.html",
+    "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "",
-    "text": "Context\nDream College headquarted in Toronto and operates 3 campuses in Toronto, Montreal and Ottawa.\nNow is September 2024, many Canadian colleges are being faced with the international student landscape changing drastically and need to plan for a budget storm looming ever closer. Dream College has been facing their own financial challenges.\nA senior leadership meeting just wrapped up and requested all departments to review their current budget and compared to their own last year budget down to program level and see what could be done. The senior leadership wants department review done and suggestive “cost-effective” measures put forward in two weeks.\nSitting in Financial Services department, you really need to get the departmental budget report out AS SOON AS POSSIBLE, so that all departments can have more time to comtemplate on their own budget. “Time is key, time is key …” You keep reminding yourself… “I didn’t bring a sleeping bag with me today, I’d better be able to go home at some point…”\n\n\nMain Task\nCreate ready-to-distribute departmental budget reports.\n\n\nSpecific Tasks\n\nRead data from the given Excel workbook\nFilter for only Operating and Strategic Intiatives under Activity_Type\nFix any data type issues as needed\nAdd the following columns to the budget transaction data:\n\nBudget control code\n\nthis code has the following structure (Operating_Unit, Department, Program_ID), all separated by a space\n\nYear_over_Year_Diff\n\nCurrent_Year_Budget minus Last_Year_Budget\n\nProgram_Name\nAccount_Description & Spend_Category\nDepartment_Description\nOperating_Unit_Description\n\nClean up Budget_File column:\n\n“CLPI” should say “Corporate Learning and Performance Improvement”\n“Athletics - Student Supported” should say “Athletics”\n“Facility Mgt Serv - Plant & Ship” should say “Facility-Plant & Ship”\n“Facility Mgt Serv - Admin” should say “Facility-Admin”,\n“Facility Mgt Serv - Security” should say “Facility-Security”\n“Facility Mgt Serv - Health & Safety” should say “Facility-Health & Safety”\n“Facility Mgt Serv - Sustainability” should say “Facility-Health & Safety”\nAny “Serv” should say “Service”\n\nRename Budget_File to Responsbility_Centre\nSummarize Current_Year_Budget, Last_Year_Budget and Year_over_Year_Diff by Department_Description, Responsilibity_Centre, Program_Name, Spend_Category and Operating_Unit_Description\nGenerate Excel output for\nGenerate departmental summarized budget data as Excel output\n(Optional, Intermediate) Recreate the Spend_Category\n\naccount description contains keyword “Software” are “Software”\naccounts start with 40,41,42,43 are “Personnel”\naccounts start with 440-443 are “Instructional”\naccounts start with 444-469 are “Operational”\naccounts start with 471-477 or 499-511 are “Facility Maintenance”\naccounts start with 478 are “Taxes”\naccounts start with 48 are “Equipment Rental”\naccounts start with 495-496 are “Student Bursary”\naccounts start with 490-491 or 550-560 are “Tech Hardware”\naccounts start with 6 are “Internal Transfer”\nall else are “Other”\n\n(Optional, Intermediate) Budget_File column needs more cleanup\n\nAnything ends with “(space)T” should say “Toronto Campus”\nAnything ends with “(space)O” should say “Ottawa Campus”\nAnything ends with “(space)M” should say “Montreal Campus”\n\nBuild a bar chart to display Current_Year_Budget, by Spend_Category, for each Opearting Unit (Operataing_Unit_Description)\n\nSpend_Category on horizontal axis\nCurrent_Year_Budget on verticle axis\ntitle: Budget Spend Composition, to be centred\nsubtitle: For All Departments, to be centred\neach Operating Unit (Operating_Unit_Description) has its own chart, stacked together, sharing the same spend category.\n\nCreate a new quarto document called “Budget_Report.qmd”\n\nadd date\nadd author\nmake it html (webpage) format\n\nCreate a budget spend table, summarizing Current_Year_Budget, Last_Year_Budget, Year_over_Year_Diff by 14. create a budget spend table, summarizing Current_Year_Budget, Last_Year_Budget, Year_over_Year_Diff by Responsilibity_Centre, Program_Name\nRender budget_report.qmd for IT department\nTidy the output report up\n\nhide unnecessary code blocks\nhide messages and warnings\nproperly resize the bar chart\nproperly render the spend in the report\n\nAdd some description and structures to the report\n\nsection 1: “Key Context”\n\ndescription: “As previously discussed during senior leadership meeting, the college has been undergoing through an efficiency review, in particular with each department’s operating fund and strategic initiative fund. This report is designed to facilitate budget review by department on operating fund ans strategic review fund.”\n\nsection 2: “Spend Category by Campuses”\n\nIn the report below, the current year’s budget has been broken down to each spending category and by our operating units.\n\nsection 3: “Year over Year Budget Variances”\n\n“Here, total budget has been broken down to individual key responsibility centre within each department and their associated operational programs.”\n\n\ncreate a report for each department\n\ncustom title, name and relevant information\n\n\n\n\nFinale\nMake sure to pat on your shoulder! Look how far you have come and what you just have accomplished!😊🎉🎉",
+    "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel.",
     "crumbs": [
-      "Study Project"
+      "Excel and Python: A Tale of Two Power Tools"
     ]
   },
   {
-    "objectID": "chapters/Start_with_R.html",
-    "href": "chapters/Start_with_R.html",
-    "title": "Start with R",
+    "objectID": "chapters/Excel-Python.html#description",
+    "href": "chapters/Excel-Python.html#description",
+    "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "",
-    "text": "R is ‘GNU S’, a freely available language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc. Please consult the R project homepage for further information. (https://cran.r-project.org/).",
+    "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel.",
     "crumbs": [
-      "Start with R"
+      "Excel and Python: A Tale of Two Power Tools"
     ]
   },
   {
-    "objectID": "chapters/Start_with_R.html#what-is-r",
-    "href": "chapters/Start_with_R.html#what-is-r",
-    "title": "Start with R",
+    "objectID": "chapters/Excel-Python.html#length",
+    "href": "chapters/Excel-Python.html#length",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Length",
+    "text": "Length\n8 hours.",
+    "crumbs": [
+      "Excel and Python: A Tale of Two Power Tools"
+    ]
+  },
+  {
+    "objectID": "chapters/Excel-Python.html#target-audience",
+    "href": "chapters/Excel-Python.html#target-audience",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their sta� begin to utilize these tools in their domain of work.",
+    "crumbs": [
+      "Excel and Python: A Tale of Two Power Tools"
+    ]
+  },
+  {
+    "objectID": "chapters/Excel-Python.html#prerequisites",
+    "href": "chapters/Excel-Python.html#prerequisites",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
+    "crumbs": [
+      "Excel and Python: A Tale of Two Power Tools"
+    ]
+  },
+  {
+    "objectID": "chapters/ElevateAccountingWithAnalytics-Python.html",
+    "href": "chapters/ElevateAccountingWithAnalytics-Python.html",
+    "title": "Elevate Accounting with Analytics",
     "section": "",
-    "text": "R is ‘GNU S’, a freely available language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc. Please consult the R project homepage for further information. (https://cran.r-project.org/).",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
     "crumbs": [
-      "Start with R"
+      "Elevate Accounting with Analytics -  Python Version"
     ]
   },
   {
-    "objectID": "chapters/Start_with_R.html#why-r",
-    "href": "chapters/Start_with_R.html#why-r",
-    "title": "Start with R",
-    "section": "Why R?",
-    "text": "Why R?\nIn a nutshell, 4 reasons:\n\nR is built for data analyses, it is a data-first language.\nR is built by analysts and statisticians, not computer scientises, so it is easy for beginners to step into the analytics world.\nR has a great community support, lots of wisdowm if you need to Q&A\nR is powerful enough to handle nearly all of your analytics needs, with 20000+ packages available, all open-source, free to use.",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-Python.html#description",
+    "href": "chapters/ElevateAccountingWithAnalytics-Python.html#description",
+    "title": "Elevate Accounting with Analytics",
+    "section": "",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
     "crumbs": [
-      "Start with R"
+      "Elevate Accounting with Analytics -  Python Version"
     ]
   },
   {
-    "objectID": "chapters/Start_with_R.html#how-to-begin-working-with-r",
-    "href": "chapters/Start_with_R.html#how-to-begin-working-with-r",
-    "title": "Start with R",
-    "section": "How to Begin Working with R?",
-    "text": "How to Begin Working with R?\nThere are 2 parts:\n\nWe need to install a software that can “understand” R lanugage and command your computer to do things accordingly. This software is called “R”, yes the same as the language name “R”. You can find it here: CRAN R Download.\nWe need to install another software that can help us to be very productive working with R.\n\nThere are many options in this category. The top 2 choices are:\n\nRStudio\n\nThis is considered as the Go-to tool to work with R, highly recommeded for beginner with R. For maximum beginner friendliness, this is what we will use here.\nRStudio Desktop Download Link\n\nPositron\n\nThis is still currently in preview, but it will likely be successor to RStudio one day.\n\nVisual Studio Code\n\nThis excellent to work with multiple programming lanugage environments, but it requires a quite bit setup, so not recommended for beginner.\n\n\nAt this stage, there are many publicly available walkthroughs to install both of the tools. I will recommend a few here, one for each major personal computer environment.\n\nWalkthrough - Install R and RStudio on Windows 11\nWalkthrough - Install R and RStudio on macOS\n\nPlease note that the R version in the referenced videoes might not be as recent as you will see, but the installation process will be the same.",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-Python.html#key-takeaways",
+    "href": "chapters/ElevateAccountingWithAnalytics-Python.html#key-takeaways",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to Python: Learn the fundamentals of Python, an open-source general-purposed programming language and how to manage and set up Python to be productive.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nData Analytics with Python: Gain skills in designing modules for importing, exporting, processing and visualizing data using Python.\nReport Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
-      "Start with R"
+      "Elevate Accounting with Analytics -  Python Version"
     ]
   },
   {
-    "objectID": "chapters/Start_with_R.html#lets-go",
-    "href": "chapters/Start_with_R.html#lets-go",
-    "title": "Start with R",
-    "section": "Let’s GO!",
-    "text": "Let’s GO!\nNow, please follow the video walkthroughs above and give it a try to install R and RStudio, so we can get the party started!",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-Python.html#target-audience",
+    "href": "chapters/ElevateAccountingWithAnalytics-Python.html#target-audience",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
     "crumbs": [
-      "Start with R"
+      "Elevate Accounting with Analytics -  Python Version"
+    ]
+  },
+  {
+    "objectID": "chapters/ElevateAccountingWithAnalytics-Python.html#prerequisites",
+    "href": "chapters/ElevateAccountingWithAnalytics-Python.html#prerequisites",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\n\nSome basic level of understanding about Python or programming tools such as R and others.\n\nIf you are coming from primarily Excel background and have little experiences in programming-based solutions, please consider starting with “Excel and Python: A Tale of Two Power Tools”. As it transitions you nicely from spreadsheet environment to programming environment.\n\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
+    "crumbs": [
+      "Elevate Accounting with Analytics -  Python Version"
     ]
   },
   {
@@ -70,73 +110,63 @@
     ]
   },
   {
-    "objectID": "chapters/Publish_Your_Work.html",
-    "href": "chapters/Publish_Your_Work.html",
-    "title": "Publish Your Work and Quarto",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html",
+    "title": "Elevate Accounting with Analytics",
     "section": "",
-    "text": "When it comes to the word “Publish”, people like to think publish an article, or an academic journal. However, for us average citizen or analyst, publishing doesn’t have to be that high-profile. For example, if you need to create a report to your boss that documents your analysis and your analytics outputs (cross-tab tables, income statements, bar charts, you name it…), you would prefer to put them all together in one place, rather than your words in one document and all your charts and tables in another document. That is also “publishing”. Maybe because your work isn’t read by everyone in the world, but your boss, it’s just you probably never thought of publishing that way.\nThat said, another reason why folks don’t think that they are “publishing”, is probably because the tools are usually pretty specialized to learn and use and more importantly, expensive. Good news here, is that Quarto is taking care of this barrier for you.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
-      "Publish Your Work"
+      "Elevate Accounting with Analytics -  R Version"
     ]
   },
   {
-    "objectID": "chapters/Publish_Your_Work.html#what-is-publishing",
-    "href": "chapters/Publish_Your_Work.html#what-is-publishing",
-    "title": "Publish Your Work and Quarto",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#description",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#description",
+    "title": "Elevate Accounting with Analytics",
     "section": "",
-    "text": "When it comes to the word “Publish”, people like to think publish an article, or an academic journal. However, for us average citizen or analyst, publishing doesn’t have to be that high-profile. For example, if you need to create a report to your boss that documents your analysis and your analytics outputs (cross-tab tables, income statements, bar charts, you name it…), you would prefer to put them all together in one place, rather than your words in one document and all your charts and tables in another document. That is also “publishing”. Maybe because your work isn’t read by everyone in the world, but your boss, it’s just you probably never thought of publishing that way.\nThat said, another reason why folks don’t think that they are “publishing”, is probably because the tools are usually pretty specialized to learn and use and more importantly, expensive. Good news here, is that Quarto is taking care of this barrier for you.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
-      "Publish Your Work"
+      "Elevate Accounting with Analytics -  R Version"
     ]
   },
   {
-    "objectID": "chapters/Publish_Your_Work.html#what-is-quarto",
-    "href": "chapters/Publish_Your_Work.html#what-is-quarto",
-    "title": "Publish Your Work and Quarto",
-    "section": "What Is Quarto?",
-    "text": "What Is Quarto?\nIn a nutshell, it is an open-source scientific and technical publishing system. You can weave together narrative text and code to produce elegantly formatted output as documents, web pages, blog posts, books and more. (https://quarto.org/)\nQuarto is built and maintained by Development of Quarto is sponsored by Posit, PBC. It originated from something called “R Markdown” that shared the same goals, but R Markdown was targeted principally at users of the R language. The same core team works on both Quarto and R Markdown:\n\nJ.J. Allaire (https://github.com/jjallaire/)\nChristophe Dervieux (https://github.com/cderv)\nCarlos Scheidegger (https://github.com/cscheid)\nCharles Teague (https://github.com/dragonstyle)\nYihui Xie (https://github.com/yihui)",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#length",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#length",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Length",
+    "text": "Length\n8 hours.",
     "crumbs": [
-      "Publish Your Work"
+      "Elevate Accounting with Analytics -  R Version"
     ]
   },
   {
-    "objectID": "chapters/Publish_Your_Work.html#why-do-i-like-quarto",
-    "href": "chapters/Publish_Your_Work.html#why-do-i-like-quarto",
-    "title": "Publish Your Work and Quarto",
-    "section": "Why Do I Like Quarto?",
-    "text": "Why Do I Like Quarto?\nIn a nutshell, 4 reasons:\n\nQuarto is open-source, which means it is free to use and it is free for everyone to review and improve, just like R.\nQuarto is developed by a data-analyst driven community, which means they don’t expect you to understand all the nuts and bolts to publish (e.g. html and css for websites). If you do understand those, you will be even more productive\nQuarto can create and publish a variety types of documents: html(webpages), MS Word, PDF, just to name the common few.\nQuarto works with a variety of popular computing languages, like R, Python, SQL and many others, so you can work with the data tool that you like.",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#key-takeaways",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#key-takeaways",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nData Visualization Techniques: Discover how to create impactful visualizations with R.\nReport Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
-      "Publish Your Work"
+      "Elevate Accounting with Analytics -  R Version"
     ]
   },
   {
-    "objectID": "chapters/Publish_Your_Work.html#how-to-begin-working-with-quarto",
-    "href": "chapters/Publish_Your_Work.html#how-to-begin-working-with-quarto",
-    "title": "Publish Your Work and Quarto",
-    "section": "How to Begin Working with Quarto?",
-    "text": "How to Begin Working with Quarto?\nTo get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems.\nAt this stage, there are many publicly available walkthroughs to install Quarto. I will recommend a few here, one for each major personal computer environment.\n\nWalkthrough - Install Quarto on Windows 10/11\nWalkthrough - Install Quarto on macOS\n\nPlease note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same.",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#target-audience",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#target-audience",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
     "crumbs": [
-      "Publish Your Work"
+      "Elevate Accounting with Analytics -  R Version"
     ]
   },
   {
-    "objectID": "chapters/Publish_Your_Work.html#lets-go",
-    "href": "chapters/Publish_Your_Work.html#lets-go",
-    "title": "Publish Your Work and Quarto",
-    "section": "Let’s GO!",
-    "text": "Let’s GO!\nNow, please follow the video walkthroughs above and give it a try to install Quarto on your laptop, so we can get to work with publishing later!",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#prerequisites",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#prerequisites",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
     "crumbs": [
-      "Publish Your Work"
-    ]
-  },
-  {
-    "objectID": "chapters/Publish_Your_Work.html#special-credit",
-    "href": "chapters/Publish_Your_Work.html#special-credit",
-    "title": "Publish Your Work and Quarto",
-    "section": "Special Credit",
-    "text": "Special Credit\nThis website that you are reading, guess what? I made it with the help of Quarto!!",
-    "crumbs": [
-      "Publish Your Work"
+      "Elevate Accounting with Analytics -  R Version"
     ]
   }
 ]

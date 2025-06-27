@@ -1,0 +1,44 @@
+---
+title: "Elevate Accounting with Analytics"
+subtitle: R Version
+date: 2025-03-01
+author: Jianyuan(Andy) Hu
+---
+
+## Description
+
+This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- Introduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners. 
+
+- Adopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects. 
+
+- Data Management with R: Gain skills in importing, exporting, and processing data using R. 
+
+- Data Visualization Techniques: Discover how to create impactful visualizations with R. 
+
+- Report Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively. 
+
+- Navigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.
+
+## Target Audience
+
+This course caters to several professionals, including the following groups: 
+
+- Analysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools. 
+
+- Managers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.
+
+## Prerequisite(s)
+
+No previous programming knowledge required. This is beginner friendly session.
+
+To fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

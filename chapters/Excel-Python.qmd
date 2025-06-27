@@ -1,0 +1,41 @@
+---
+title: "Excel and Python: A Tale of Two Power Tools"
+date: 2025-06-30
+author: Jianyuan(Andy) Hu
+---
+
+## Description
+
+Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel's dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel.
+
+## Length
+
+8 hours.
+
+# Key Takeaways 
+
+Upon completion of this course, you will:
+
+- Learn dynamic array functions in Microsoft Excel. 
+
+- Utilize dynamic array functions to process, manage, and perform advanced operations on data in Excel. 
+
+- Explore Python and its integration with Excel. Discover Python for data analysis and data visualization. 
+
+- Apply Python in Excel to tackle data processing and data visualization tasks. 
+
+- Understand the potential, impact and trade-off of using Python in Excel. 
+
+- Understand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.
+
+## Target Audience
+
+This seminar will benefit the following groups: 
+
+- Analyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis. 
+
+- Manager(s) who seeks inspiration and opportunities to increase their team's reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their sta� begin to utilize these tools in their domain of work.
+
+## Prerequisite(s)
+
+To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
