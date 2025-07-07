@@ -24,7 +24,9 @@ title: "To-Dos, Before Our Session Begins"
 
 3. Quarto (free) (see [how-to](#how-to-install-quarto))
 
-## How to Install R?
+## Setup How-tos
+
+### How to Install R?
 
 There are 2 parts:
 
@@ -49,7 +51,7 @@ At this stage, there are many publicly available walkthroughs to install both of
 
 Please note that the R version in the referenced videoes might not be as recent as you will see, but the installation process will be the same. 
 
-## How to Install Quarto?
+### How to Install Quarto?
 
 To get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems. 
 

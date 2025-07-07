@@ -10,7 +10,7 @@ Excel dynamic array functions and Python in Excel are both very powerful tools. 
 
 8 hours.
 
-# Key Takeaways 
+## Key Takeaways 
 
 Upon completion of this course, you will:
 

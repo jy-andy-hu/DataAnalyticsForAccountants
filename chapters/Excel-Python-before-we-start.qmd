@@ -20,7 +20,7 @@ title: To-Dos, Before Our Session Begins
       
       - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
 
-2. A personal Microsoft 365 Account (free) (see [how-to](#how-to-get-microsoft-account) )
+2. A personal Microsoft 365 Account (free) (see [how-to](#how-to-get-microsoft-account))
 
     - ***Why Personal Account?***
       
@@ -32,12 +32,12 @@ title: To-Dos, Before Our Session Begins
     
     - Alternatively, Excel Online (via Microsoft Account, see "2")
 
-4. Anaconda Toolbox and Anaconda Code in Microsoft Excel (see [how-to](#how-to-install-anaconda-toolbox) )
+4. Anaconda Toolbox and Anaconda Code in Microsoft Excel (see [how-to](#how-to-install-anaconda-toolbox))
 
-5. Anaconda Account (see [how-to](#how-to-register-anaconda-account) )
+5. Anaconda Account (see [how-to](#how-to-register-anaconda-account))
 
 
-## Specific Set Up Details
+## Setup How-tos
 
 ### How to get Microsoft Account
 
@@ -45,7 +45,7 @@ title: To-Dos, Before Our Session Begins
 
 ⚠️***A free Microsoft Account will suffice. We don't need to pay for anything extra for this session.***
 
-1. Go to the [](https://signup.live.com/?lic=1).
+1. Go to the [Microsoft Account Sign Up Page](https://signup.live.com/?lic=1).
 
 ![](/images/1-m365-signup.png)
 
