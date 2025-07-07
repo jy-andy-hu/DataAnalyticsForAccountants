@@ -1,5 +1,6 @@
 ---
-title: "Excel and Python: A Tale of Two Power Tools - Session Overview"
+title: "Excel and Python: A Tale of Two Power Tools"
+subtitle: Session Overview
 ---
 
 ## Description

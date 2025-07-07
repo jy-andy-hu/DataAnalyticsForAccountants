@@ -1,5 +1,6 @@
 ---
-title: "Elevate Accounting with Analytics (R Version) - Session Overview"
+title: "Elevate Accounting with Analytics"
+subtitle: R Version, Overview
 ---
 
 ## Description

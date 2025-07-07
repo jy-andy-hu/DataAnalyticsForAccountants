@@ -41,19 +41,19 @@ website:
         href: index.qmd
       - section: "Sessions"
         contents:
-        - section: "Elevate Accounting with Analytics (R Version)"
+        - section: "Elevate Accounting with Analytics (R)"
           contents: 
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-R.qmd
           - text: "To Do, Before We Start"
             href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-        - section: "Excel and Python: A Tale of Two Power Tools - Session Overview"
+        - section: "Excel and Python: A Tale of Two Power Tools"
           contents:
           - text: "Overview"
             href: chapters/Excel-Python.qmd
           - text: "To Do, Before We Start"
             href: chapters/Excel-Python-before-we-start.qmd
-        - section: "Elevate Accounting with Analytics (Python Version)"
+        - section: "Elevate Accounting with Analytics (Python)"
           contents:
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-Python.qmd
