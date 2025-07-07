@@ -72,15 +72,14 @@
     ]
   },
   {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nR (free) (see how-to)\nQuarto (free) (see how-to)",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-Python.html#length",
+    "href": "chapters/ElevateAccountingWithAnalytics-Python.html#length",
+    "title": "Elevate Accounting with Analytics",
+    "section": "Length",
+    "text": "Length\n8 hours.",
     "crumbs": [
-      "Sessions",
-      "Elevate Accounting with Analytics - R Version",
-      "To Do, Before We Start"
+      "Topics",
+      "Elevate Accounting with Analytics -  Python Version"
     ]
   },
   {
