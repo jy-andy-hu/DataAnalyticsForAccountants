@@ -3,20 +3,26 @@ project:
   output-dir: docs
   render: 
     - index.qmd
-    - chapters\ElevateAccountingWithAnalytics-Python.qmd
     - chapters\ElevateAccountingWithAnalytics-R.qmd
+    - chapters\ElevateAccountingWithAnalytics-R-before-we-start.qmd
     - chapters\Excel-Python.qmd
+    - chapters\Excel-Python-before-we-start.qmd
+    - chapters\ElevateAccountingWithAnalytics-Python.qmd
+    - chapters\temp.qmd
+
+author: Jianyuan(Andy) Hu
 
 website:
   title: "Data Analytics For Accounting Folks"
+  
   page-footer: 
     left: Created by Jianyuan(Andy) Hu, 2025 
     right: |
      This book was built with <a href="https://quarto.org/">Quarto</a>.
-
   repo-url: https://github.com/jy-andy-hu/DataAnalyticsForAccountants
   repo-branch: main
   repo-actions: issue
+  page-navigation: true
 
   sidebar:
     style: "floating"
@@ -32,17 +38,34 @@ website:
     contents:
       - text: "From One Accountant to Another"
         href: index.qmd
-      - section: "Topics"
+      - section: "Sessions"
         contents:
-          - text: "Elevate Accounting with Analytics -  R Version"
-            href: chapters\ElevateAccountingWithAnalytics-R.qmd
-          - text: "Excel and Python: A Tale of Two Power Tools"
-            href: chapters\Excel-Python.qmd
-          - text: "Elevate Accounting with Analytics -  Python Version"
-            href: chapters\ElevateAccountingWithAnalytics-Python.qmd
+          - section: "Elevate Accounting with Analytics - R Version"
+            contents: 
+              - text: "Overview"
+                href: chapters\ElevateAccountingWithAnalytics-R.qmd
+              - text: "To Do, Before We Start"
+                href: chapters\ElevateAccountingWithAnalytics-R-before-we-start.qmd
+          - section: "Excel and Python: A Tale of Two Power Tools"
+            contents: 
+            - text: "Overview"
+              href: chapters\Excel-Python.qmd
+            - text: "To Do, Before We Start"
+              href: chapters\Excel-Python-before-we-start.qmd
+          - section: "Elevate Accounting with Analytics - Python Version"
+            contents: 
+              - text: "Overview"
+                href: chapters\ElevateAccountingWithAnalytics-Python.qmd
+              - text: "To Do, Before We Start"
+                href: chapters\temp.qmd
+
 format:
   html:
     theme: cerulean
-    css: styles.css
     toc: true
     toc-location: left
+    grid:
+      sidebar-width: 250px
+      body-width: 1000px
+      margin-width: 300px
+    css: styles.css

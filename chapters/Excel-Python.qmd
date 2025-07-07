@@ -1,7 +1,5 @@
 ---
-title: "Excel and Python: A Tale of Two Power Tools"
-date: 2025-06-30
-author: Jianyuan(Andy) Hu
+title: "Excel and Python: A Tale of Two Power Tools - Session Overview"
 ---
 
 ## Description
@@ -34,7 +32,7 @@ This seminar will benefit the following groups:
 
 - Analyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis. 
 
-- Manager(s) who seeks inspiration and opportunities to increase their team's reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their sta� begin to utilize these tools in their domain of work.
+- Manager(s) who seeks inspiration and opportunities to increase their team's reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their staff begin to utilize these tools in their domain of work.
 
 ## Prerequisite(s)
 

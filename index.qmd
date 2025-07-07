@@ -1,7 +1,5 @@
 ---
 title: "Data Analytics For Accounting Folks"
-date: 2025-03-01
-author: Jianyuan(Andy) Hu
 ---
 
 # A Bit About the Who and the Why

@@ -1,8 +1,5 @@
 ---
-title: "Elevate Accounting with Analytics"
-subtitle: Python Version
-date: 2025-06-30
-author: Jianyuan(Andy) Hu
+title: "Elevate Accounting with Analytics (Python Version)"
 ---
 
 ## Description

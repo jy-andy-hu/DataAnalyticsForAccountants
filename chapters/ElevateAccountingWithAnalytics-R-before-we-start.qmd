@@ -1,0 +1,65 @@
+---
+title: "To-Dos, Before Our Session Begins"
+---
+
+## Why Chores Before Our Session Even Begins?
+
+1. Give everyone a very short overview what **R** is and what **Quarto** is 
+
+2. This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
+
+***Please ensure all of the 5 setups in the "What Setups Do We Need?" completed before joining the session.***
+
+## What Setups Do We Need? 
+
+1. Personal laptop.
+
+  - Windows OS preferred, as I will be using a Windows laptop for the session.
+
+  - ***Why Personal laptops?***
+    
+    - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
+
+2. R (free) (see [how-to](#how-to-install-r))
+
+3. Quarto (free) (see [how-to](#how-to-install-quarto))
+
+## How to Install R?
+
+There are 2 parts:
+
+1. We need to install a software that can "understand" R lanugage and command your computer to do things accordingly. This software is called "R", yes the same as the language name "R". You can find it here: [CRAN R Download](https://cran.rstudio.com/).
+
+2. We need to install another software that can help us to be very productive working with R. 
+
+There are many options in this category. The top 2 choices are: 
+
+- RStudio 
+  - This is considered as the Go-to tool to work with R, highly recommeded for beginner with R. For maximum beginner friendliness, this is what we will use here.
+  - [RStudio Desktop Download Link](https://posit.co/download/rstudio-desktop/)
+- Positron 
+  - This is still currently in preview, but it will likely be successor to RStudio one day. 
+- Visual Studio Code 
+  - This excellent to work with multiple programming lanugage environments, but it requires a quite bit setup, so not recommended for beginner. 
+
+At this stage, there are many publicly available walkthroughs to install both of the tools. I will recommend a few here, one for each major personal computer environment. 
+
+- [Walkthrough - Install R and RStudio on Windows 11](https://www.youtube.com/watch?v=H9EBlFDGG4k)
+- [Walkthrough - Install R and RStudio on macOS](https://www.youtube.com/watch?v=I5WIMX4LK8M)
+
+Please note that the R version in the referenced videoes might not be as recent as you will see, but the installation process will be the same. 
+
+## How to Install Quarto?
+
+To get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems. 
+
+At this stage, there are many publicly available walkthroughs to install Quarto. I will recommend a few here, one for each major personal computer environment. 
+
+- [Walkthrough - Install Quarto on Windows 10/11](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
+- [Walkthrough - Install Quarto on macOS](https://www.youtube.com/watch?v=aOGGPcWZKUs)
+
+Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same. 
+
+## Special Credit
+
+This website that you are reading, guess what? I made it with the help of Quarto!!

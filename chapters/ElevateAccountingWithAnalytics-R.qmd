@@ -1,8 +1,5 @@
 ---
-title: "Elevate Accounting with Analytics"
-subtitle: R Version
-date: 2025-03-01
-author: Jianyuan(Andy) Hu
+title: "Elevate Accounting with Analytics (R Version) - Session Overview"
 ---
 
 ## Description
