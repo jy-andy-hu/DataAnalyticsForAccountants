@@ -4,9 +4,7 @@ title: "To-Dos, Before Our Session Begins"
 
 ## Why Chores Before Our Session Even Begins?
 
-1. Give everyone a very short overview what **R** is and what **Quarto** is 
-
-2. This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
+This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
 
 ***Please ensure all of the setups in the "What Setups Do We Need?" completed before joining the session.***
 
@@ -53,9 +51,7 @@ Please note that the R version in the referenced videoes might not be as recent 
 
 ### How to Install Quarto?
 
-To get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems. 
-
-At this stage, there are many publicly available walkthroughs to install Quarto. I will recommend a few here, one for each major personal computer environment. 
+The curating company, Posit, makes Quarto pretty accessible for all major operating systems. There are many publicly available walkthroughs to install Quarto. I will recommend one for each major personal computer environment here: 
 
 - [Walkthrough - Install Quarto on Windows 10/11](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
 - [Walkthrough - Install Quarto on macOS](https://www.youtube.com/watch?v=aOGGPcWZKUs)

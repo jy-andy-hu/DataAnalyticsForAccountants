@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/ElevateAccountingWithAnalytics-Python.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -41,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0c621038087170abb4a9ebde168dd7e1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-02c4ed3924cab6bbb9d1d8a3a295de1e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -86,9 +85,6 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Sessions</li><li class="breadcrumb-item"><a href="../chapters/ElevateAccountingWithAnalytics-Python.html">Elevate Accounting with Analytics (Python)</a></li><li class="breadcrumb-item"><a href="../chapters/ElevateAccountingWithAnalytics-Python-before-we-start.html">To Do, Before We Start</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
@@ -106,11 +102,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
     </div>
       </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -250,10 +241,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="why-chores-before-our-session-even-begins" class="level2">
 <h2 class="anchored" data-anchor-id="why-chores-before-our-session-even-begins">Why Chores Before Our Session Even Begins?</h2>
-<ol type="1">
-<li><p>Give everyone a very short overview what <strong>Python</strong> is and what <strong>Quarto</strong> is.</p></li>
-<li><p>This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.</p></li>
-</ol>
+<p>This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.</p>
 <p><strong><em>Please ensure all setups in the “What Setups Do We Need?” completed before joining the session.</em></strong></p>
 </section>
 <section id="what-setups-do-we-need" class="level2">
@@ -280,21 +268,24 @@ ul.task-list li input[type="checkbox"] {
 <p>There are 3 parts:</p>
 <ol type="1">
 <li><p>A software that can “understand” Python lanugage and command your computer to do things accordingly. This software is also called “Python”, yes the same as the language name.</p></li>
-<li><p>Another software that can help us to manage different yet powerful “add-ins” to our vanilla Python environment. This is where something called “Conda” comes in. (Yes, unfortunately given Python, we will be dealing with a lot of “snakes” 🐍. Please don’t worry, the snakes here are quite nice and none of them bite. That’s a promise… 😎)</p></li>
-<li><p>Another software that can allow us to work very productively with Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity and makes a day-and-night difference. There are plenty of options here, we will choose one of the favorite among the cool kids in the analytics community, called “Visual Studio Code”. (No, this one doesn’t involve any snakes.)</p></li>
+<li><p>Another software that can help us to manage different yet powerful “add-ins” to our vanilla Python environment. This is where something called “Conda” comeing in. (Yes, unfortunately given Python, we will be dealing with a lot of “snakes” 🐍. Please don’t worry, the snakes here are quite nice and none of them bite. That’s a promise… 😎)</p></li>
+<li><p>Another software gives us a huge productivity boost with writing Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity makes a day-and-night difference. There are plenty of options. We will go with the favorite among the cool kids in the analytics community, called “Visual Studio Code” (“VS Code”). (No, this one doesn’t involve any snakes.)</p></li>
 </ol>
-<p>The good news is, there is a software called “Anaconda” (of course, more snakes …) that can take care of all 3 pieces altogether. The software maker Anaconda has made some nice videos that can take you through the installation process.</p>
-<p>(⚠️ You don’t need to register Anaconda account. Hit the “skip registration” link when you are prompted to register an account.)</p>
+<p>The good news is, there is a software called “Anaconda Distribution” (of course, more snakes …) that can take care of all 3 pieces altogether. The software maker “Anaconda” has made some nice videos that can take you through the installation process.</p>
+<p>⚠️ Please note:</p>
+<ol type="a">
+<li><p>You don’t need to register Anaconda account. Hit the “skip registration” link when you are prompted to register an account.</p></li>
+<li><p>The Anaconda or Python version in the referenced videoes might not be as recent as you will see, but the installation process will be the same.</p></li>
+<li><p>You can also install VS Code separately. In fact, that should be the better thing to do. However, we won’t go down that path here, as it involves a bit more setup. We will stick with the VS Code shipped with Anaconda Distribution, which should be more than sufficient for our use.</p></li>
+</ol>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=yFeVEAeOcnE&amp;t=1s">Walkthrough - Install Anaconda on Windows OS</a></li>
 <li><a href="https://youtu.be/DNu8pQOYRGg">Walkthrough - Install Anaconda on macOS</a></li>
 </ul>
-<p>Please note that the Anaconda or Python version in the referenced videoes might not be as recent as you will see, but the installation process will be the same.</p>
 </section>
 <section id="how-to-install-quarto" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-install-quarto">How to Install Quarto?</h3>
-<p>To get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems.</p>
-<p>At this stage, there are many publicly available walkthroughs to install Quarto. I will recommend a few here, one for each major personal computer environment.</p>
+<p>The curating company, Posit, makes Quarto pretty accessible for all major operating systems. There are many publicly available walkthroughs to install Quarto. I will recommend one for each major personal computer environment here:</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=JQ8WbI2_Rc4">Walkthrough - Install Quarto on Windows</a></li>
 <li><a href="https://www.youtube.com/watch?v=aOGGPcWZKUs">Walkthrough - Install Quarto on macOS</a></li>
@@ -710,15 +701,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../chapters/ElevateAccountingWithAnalytics-Python.html" class="pagination-link" aria-label="Overview">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -11,7 +11,7 @@ This seminar provides hands-on experience in completing a comprehensive data pro
 
 Upon completion of this course, you will understand:
 
-- Introduction to Python: Learn the fundamentals of Python, an open-source general-purposed programming language and how to manage and set up Python to be productive.
+- Introduction to Python: Learn the fundamentals of Python, an open-source general-purposed programming language and how to manage and set up Python environments to be productive.
 
 - Adopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects. 
 

@@ -22,11 +22,11 @@ website:
   repo-url: https://github.com/jy-andy-hu/DataAnalyticsForAccountants
   repo-branch: main
   repo-actions: issue
-  page-navigation: true
+  # page-navigation: true
 
   sidebar:
     style: "floating"
-    search: true
+    search: false
     background: "none"
     tools:
     - icon: linkedin
@@ -62,7 +62,7 @@ website:
 
 format:
   html:
-    theme: materia
+    theme: cerulean
     toc: true
     grid:
       sidebar-width: 250px

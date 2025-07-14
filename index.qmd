@@ -2,23 +2,23 @@
 title: "From One Accountant to Another"
 ---
 
-As I am writing this, I have been a CPA for 5 years and almost 10 years since I started working as an accountant. Like many of you, my job is mostly about getting numbers (whether with currency sign on or not) from one side to another, hoping that people can make better decisions or my co-workers can get their work done and much more effectively. I really enjoy playing these roles and I am amazed how good data are changing co-wokers' and management's work life.
+As I am writing this, I have been a CPA for 5 years and almost 10 years since I started working as an accountant. Like many of you, my job is mostly about getting numbers and reports from one side to another, hoping that people can have a more intelligent and productive life about decisions involving lots of dollar signs. I really enjoy playing these roles and I am amazed how good data are changing co-wokers' and management's work life.
 
-My accounting career life isn't always like this fulfilling. Also just like many of you, I had a handful of tasks to do. Due to either poor data quality or various complicated yet repetitive reporting, my accounting life has been quite cumbersome. I was quite functional with Excel and my-workers like what I did, but I still pulled my hair off for all kinds of things. Here are a few common examples: 
+My accounting career life isn't always like this fulfilling. Also just like many of you, I had a handful. Due to either poor data quality or various complicated yet repetitive reporting, my accounting life has been quite cumbersome and quite frankly defeating at times. I was quite functional with Excel, even praised by my boss and my-workers sometimes, but I still felt pulling my hair off from time to time. Here are a few common examples: 
     
   a) some elegant and impactful data visualization that can only live as my imagination, but not in my deliverables;
     
   b) I could get one Excel workbook done but I need to repeat for 20 other similar Excel workbooks;
 
-  c) data are in a relational database, but I didn't know how to pull it. Friends at IT were always busy to save their world already...
+  c) data are in a relational database, on a webpage or PDF documents, but I didn't know how to pull them together. Friends at IT were always busy to save their world already...
     
-It felt very defeating. I wanted to get to the accounting part of the tasks done, and yet, I just couldn't even activate my accounting skills because the data or tools were just not there. Because all my toolbox was Excel, I lacked of: a) imagination of what's possible and b) the actual skillsets to design and implement. The despairation is real, others only want outputs and I must deliver.
+It felt very defeating. I wanted to get to the accounting part of the tasks done, and yet, I just couldn't even activate my accounting skills because the data or tools were just not there. The despairation is real, others want outputs and I must deliver. I lacked of: a) imagination of what's possible and b) the actual skillsets to design and implement solutions. I then began to realize Excel was a bottleneck not a solution, regardless of how everyone else thought I were good with it.
 
-Courtesy of COVID, when social life wasn't much of a thing, a soul search put me a path of data analytics. It was quite some work for an accountant with next to zero computer science training or programming skills, but it was very much doable and the reward is quite immense. I have the conviction now, that the era where data analytics should be handled by "nerds" is over and analytics skills are well charted on the wall for accountants' future. I.e. it will be **a literacy requirement**. 
+Courtesy of COVID, when social life wasn't much of a thing, a soul search put me a path of data analytics. It was quite some work for an accountant with next to zero computer science training or programming skills, but it was very much doable and the reward is immense. I have the conviction now, that the era where data analytics should be handled by "IT" or "specialists" is over. Analytics skills are well charted on the wall for accountants' future. I.e. it will be **a literacy requirement**. 
 
-Fast forward to today, it boggles my mind to no end. I have talked to many fellow CPAs, and they feel constantly they don't belong to such a world. So why? Why data analytics changed my accounting life but not so much for the others? Why so many businesses or their finance/accounting team struggle to pull off business analytics projects?
+Fast forward to today, it boggles my mind to no end. I have talked to many fellow CPAs, and they feel constantly they have no footing in analytics. Why data analytics changed my accounting life but not so much for the others? Why so many businesses or their finance/accounting team struggle to pull off business analytics projects and can't realize returns on their investment in analytics?
 
-Good thing you are looking at an accountant, I relate this too well. A lot lie in the technological barrier. Two folds on this:
+Good thing you are looking at an accountant, I relate this too well. A lot lie in the lack of technological literacy. Two folds on this:
 
   a) Most of the accountants are not equipped with data technology/programming at all through their formal edcuation. Analytics by definition involves programmatic processes, so it is hard for us start analytics or to lead modern business intelligence projects. After all, you can't be blamed for or be comfortable with what you don't know. 
   
@@ -26,9 +26,19 @@ Good thing you are looking at an accountant, I relate this too well. A lot lie i
   
 This consistent demand and supply awkwardness leaves the CPA community unattended long enough that accountants start feeling "left out", which is quite unfortunate.  
 
-My fellow accountants, you have gone through a lot to be come CPAs, so you definitely have the curiosity, intelligence and perseverance for data analytics. You just need a bit of hand-holding and a few leads, from one of your own, to overcome the fear of the unknown - data technologies, to make that first step to write their first line of codes, to get their first project done, and to strategize and lead their organizational analytics projects. I hope to be that person for you, to get you to make that first baby-step. 
+My fellow accountants, you have gone through a lot to be come CPAs, so you definitely have the curiosity, intelligence and perseverance for data analytics. You just need a bit of hand-holding and a few leads, especially from one of your own: 
+  
+- to overcome the fear of the unknown - data technologies
+  
+- to make that first step to write their first line of codes
 
-I also have taught in colleges and universities for 6 years and counting. Education is more than just a gig for me, even more than I care admit. I fundamentally believe the role it plays for anyone to achieve their definition of success and pursue their desireable life. It is more like a mission or calling to me. I have no intention to keep my knowledge and experience to myself, or at least, that would be a rather lonely world where I will have to start living in. Hopefully, not too long, you will feel in good hands with me.
+- to get their first project done, and eventually, 
+
+- to strategize and lead their organizational analytics projects. 
+
+I hope to be that person for you, to get you to make that first baby-step. Analytics changed my accounting life, it can change yours, too.
+
+I have taught in colleges and universities for 6 years and counting. Education is more than just a gig for me, even more than I care admit. To me, getting paid to help others succeed is the best value propositions that I have heard. I fundamentally believe the role it plays for anyone to achieve their definition of success and pursue their desireable life. I have no intention to keep my knowledge and experience to myself, or at least, that would be a rather lonely world where I will have to start living in. Hopefully, not too long, you will feel in good hands.
 
 Trust me, I am, by no means a genius and if I can do it, you can function in data analytics world, as well. 
 
