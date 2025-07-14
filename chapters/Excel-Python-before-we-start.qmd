@@ -65,7 +65,7 @@ You can use your free Microsoft account to access Excel on the web or sign in to
 
 2. Click Sign in (top right) and enter your Microsoft account credentials.
 
-![](/images/2-m365-signin.png)
+![](/images/AnacondaCodeInstall/2-m365-signin.png)
 
 3. Click the Excel icon to start using Excel in your browser.
 
@@ -75,7 +75,7 @@ You can use your free Microsoft account to access Excel on the web or sign in to
 
 1. Open Excel on your desktop app and click Sign In (usually in the top-right corner).
 
-![](/images/3-exceldesktop-signin.png)
+![](/images/AnacondaCodeInstall/3-exceldesktop-signin.png)
 
 2. Enter your Microsoft account credentials, or click on "Add Account".
 
@@ -83,7 +83,7 @@ You can use your free Microsoft account to access Excel on the web or sign in to
 
 ⚠️ **You might be prompted to restart Excel, if so, close Excel and reopen the Excel app.**
 
-![](/images/4-exceldesktop-signinrestart.png)
+![](/images/AnacondaCodeInstall/4-exceldesktop-signinrestart.png)
 
 🧠 Why sign in and use personal account?
 
@@ -101,22 +101,22 @@ You can use your free Microsoft account to access Excel on the web or sign in to
 
     - if you are using Excel Online 
 
-    ![](/images/5-anacondacode-onlineinstall.png)
+    ![](/images/AnacondaCodeInstall/5-anacondacode-onlineinstall.png)
 
     - if you are using Excel Desktop (example below shows in Windows OS)
 
-    ![](/images/5-anacondacode-desktopinstall.png)
+    ![](/images/AnacondaCodeInstall/5-anacondacode-desktopinstall.png)
 
 
 3. Anaconda Toolbox add-in should be installed fairly quickly and located in the "Formulas" tab. If you are seeing this something like below, then you have successfully installed the add-in! 🎉🎉
 
     - if you are using Excel Online 
 
-    ![](/images/6-anacondacode-onlineinstalled.png)
+    ![](/images/AnacondaCodeInstall/6-anacondacode-onlineinstalled.png)
 
     - if you are using Excel Desktop (example below shows in Windows OS)
 
-    ![](/images/6-anacondacode-desktopinstalled.png)
+    ![](/images/AnacondaCodeInstall/6-anacondacode-desktopinstalled.png)
 
 
 ### How to Register Anaconda Account
@@ -129,21 +129,21 @@ If you have an Anaconda Account, then you can skip this section.
 
     - if you are using Excel Online 
 
-    ![](/images/7-anacondacode-onlinesignup.png)
+    ![](/images/AnacondaCodeInstall/7-anacondacode-onlinesignup.png)
     
     - if you are using Excel Desktop (example below shows in Windows OS)
 
-    ![](/images/7-anacondacode-desktopsignup.png)
+    ![](/images/AnacondaCodeInstall/7-anacondacode-desktopsignup.png)
 
   You should be redirected to an webpage looks similar to this
 
-    ![](/images/8-anacondacode-accountsignup.png)
+    ![](/images/AnacondaCodeInstall/8-anacondacode-accountsignup.png)
 
 2. In the webpage that you are just redirected to, click Sign Up and follow the prompts to finish creating an Anaconda Account.
 
 3. Once you finish creating the account, head back to Anaconda Toolbox or Anaconda Code in Excel and sign in with your newly created Anaconda Account. You should notice that you can start using Anaconda Toolbox and Anaconda Code in Excel now. 
 
-    ![](/images/9-anacondacode-signincomplete.png)
+    ![](/images/AnacondaCodeInstall/9-anacondacode-signincomplete.png)
 
 On this note, **CONGRATULATIONS! You have successfully finished all the technical setups required for this session!**🎉🎉 
 

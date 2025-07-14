@@ -206,7 +206,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#how-to-get-started-with-python" id="toc-how-to-get-started-with-python" class="nav-link" data-scroll-target="#how-to-get-started-with-python">How to Get Started with Python?</a></li>
   <li><a href="#how-to-install-quarto" id="toc-how-to-install-quarto" class="nav-link" data-scroll-target="#how-to-install-quarto">How to Install Quarto?</a></li>
   </ul></li>
-  <li><a href="#special-credit" id="toc-special-credit" class="nav-link" data-scroll-target="#special-credit">Special Credit</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jy-andy-hu/DataAnalyticsForAccountants/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -256,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 <ol start="2" type="1">
-<li><p>Python (free) (see <a href="#how-to-get-started-with-python">how-to</a>)</p></li>
+<li><p>Python and Visual Studio Code (free) (see <a href="#how-to-get-started-with-python">how-to</a>)</p></li>
 <li><p>Quarto (free) (see <a href="#how-to-install-quarto">how-to</a>)</p></li>
 </ol>
 </section>
@@ -266,21 +265,73 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="how-to-get-started-with-python">How to Get Started with Python?</h3>
 <p>There are 3 parts:</p>
 <ol type="1">
-<li><p>A software that can “understand” Python lanugage and command your computer to do things accordingly. This software is also called “Python”, yes the same as the language name.</p></li>
-<li><p>Another software that can help us to manage different yet powerful “add-ins” to our vanilla Python environment. This is where something called “Conda” comeing in. (Yes, unfortunately given Python, we will be dealing with a lot of “snakes” 🐍. Please don’t worry, the snakes here are quite nice and none of them bite. That’s a promise… 😎)</p></li>
-<li><p>Another software gives us a huge productivity boost with writing Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity makes a day-and-night difference. There are plenty of options. We will go with the favorite among the cool kids in the analytics community, called “Visual Studio Code” (“VS Code”). (No, this one doesn’t involve any snakes.)</p></li>
+<li><p>A software “understands” Python lanugage and commands your computer accordingly. This software is also called “Python”, yes, the same as the language name.</p></li>
+<li><p>Another software helps us to manage different yet powerful “plug-ins” to our vanilla Python environment. Something called “Conda” comes in here. (Yes, unfortunately given Python, we will be dealing with a lot of “snakes” 🐍. Please don’t worry, the snakes here are quite nice and none of them bite. That’s a promise… 😎)</p></li>
+<li><p>A fancy text editor helps with writing and evaluating Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity makes a day-and-night difference. We will go with the favorite among the cool kids in the analytics community, called “Visual Studio Code” (“VS Code”). (No, this one doesn’t involve any snakes.)</p></li>
 </ol>
-<p>The good news is, there is a software called “Anaconda Distribution” (of course, more snakes …) that can take care of all 3 pieces altogether. The software maker “Anaconda” has made some nice videos that can take you through the installation process.</p>
+<p>The good news is, there is a software called “Anaconda Distribution” (of course, more snakes …) that can take care of all 3 pieces altogether. The software maker “Anaconda” has made some nice videos that can take you through the installation process. Please see below <a href="#install-anaconda-distribution">Install Anaconda Distribution</a>.</p>
+<section id="install-anaconda-distribution" class="level4">
+<h4 class="anchored" data-anchor-id="install-anaconda-distribution">Install Anaconda Distribution</h4>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>⚠️ Please note:</p>
 <ol type="a">
 <li><p>You don’t need to register Anaconda account. Hit the “skip registration” link when you are prompted to register an account.</p></li>
 <li><p>The Anaconda or Python version in the referenced videoes might not be as recent as you will see, but the installation process will be the same.</p></li>
 <li><p>You can also install VS Code separately. In fact, that should be the better thing to do. However, we won’t go down that path here, as it involves a bit more setup. We will stick with the VS Code shipped with Anaconda Distribution, which should be more than sufficient for our use.</p></li>
 </ol>
+</div>
+</div>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=yFeVEAeOcnE&amp;t=1s">Walkthrough - Install Anaconda on Windows OS</a></li>
-<li><a href="https://youtu.be/DNu8pQOYRGg">Walkthrough - Install Anaconda on macOS</a></li>
+<li><a href="https://www.youtube.com/watch?v=yFeVEAeOcnE&amp;t=1s">Walkthrough - Install Anaconda Distribution on Windows OS</a></li>
+<li><a href="https://youtu.be/DNu8pQOYRGg">Walkthrough - Install Anaconda Distribution on macOS</a></li>
 </ul>
+<p>Once the installation is finished, search for Anaconda (Here it shows on Windows in Startup Menu). You will see the following:</p>
+<p><img src="..\images/AnacondaInstall/finished-startmenu.png.png" class="img-fluid"></p>
+<p>Click on “Anaconda Navigator”, here is what it looks like when it is open:</p>
+<p><img src="..\images/AnacondaInstall/finished-navigator.png" class="img-fluid"></p>
+<p>You will also notice that VS Code is also installed.</p>
+<p>If not fear not, please see below <a href="#install-visual-studio-code-(just-in-case...)">Install Visual Studio Code</a>)</p>
+<p>Click “Launch”. It should launch VS Code and it will look similar to this:</p>
+<p><img src="..\images/VSCodeInstall/6-vsclaunch.png" class="img-fluid"></p>
+<p>🎉🎉 <strong>That’s it! You have reached to the finishing line of installing Anaconda Distribution!!</strong></p>
+</section>
+<section id="install-visual-studio-code-just-in-case" class="level4">
+<h4 class="anchored" data-anchor-id="install-visual-studio-code-just-in-case">Install Visual Studio Code (Just in Case…)</h4>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This part is <strong>NOT NEEDED IF</strong> you already have VS Code from Anaconda Distribution working.</p>
+<p>I am making this portion available, just in case somehow VS Code is NOT bundled with Anaconda Distribution and you need to install VS Code separately.</p>
+</div>
+</div>
+<ol type="1">
+<li><p>Head to <a href="https://code.visualstudio.com/Download">Visual Studio Code Download website</a> and Download the installer that suits your operating system (Windows/macOS).</p></li>
+<li><p>open the installer and begin the installation process. A series of screenshots are provided below for references. We pretty much follow the default settings.</p></li>
+</ol>
+<p><img src="..\images/VSCodeInstall/1-vscinstall1.png" class="img-fluid"></p>
+<p><img src="..\images/VSCodeInstall/2-vscinstall2.png" class="img-fluid"></p>
+<p><img src="..\images/VSCodeInstall/3-vscinstall3.png" class="img-fluid"></p>
+<p><img src="..\images/VSCodeInstall/4-vscinstall4.png" class="img-fluid"></p>
+<p><img src="..\images/VSCodeInstall/5-vscinstall5.png" class="img-fluid"></p>
+<p><img src="..\images/VSCodeInstall/6-vsclaunch.png" class="img-fluid"></p>
+<p>🎉🎉 <strong>That’s it! You have finished installing Visual Studio Code!!</strong></p>
+</section>
 </section>
 <section id="how-to-install-quarto" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-install-quarto">How to Install Quarto?</h3>
@@ -290,14 +341,24 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://www.youtube.com/watch?v=aOGGPcWZKUs">Walkthrough - Install Quarto on macOS</a></li>
 </ul>
 <p>Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same.</p>
-</section>
-</section>
-<section id="special-credit" class="level2">
-<h2 class="anchored" data-anchor-id="special-credit">Special Credit</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Special Credit</strong></p>
 <p>This website that you are reading, guess what? I made it with the help of Quarto!!</p>
+</div>
+</div>
 <!-- https://www.youtube.com/watch?v=U3VAqCTujpg -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

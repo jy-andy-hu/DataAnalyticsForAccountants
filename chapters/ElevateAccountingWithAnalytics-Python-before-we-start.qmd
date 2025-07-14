@@ -18,7 +18,7 @@ This session is designed to be intermediate level environment in live seminar/la
     
     - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
 
-2. Python (free) (see [how-to](#how-to-get-started-with-python))
+2. Python and Visual Studio Code (free) (see [how-to](#how-to-get-started-with-python))
 
 3. Quarto (free) (see [how-to](#how-to-install-quarto))
 
@@ -28,13 +28,17 @@ This session is designed to be intermediate level environment in live seminar/la
 
 There are 3 parts:
 
-1. A software that can "understand" Python lanugage and command your computer to do things accordingly. This software is also called "Python", yes the same as the language name.
+1. A software "understands" Python lanugage and commands your computer accordingly. This software is also called "Python", yes, the same as the language name.
 
-2. Another software that can help us to manage different yet powerful "add-ins" to our vanilla Python environment. This is where something called "Conda" comeing in. (Yes, unfortunately given Python, we will be dealing with a lot of "snakes" 🐍. Please don't worry, the snakes here are quite nice and none of them bite. That's a promise... 😎) 
+2. Another software helps us to manage different yet powerful "plug-ins" to our vanilla Python environment. Something called "Conda" comes in here. (Yes, unfortunately given Python, we will be dealing with a lot of "snakes" 🐍. Please don't worry, the snakes here are quite nice and none of them bite. That's a promise... 😎) 
 
-3. Another software gives us a huge productivity boost with writing Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity makes a day-and-night difference. There are plenty of options. We will go with the favorite among the cool kids in the analytics community, called "Visual Studio Code" ("VS Code"). (No, this one doesn't involve any snakes.)
+3. A fancy text editor helps with writing and evaluating Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity makes a day-and-night difference. We will go with the favorite among the cool kids in the analytics community, called "Visual Studio Code" ("VS Code"). (No, this one doesn't involve any snakes.)
 
-The good news is, there is a software called "Anaconda Distribution" (of course, more snakes ...) that can take care of all 3 pieces altogether. The software maker "Anaconda" has made some nice videos that can take you through the installation process.
+The good news is, there is a software called "Anaconda Distribution" (of course, more snakes ...) that can take care of all 3 pieces altogether. The software maker "Anaconda" has made some nice videos that can take you through the installation process. Please see below [Install Anaconda Distribution](#install-anaconda-distribution).
+
+#### Install Anaconda Distribution
+
+:::{.callout-note}
 
 ⚠️ Please note:
 
@@ -44,8 +48,56 @@ The good news is, there is a software called "Anaconda Distribution" (of course,
 
   c. You can also install VS Code separately. In fact, that should be the better thing to do. However, we won't go down that path here, as it involves a bit more setup. We will stick with the VS Code shipped with Anaconda Distribution, which should be more than sufficient for our use.
 
-- [Walkthrough - Install Anaconda on Windows OS](https://www.youtube.com/watch?v=yFeVEAeOcnE&t=1s)
-- [Walkthrough - Install Anaconda on macOS](https://youtu.be/DNu8pQOYRGg)
+:::
+
+- [Walkthrough - Install Anaconda Distribution on Windows OS](https://www.youtube.com/watch?v=yFeVEAeOcnE&t=1s)
+- [Walkthrough - Install Anaconda Distribution on macOS](https://youtu.be/DNu8pQOYRGg)
+
+Once the installation is finished, search for Anaconda (Here it shows on Windows in Startup Menu). You will see the following:
+
+![](/images/AnacondaInstall/finished-startmenu.png.png)
+
+Click on "Anaconda Navigator", here is what it looks like when it is open:
+
+![](/images/AnacondaInstall/finished-navigator.png)
+
+You will also notice that VS Code is also installed. 
+
+If not fear not, please see below [Install Visual Studio Code](#install-visual-studio-code-(just-in-case...)))
+
+Click "Launch". It should launch VS Code and it will look similar to this:
+
+![](/images/VSCodeInstall/6-vsclaunch.png)
+
+🎉🎉 **That's it! You have reached to the finishing line of installing Anaconda Distribution!!**
+
+#### Install Visual Studio Code (Just in Case...)
+
+:::{.callout-warning}
+
+This part is **NOT NEEDED IF** you already have VS Code from Anaconda Distribution working.
+
+I am making this portion available, just in case somehow VS Code is NOT bundled with Anaconda Distribution and you need to install VS Code separately. 
+
+:::
+
+1. Head to [Visual Studio Code Download website](https://code.visualstudio.com/Download) and Download the installer that suits your operating system (Windows/macOS).
+
+2. open the installer and begin the installation process. A series of screenshots are provided below for references. We pretty much follow the default settings.
+
+![](/images/VSCodeInstall/1-vscinstall1.png)
+
+![](/images/VSCodeInstall/2-vscinstall2.png)
+
+![](/images/VSCodeInstall/3-vscinstall3.png)
+
+![](/images/VSCodeInstall/4-vscinstall4.png)
+
+![](/images/VSCodeInstall/5-vscinstall5.png)
+
+![](/images/VSCodeInstall/6-vsclaunch.png)
+
+🎉🎉 **That's it! You have finished installing Visual Studio Code!!**
 
 ### How to Install Quarto?
 
@@ -56,9 +108,13 @@ The curating company, Posit, makes Quarto pretty accessible for all major operat
 
 Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same. 
 
-## Special Credit
+:::{.callout-tip}
+
+ **Special Credit**
 
 This website that you are reading, guess what? I made it with the help of Quarto!!
+
+:::
 
 
 <!-- https://www.youtube.com/watch?v=U3VAqCTujpg -->
