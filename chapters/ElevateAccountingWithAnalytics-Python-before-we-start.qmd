@@ -55,7 +55,7 @@ The good news is, there is a software called "Anaconda Distribution" (of course,
 
 Once the installation is finished, search for Anaconda (Here it shows on Windows in Startup Menu). You will see the following:
 
-![](/images/AnacondaInstall/finished-startmenu.png.png)
+![](/images/AnacondaInstall/finished-startmenu.png)
 
 Click on "Anaconda Navigator", here is what it looks like when it is open:
 
