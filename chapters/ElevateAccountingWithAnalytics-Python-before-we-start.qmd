@@ -1,0 +1,64 @@
+---
+title: "To-Dos, Before Our Session Begins"
+---
+
+## Why Chores Before Our Session Even Begins?
+
+1. Give everyone a very short overview what **Python** is and what **Quarto** is.
+
+2. This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
+
+***Please ensure all setups in the "What Setups Do We Need?" completed before joining the session.***
+
+## What Setups Do We Need? 
+
+1. Personal laptop.
+
+  - Windows OS preferred, as I will be using a Windows laptop for the session.
+
+  - ***Why Personal laptops?***
+    
+    - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
+
+2. Python (free) (see [how-to](#how-to-get-started-with-python))
+
+3. Quarto (free) (see [how-to](#how-to-install-quarto))
+
+## Setup How-tos
+
+### How to Get Started with Python?
+
+There are 3 parts:
+
+1. A software that can "understand" Python lanugage and command your computer to do things accordingly. This software is also called "Python", yes the same as the language name.
+
+2. Another software that can help us to manage different yet powerful "add-ins" to our vanilla Python environment. This is where something called "Conda" comes in. (Yes, unfortunately given Python, we will be dealing with a lot of "snakes" 🐍. Please don't worry, the snakes here are quite nice and none of them bite. That's a promise... 😎) 
+
+3. Another software that can allow us to work very productively with Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity and makes a day-and-night difference. There are plenty of options here, we will choose one of the favorite among the cool kids in the analytics community, called "Visual Studio Code". (No, this one doesn't involve any snakes.)
+
+The good news is, there is a software called "Anaconda" (of course, more snakes ...) that can take care of all 3 pieces altogether. The software maker Anaconda has made some nice videos that can take you through the installation process.
+
+(⚠️ You don't need to register Anaconda account. Hit the "skip registration" link when you are prompted to register an account.)
+
+- [Walkthrough - Install Anaconda on Windows OS](https://www.youtube.com/watch?v=yFeVEAeOcnE&t=1s)
+- [Walkthrough - Install Anaconda on macOS](https://youtu.be/DNu8pQOYRGg)
+
+Please note that the Anaconda or Python version in the referenced videoes might not be as recent as you will see, but the installation process will be the same. 
+
+### How to Install Quarto?
+
+To get started with Quarto, we need to install the software. Posit, the curating company, makes Quarto pretty accessible for all major operating systems. 
+
+At this stage, there are many publicly available walkthroughs to install Quarto. I will recommend a few here, one for each major personal computer environment. 
+
+- [Walkthrough - Install Quarto on Windows](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
+- [Walkthrough - Install Quarto on macOS](https://www.youtube.com/watch?v=aOGGPcWZKUs)
+
+Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same. 
+
+## Special Credit
+
+This website that you are reading, guess what? I made it with the help of Quarto!!
+
+
+<!-- https://www.youtube.com/watch?v=U3VAqCTujpg -->

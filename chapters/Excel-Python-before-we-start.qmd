@@ -8,7 +8,7 @@ title: To-Dos, Before Our Session Begins
 
 2. This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
 
-***Please ensure all of the 5 setups in the "What Setups Do We Need?" completed before joining the session.***
+***Please ensure all of the setups in the "What Setups Do We Need?" completed before joining the session.***
 
 ## What Setups Do We Need? 
 

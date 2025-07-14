@@ -8,7 +8,7 @@ project:
     - chapters/Excel-Python.qmd
     - chapters/Excel-Python-before-we-start.qmd
     - chapters/ElevateAccountingWithAnalytics-Python.qmd
-    - chapters/temp.qmd
+    - chapters/ElevateAccountingWithAnalytics-Python-before-we-start.qmd
 
 author: Jianyuan(Andy) Hu
 
@@ -58,11 +58,11 @@ website:
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-Python.qmd
           - text: "To Do, Before We Start"
-            href: chapters/temp.qmd
+            href: chapters/ElevateAccountingWithAnalytics-Python-before-we-start.qmd
 
 format:
   html:
-    theme: cerulean
+    theme: materia
     toc: true
     grid:
       sidebar-width: 250px

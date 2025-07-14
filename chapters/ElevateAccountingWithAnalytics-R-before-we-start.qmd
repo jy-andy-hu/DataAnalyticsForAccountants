@@ -8,7 +8,7 @@ title: "To-Dos, Before Our Session Begins"
 
 2. This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
 
-***Please ensure all of the 5 setups in the "What Setups Do We Need?" completed before joining the session.***
+***Please ensure all of the setups in the "What Setups Do We Need?" completed before joining the session.***
 
 ## What Setups Do We Need? 
 
@@ -46,7 +46,7 @@ There are many options in this category. The top 2 choices are:
 
 At this stage, there are many publicly available walkthroughs to install both of the tools. I will recommend a few here, one for each major personal computer environment. 
 
-- [Walkthrough - Install R and RStudio on Windows 11](https://www.youtube.com/watch?v=H9EBlFDGG4k)
+- [Walkthrough - Install R and RStudio on Windows](https://www.youtube.com/watch?v=H9EBlFDGG4k)
 - [Walkthrough - Install R and RStudio on macOS](https://www.youtube.com/watch?v=I5WIMX4LK8M)
 
 Please note that the R version in the referenced videoes might not be as recent as you will see, but the installation process will be the same. 
