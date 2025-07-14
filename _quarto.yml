@@ -27,7 +27,7 @@ website:
   sidebar:
     style: "floating"
     search: false
-    background: "none"
+    # background: "none"
     tools:
     - icon: linkedin
       href: http://linkedin.com/in/andyhu1
@@ -64,8 +64,8 @@ format:
   html:
     theme: cerulean
     toc: true
-    grid:
-      sidebar-width: 250px
-      body-width: 1000px
-      margin-width: 300px
-    css: styles.css
+    # grid:
+    #   sidebar-width: 250px
+    #   body-width: 800px
+    #   margin-width: 300px
+    # css: styles.css
