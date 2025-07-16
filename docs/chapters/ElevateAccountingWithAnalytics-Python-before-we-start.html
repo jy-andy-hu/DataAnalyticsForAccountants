@@ -255,7 +255,8 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 <ol start="2" type="1">
-<li><p>Python and Visual Studio Code (free) (see <a href="#how-to-get-started-with-python">how-to</a>)</p></li>
+<li><p>MiniForge (including Python)</p></li>
+<li><p>Visual Studio Code (free) (see <a href="#how-to-get-started-with-python">how-to</a>)</p></li>
 <li><p>Quarto (free) (see <a href="#how-to-install-quarto">how-to</a>)</p></li>
 </ol>
 </section>
@@ -266,12 +267,12 @@ ul.task-list li input[type="checkbox"] {
 <p>There are 3 parts:</p>
 <ol type="1">
 <li><p>A software “understands” Python lanugage and commands your computer accordingly. This software is also called “Python”, yes, the same as the language name.</p></li>
-<li><p>Another software helps us to manage different yet powerful “plug-ins” to our vanilla Python environment. Something called “Conda” comes in here. (Yes, unfortunately given Python, we will be dealing with a lot of “snakes” 🐍. Please don’t worry, the snakes here are quite nice and none of them bite. That’s a promise… 😎)</p></li>
+<li><p>Another software helps us to manage different yet powerful “plug-ins” to our vanilla Python environment. Something called “Conda” comes in here. (Yes, unfortunately given Python, we will be dealing with a lot of “snakes” 🐍. Please don’t worry, the snakes here are quite nice and none of them bite. That’s a promise… 😎).</p></li>
 <li><p>A fancy text editor helps with writing and evaluating Python syntax. Considering we will type many characters, words etc., having a helper boosts productivity makes a day-and-night difference. We will go with the favorite among the cool kids in the analytics community, called “Visual Studio Code” (“VS Code”). (No, this one doesn’t involve any snakes.)</p></li>
 </ol>
-<p>The good news is, there is a software called “Anaconda Distribution” (of course, more snakes …) that can take care of all 3 pieces altogether. The software maker “Anaconda” has made some nice videos that can take you through the installation process. Please see below <a href="#install-anaconda-distribution">Install Anaconda Distribution</a>.</p>
-<section id="install-anaconda-distribution" class="level4">
-<h4 class="anchored" data-anchor-id="install-anaconda-distribution">Install Anaconda Distribution</h4>
+<p>The good news is, there is a software called “MiniForge” (Surprisingly, no snakes …) that can take care of Python and Conda altogether. Please see below <a href="#install-miniforge">Install MiniForge</a>. 👇🏻👇🏻</p>
+<section id="install-miniforge" class="level4">
+<h4 class="anchored" data-anchor-id="install-miniforge">Install MiniForge</h4>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -283,43 +284,94 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>⚠️ Please note:</p>
-<ol type="a">
-<li><p>You don’t need to register Anaconda account. Hit the “skip registration” link when you are prompted to register an account.</p></li>
-<li><p>The Anaconda or Python version in the referenced videoes might not be as recent as you will see, but the installation process will be the same.</p></li>
-<li><p>You can also install VS Code separately. In fact, that should be the better thing to do. However, we won’t go down that path here, as it involves a bit more setup. We will stick with the VS Code shipped with Anaconda Distribution, which should be more than sufficient for our use.</p></li>
+<ol type="1">
+<li>A detailed walkthrough for Windows OS user is introduced here and a reference video for macOS users is provided here.</li>
+</ol>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=EMOCDLU4m3k">Walkthrough - Install MiniForge on macOS</a></li>
+</ul>
+<ol start="2" type="1">
+<li>The Anaconda or Python version below or in the referenced macOS videoes might not be as recent as you will see, but the installation process will be the same.</li>
 </ol>
 </div>
 </div>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=yFeVEAeOcnE&amp;t=1s">Walkthrough - Install Anaconda Distribution on Windows OS</a></li>
-<li><a href="https://youtu.be/DNu8pQOYRGg">Walkthrough - Install Anaconda Distribution on macOS</a></li>
-</ul>
-<p>Once the installation is finished, search for Anaconda (Here it shows on Windows in Startup Menu). You will see the following:</p>
-<p><img src="..\images/AnacondaInstall/finished-startmenu.png" class="img-fluid"></p>
-<p>Click on “Anaconda Navigator”, here is what it looks like when it is open:</p>
-<p><img src="..\images/AnacondaInstall/finished-navigator.png" class="img-fluid"></p>
-<p>You will also notice that VS Code is also installed.</p>
-<p>If not fear not, please see below <a href="#install-visual-studio-code-(just-in-case...)">Install Visual Studio Code</a>)</p>
-<p>Click “Launch”. It should launch VS Code and it will look similar to this:</p>
-<p><img src="..\images/VSCodeInstall/6-vsclaunch.png" class="img-fluid"></p>
-<p>🎉🎉 <strong>That’s it! You have reached to the finishing line of installing Anaconda Distribution!!</strong></p>
+<p><strong>For Windows OS users</strong>:</p>
+<ol type="1">
+<li><p>Head to MiniForge download website, https://conda-forge.org/download/. (yes, even the website is called “conda-forge”, we are downloading “MiniForge” still. 😇) and download installer file for Windows OS.</p></li>
+<li><p>Open the downloaded installer and it will greet you like the following:</p></li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/1-installergreeting.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Agree to user agreement.</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/2-installuseragreement.png" class="img-fluid"></p>
+<ol start="4" type="1">
+<li>Go with just install for the current user (“Just Me”)</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/3-installuser.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li>Go with the default file path</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/4-installdefaultpath.png" class="img-fluid"></p>
+<ol start="6" type="1">
+<li>Make sure the following options are selected.</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/5-installpathsettings.png" class="img-fluid"></p>
+<ol start="7" type="1">
+<li>Proceed to finish installation</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/6-installfinish.png" class="img-fluid"></p>
+<ol start="8" type="1">
+<li>In Start Menu, notice that there is something new called “MiniForge Prompt” and click to open it.</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/7-searchminiforge.png" class="img-fluid"></p>
+<ol start="9" type="1">
+<li>In the open MiniForge Prompt, type the following and then press Enter key.</li>
+</ol>
+<pre><code>conda init powershell</code></pre>
+<p><img src="..\images/MiniForgeInstall/8-condainit.png" class="img-fluid"></p>
+<ol start="10" type="1">
+<li>You should be able to see the following:</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/9-condainitfinish.png" class="img-fluid"></p>
+<ol start="11" type="1">
+<li>Close the MiniForge Prompt window and open Windows PowerShell, you should be able to see the following.</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/10-condapowershell.png" class="img-fluid"></p>
+<ol start="12" type="1">
+<li>Type the word Python in the command line, you should see the confirmation of a Python found!</li>
+</ol>
+<p><img src="..\images/MiniForgeInstall/11-pythoninstalled.png" class="img-fluid"></p>
+<p>🎉🎉 <strong>That’s it! You have reached to the finishing line of installing MiniForge and Python!!</strong></p>
+<!-- https://www.youtube.com/watch?v=aph7ZLb21rg full windows -->
+<p>Now move on to the last piece, install VS Code. See next section. 👇🏻👇🏻</p>
 </section>
-<section id="install-visual-studio-code-just-in-case" class="level4">
-<h4 class="anchored" data-anchor-id="install-visual-studio-code-just-in-case">Install Visual Studio Code (Just in Case…)</h4>
-<div class="callout callout-style-default callout-warning callout-titled">
+<section id="install-visual-studio-code" class="level4">
+<h4 class="anchored" data-anchor-id="install-visual-studio-code">Install Visual Studio Code</h4>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Warning
+Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This part is <strong>NOT NEEDED IF</strong> you already have VS Code from Anaconda Distribution working.</p>
-<p>I am making this portion available, just in case somehow VS Code is NOT bundled with Anaconda Distribution and you need to install VS Code separately.</p>
+<p>⚠️ Please note:</p>
+<ol type="1">
+<li>A detailed walkthrough for Windows OS user is introduced below and a reference video for macOS users is provided here.</li>
+</ol>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=NirAuEAblvo">Walkthrough - Install VS Code on macOS</a></li>
+<li>Please start watching at 1:50 into the video. This video starts with installing Python and we have already taken care of that previously.</li>
+</ul>
+<ol start="2" type="1">
+<li>The VS Code version below or in the referenced macOS videoes might not be as recent as you will see, but the installation process will be the same.</li>
+</ol>
 </div>
 </div>
+<p><strong>For Windows OS users</strong>:</p>
 <ol type="1">
 <li><p>Head to <a href="https://code.visualstudio.com/Download">Visual Studio Code Download website</a> and Download the installer that suits your operating system (Windows/macOS).</p></li>
 <li><p>open the installer and begin the installation process. A series of screenshots are provided below for references. We pretty much follow the default settings.</p></li>
@@ -355,6 +407,7 @@ Tip
 <p>This website that you are reading, guess what? I made it with the help of Quarto!!</p>
 </div>
 </div>
+<!-- good reference for miniconda setup (windows) -->
 <!-- https://www.youtube.com/watch?v=U3VAqCTujpg -->
 
 
