@@ -18,9 +18,9 @@ This session is designed to be intermediate level environment in live seminar/la
     
     - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
 
-2. MiniForge (including Python) 
+2. MiniForge (including Python) (see [how-to](#how-to-get-started-with-python))
 
-3. Visual Studio Code (free) (see [how-to](#how-to-get-started-with-python))
+3. Visual Studio Code (free) (see [how-to](#install-visual-studio-code))
 
 3. Quarto (free) (see [how-to](#how-to-install-quarto))
 
