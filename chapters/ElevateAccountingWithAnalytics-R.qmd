@@ -1,6 +1,5 @@
 ---
 title: "Elevate Accounting with Analytics"
-subtitle: Overview
 ---
 
 ## Description

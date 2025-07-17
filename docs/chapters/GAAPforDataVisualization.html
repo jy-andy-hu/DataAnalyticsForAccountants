@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jianyuan(Andy) Hu">
 
-<title>To-Dos, Before Our Session Begins – Data Analytics For Accounting Folks</title>
+<title>“GAPP” for Data Visualization – Data Analytics For Accounting Folks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Sessions</li><li class="breadcrumb-item"><a href="../chapters/ElevateAccountingWithAnalytics-R.html">1. Elevate Accounting with Analytics</a></li><li class="breadcrumb-item"><a href="../chapters/ElevateAccountingWithAnalytics-R-before-we-start.html">To Do, Before We Start</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Sessions</li><li class="breadcrumb-item"><a href="../chapters/GAAPforDataVisualization.html">4. “GAAP” for Data Visualization</a></li><li class="breadcrumb-item"><a href="../chapters/GAAPforDataVisualization.html">Overview</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -120,13 +120,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">1. Elevate Accounting with Analytics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/ElevateAccountingWithAnalytics-R.html" class="sidebar-item-text sidebar-link">
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ElevateAccountingWithAnalytics-R-before-we-start.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/ElevateAccountingWithAnalytics-R-before-we-start.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">To Do, Before We Start</span></a>
   </div>
 </li>
@@ -189,16 +189,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
  <span class="menu-text">4. “GAAP” for Data Visualization</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/GAAPforDataVisualization.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/GAAPforDataVisualization.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
@@ -222,23 +222,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-chores-before-our-session-even-begins" id="toc-why-chores-before-our-session-even-begins" class="nav-link active" data-scroll-target="#why-chores-before-our-session-even-begins">Why Chores Before Our Session Even Begins?</a></li>
-  <li><a href="#what-setups-do-we-need" id="toc-what-setups-do-we-need" class="nav-link" data-scroll-target="#what-setups-do-we-need">What Setups Do We Need?</a></li>
-  <li><a href="#setup-how-tos" id="toc-setup-how-tos" class="nav-link" data-scroll-target="#setup-how-tos">Setup How-tos</a>
-  <ul class="collapse">
-  <li><a href="#how-to-install-r" id="toc-how-to-install-r" class="nav-link" data-scroll-target="#how-to-install-r">How to Install R?</a></li>
-  <li><a href="#how-to-install-quarto" id="toc-how-to-install-quarto" class="nav-link" data-scroll-target="#how-to-install-quarto">How to Install Quarto?</a></li>
-  </ul></li>
-  <li><a href="#special-credit" id="toc-special-credit" class="nav-link" data-scroll-target="#special-credit">Special Credit</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target Audience</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisite(s)</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jy-andy-hu/DataAnalyticsForAccountants/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Sessions</li><li class="breadcrumb-item"><a href="../chapters/ElevateAccountingWithAnalytics-R.html">1. Elevate Accounting with Analytics</a></li><li class="breadcrumb-item"><a href="../chapters/ElevateAccountingWithAnalytics-R-before-we-start.html">To Do, Before We Start</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Sessions</li><li class="breadcrumb-item"><a href="../chapters/GAAPforDataVisualization.html">4. “GAAP” for Data Visualization</a></li><li class="breadcrumb-item"><a href="../chapters/GAAPforDataVisualization.html">Overview</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">To-Dos, Before Our Session Begins</h1>
+<h1 class="title">“GAPP” for Data Visualization</h1>
+<p class="subtitle lead">Overview</p>
 </div>
 
 
@@ -261,73 +258,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="why-chores-before-our-session-even-begins" class="level2">
-<h2 class="anchored" data-anchor-id="why-chores-before-our-session-even-begins">Why Chores Before Our Session Even Begins?</h2>
-<p>This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.</p>
-<p><strong><em>Please ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.</em></strong></p>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R.</p>
 </section>
-<section id="what-setups-do-we-need" class="level2">
-<h2 class="anchored" data-anchor-id="what-setups-do-we-need">What Setups Do We Need?</h2>
-<ol type="1">
-<li>Personal laptop.</li>
-</ol>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<p>Upon completion of this course, you will be able to:</p>
 <ul>
-<li><p>Windows OS preferred, as I will be using a Windows laptop for the session.</p></li>
-<li><p><strong><em>Why Personal laptops?</em></strong></p>
-<ul>
-<li>Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.</li>
-</ul></li>
+<li><p>Understand the basics about R.</p></li>
+<li><p>Appreciate main chart types and when to use each chart type</p></li>
+<li><p>Understand a framework and design thinking for professional data visualization</p></li>
+<li><p>Use R to produce a variety of info graphics</p></li>
+<li><p>Understand the additional design thinking for interactive data visualization (BI) solutions.</p></li>
+<li><p>Understand pros and cons for a variety of common tools with data visualization capabilities and when to choose each.</p></li>
+<li><p>Understand current analytics landscape and data technology landscape.</p></li>
 </ul>
-<ol start="2" type="1">
-<li><p>R (free) (see <a href="#how-to-install-r">how-to</a>)</p></li>
-<li><p>Quarto (free) (see <a href="#how-to-install-quarto">how-to</a>)</p></li>
-</ol>
 </section>
-<section id="setup-how-tos" class="level2">
-<h2 class="anchored" data-anchor-id="setup-how-tos">Setup How-tos</h2>
-<section id="how-to-install-r" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-install-r">How to Install R?</h3>
-<p>There are 2 parts:</p>
-<ol type="1">
-<li><p>We need to install a software that can “understand” R lanugage and command your computer to do things accordingly. This software is called “R”, yes the same as the language name “R”. You can find it here: <a href="https://cran.rstudio.com/">CRAN R Download</a>.</p></li>
-<li><p>We need to install another software that can help us to be very productive working with R.</p></li>
-</ol>
-<p>There are many options in this category. The top 2 choices are:</p>
+<section id="target-audience" class="level2">
+<h2 class="anchored" data-anchor-id="target-audience">Target Audience</h2>
+<p>You can be:</p>
 <ul>
-<li>RStudio
-<ul>
-<li>This is considered as the Go-to tool to work with R, highly recommeded for beginner with R. For maximum beginner friendliness, this is what we will use here.</li>
-<li><a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop Download Link</a></li>
-</ul></li>
-<li>Positron
-<ul>
-<li>This is still currently in preview, but it will likely be successor to RStudio one day.</li>
-</ul></li>
-<li>Visual Studio Code
-<ul>
-<li>This excellent to work with multiple programming lanugage environments, but it requires a quite bit setup, so not recommended for beginner.</li>
-</ul></li>
+<li><p>A student, who considers brushing up data visualization skills, either for academic/research projects or future employment.</p></li>
+<li><p>An analyst or staff accountant, who are recurringly or ad-hoc tasked with creating data info graphics for business intelligence (BI) apps, presentations or publications.</p></li>
+<li><p>A manager, who look for inspirations/possibilities to increase team’s data visualization or BI capabilities or who lead others for data visualization assignments or dashboard design projects.</p></li>
 </ul>
-<p>At this stage, there are many publicly available walkthroughs to install both of the tools. I will recommend a few here, one for each major personal computer environment.</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=H9EBlFDGG4k">Walkthrough - Install R and RStudio on Windows</a></li>
-<li><a href="https://www.youtube.com/watch?v=I5WIMX4LK8M">Walkthrough - Install R and RStudio on macOS</a></li>
-</ul>
-<p>Please note that the R version in the referenced videoes might not be as recent as you will see, but the installation process will be the same.</p>
 </section>
-<section id="how-to-install-quarto" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-install-quarto">How to Install Quarto?</h3>
-<p>The curating company, Posit, makes Quarto pretty accessible for all major operating systems. There are many publicly available walkthroughs to install Quarto. I will recommend one for each major personal computer environment here:</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=JQ8WbI2_Rc4">Walkthrough - Install Quarto on Windows 10/11</a></li>
-<li><a href="https://www.youtube.com/watch?v=aOGGPcWZKUs">Walkthrough - Install Quarto on macOS</a></li>
-</ul>
-<p>Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same.</p>
-</section>
-</section>
-<section id="special-credit" class="level2">
-<h2 class="anchored" data-anchor-id="special-credit">Special Credit</h2>
-<p>This website that you are reading, guess what? I made it with the help of Quarto!!</p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisite(s)</h2>
+<p>No prior experience with programming or with R required. Everyone is welcome to join.</p>
+<p>To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.</p>
 
 
 </section>

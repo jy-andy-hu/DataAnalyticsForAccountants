@@ -9,6 +9,7 @@ project:
     - chapters/Excel-Python-before-we-start.qmd
     - chapters/InfusePythontoAccounting.qmd
     - chapters/InfusePythontoAccounting-before-we-start.qmd
+    - chapters/GAAPforDataVisualization.qmd
 
 author: Jianyuan(Andy) Hu
 
@@ -41,24 +42,30 @@ website:
         href: index.qmd
       - section: "Sessions"
         contents:
-        - section: "Elevate Accounting with Analytics"
+        - section: "1. Elevate Accounting with Analytics"
           contents: 
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-R.qmd
           - text: "To Do, Before We Start"
             href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-        - section: "Excel and Python: A Tale of Two Power Tools"
+        - section: "2. Excel and Python: A Tale of Two Power Tools"
           contents:
           - text: "Overview"
             href: chapters/Excel-Python.qmd
           - text: "To Do, Before We Start"
             href: chapters/Excel-Python-before-we-start.qmd
-        - section: "Infuse Python to Accounting"
+        - section: "3. Infuse Python to Accounting"
           contents:
           - text: "Overview"
             href: chapters/InfusePythontoAccounting.qmd
           - text: "To Do, Before We Start"
             href: chapters/InfusePythontoAccounting-before-we-start.qmd
+        - section: '4. "GAAP" for Data Visualization'
+          contents:
+          - text: "Overview"
+            href: chapters/GAAPforDataVisualization.qmd
+          - text: "To Do, Before We Start"
+            href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
 
 format:
   html:
