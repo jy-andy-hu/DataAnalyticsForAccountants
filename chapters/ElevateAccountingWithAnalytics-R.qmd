@@ -1,6 +1,6 @@
 ---
 title: "Elevate Accounting with Analytics"
-subtitle: R Version, Overview
+subtitle: Overview
 ---
 
 ## Description

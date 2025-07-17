@@ -1,6 +1,6 @@
 ---
-title: "Elevate Accounting with Analytics"
-subtitle: Python Version, Overview
+title: "Infuse Python to Accounting"
+subtitle: Overview
 ---
 
 ## Description

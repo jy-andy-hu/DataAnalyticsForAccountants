@@ -7,8 +7,8 @@ project:
     - chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
     - chapters/Excel-Python.qmd
     - chapters/Excel-Python-before-we-start.qmd
-    - chapters/ElevateAccountingWithAnalytics-Python.qmd
-    - chapters/ElevateAccountingWithAnalytics-Python-before-we-start.qmd
+    - chapters/InfusePythontoAccounting.qmd
+    - chapters/InfusePythontoAccounting-before-we-start.qmd
 
 author: Jianyuan(Andy) Hu
 
@@ -41,7 +41,7 @@ website:
         href: index.qmd
       - section: "Sessions"
         contents:
-        - section: "Elevate Accounting with Analytics (R)"
+        - section: "Elevate Accounting with Analytics"
           contents: 
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-R.qmd
@@ -53,12 +53,12 @@ website:
             href: chapters/Excel-Python.qmd
           - text: "To Do, Before We Start"
             href: chapters/Excel-Python-before-we-start.qmd
-        - section: "Elevate Accounting with Analytics (Python)"
+        - section: "Infuse Python to Accounting"
           contents:
           - text: "Overview"
-            href: chapters/ElevateAccountingWithAnalytics-Python.qmd
+            href: chapters/InfusePythontoAccounting.qmd
           - text: "To Do, Before We Start"
-            href: chapters/ElevateAccountingWithAnalytics-Python-before-we-start.qmd
+            href: chapters/InfusePythontoAccounting-before-we-start.qmd
 
 format:
   html:
