@@ -3,6 +3,10 @@ project:
   output-dir: docs
   render: 
     - index.qmd
+    - chapters/DataAnalyticsForAccountants.qmd
+    - chapters/DataAnalyticsForAccountants-before-we-start.qmd
+    - chapters/DebitDatabase.qmd
+    - chapters/DebitDatabase-before-we-start.qmd
     - chapters/ElevateAccountingWithAnalytics-R.qmd
     - chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
     - chapters/Excel-Python.qmd
@@ -10,6 +14,11 @@ project:
     - chapters/InfusePythontoAccounting.qmd
     - chapters/InfusePythontoAccounting-before-we-start.qmd
     - chapters/GAAPforDataVisualization.qmd
+    - chapters/Setup-anacondacode.qmd
+    - chapters/Setup-postgreSQL.qmd
+    - chapters/Setup-python.qmd
+    - chapters/Setup-quarto.qmd
+    - chapters/Setup-R.qmd
 
 author: Jianyuan(Andy) Hu
 
@@ -20,12 +29,11 @@ website:
     left: Created by Jianyuan(Andy) Hu, 2025 
     right: |
      This webpage was built with <a href="https://quarto.org/">Quarto</a>.
-  repo-url: https://github.com/jy-andy-hu/DataAnalyticsForAccountants
   repo-branch: main
-  repo-actions: issue
   # page-navigation: true
 
   sidebar:
+    collapse-level: 3
     style: "floating"
     search: false
     # background: "none"
@@ -40,7 +48,17 @@ website:
     contents:
       - text: "From One Accountant to Another"
         href: index.qmd
-      - section: "Sessions"
+
+      - section: "Comprehensive Session"
+        contents:
+        - section: "Data Analytics for Accountants"
+          contents: 
+          - text: "Overview"
+            href: chapters/DataAnalyticsForAccountants.qmd
+          - text: "To Do, Before We Start"
+            href: chapters/DataAnalyticsForAccountants-before-we-start.qmd
+
+      - section: "Topical In-Depth Sessions"
         contents:
         - section: "1. Elevate Accounting with Analytics"
           contents: 
@@ -66,13 +84,33 @@ website:
             href: chapters/GAAPforDataVisualization.qmd
           - text: "To Do, Before We Start"
             href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
+        - section: "5. Debit Databases, Credit Analytics for Accounting"
+          contents:
+          - text: "Overview"
+            href: chapters/DebitDatabase.qmd
+          - text: "To Do, Before We Start"
+            href: chapters/DebitDatabase-before-we-start.qmd
+
+
+      - section: "Detailed Setup Guides"
+        contents: 
+          - text: "Get Started with R"
+            href: chapters/Setup-R.qmd
+          - text: "Get Started with Python"
+            href: chapters/Setup-python.qmd
+          - text: "Get Started with Quarto"
+            href: chapters/Setup-quarto.qmd
+          - text: "Get Started with Anaconda Toolbox"
+            href: chapters/Setup-anacondacode.qmd
+          - text: "Get Started with PostgresSQL"
+            href: chapters/Setup-postgreSQL.qmd
 
 format:
   html:
     theme: cerulean
     toc: true
-    # grid:
-    #   sidebar-width: 250px
-    #   body-width: 800px
-    #   margin-width: 300px
+    grid:
+      sidebar-width: 250px
+      body-width: 800px
+      margin-width: 300px
     # css: styles.css

@@ -1,0 +1,46 @@
+---
+title: "Debit Databases, Credit Analytics for Accounting"
+---
+
+## Description
+
+Between self-analytics and big data, accountants are directly exposed to databases, more often than ever. This specialty seminar introduces accountants to relational databases and inspires audience how to satisfy reporting and data analysis tasks — making workflows efficient, and scalable. With hands-on examples tailored to accounting workflows, audience will gain confidence in managing and querying data with relational database, preparing them for collaboration across teams in modern analytics environment.As a big bonus, audience get to develop analytics mindset and further enhance their analytical literacy through exposure to a modern data platform, Microsoft Fabric.
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- Introduction to R, and how to productively set up projects  
+- Using R to conduct data processing and automate workflows
+- Introduction to relational databases, SQL and server-client computing
+- Develop and application of analytics engineering mindset 
+- Understanding key components to modecrn data platform through one of the most popular option, Microsoft Fabric
+- Navigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.
+
+## Target Audience
+
+This course appeals to several demographics: 
+
+- Analysts, especially who 
+
+  a. have access to detailed data through databases and seek opportunities to improve work life through automation 
+
+  b. advance skills in or pivot toward data analytics speace;
+
+- Managers, especially who
+
+  a. seek inspirations to improve team's productivity with limited budget, 
+  
+  b. want to stay relevant with staff who possess analytics skillsets, or
+  
+  c. lead modernization projects with analytics
+
+## Prerequisite(s)
+
+No previous programming knowledge required. This is beginner friendly session.
+
+To fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

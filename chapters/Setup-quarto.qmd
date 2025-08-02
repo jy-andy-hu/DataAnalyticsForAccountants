@@ -1,0 +1,18 @@
+---
+title: Get Started with Quarto
+---
+
+## Install Quarto
+
+Quarto is a publishing system, especually useful to sentific, research or data analysis oriented publications. It is open-source project, and it is free to use.
+
+The curating company, Posit, makes Quarto pretty accessible for all major operating systems. There are many publicly available walkthroughs to install Quarto. I will recommend one for each major personal computer environment here: 
+
+- [Walkthrough - Install Quarto on Windows 10/11](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
+- [Walkthrough - Install Quarto on macOS](https://www.youtube.com/watch?v=aOGGPcWZKUs)
+
+Please note that the Quarto version in the referenced videoes might not be as recent as you will see, but the installation process will be roughly the same. 
+
+## Special Credit
+
+This website that you are reading, guess what? I made it with the help of Quarto!!

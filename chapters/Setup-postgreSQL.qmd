@@ -1,0 +1,50 @@
+---
+title: Get Started with PostgreSQL
+---
+
+PostgreSQL is a powerful, open source object-relational database system. It is free for personal use. It is also available across many different platforms including Windows, macOS and Linux. This guide is written on Windows OS.
+
+
+1. Head to website: https://www.postgresql.org/download/, download PostgreSQL server installation package, and launch the installer file.
+
+![](/images/PostgreSQL/1-postgresinstall.png)
+
+2. Accept the user agreement and follow the installation prompts. For the most parts, we are accepting the default settings. Here are a few screenshots for milestones. 
+
+![](/images/PostgreSQL/2-defaultsetting.png)
+
+![](/images/PostgreSQL/3-components.png)
+
+![](/images/PostgreSQL/4-datadirectory.png)
+
+3. Nothing secretive here. We will set the password as PostSQL1234. Make sure to make a note of the password that you entered here. We will need to use it later.
+
+![](/images/PostgreSQL/5-password.png)
+
+4. Use the default port setting and locale setting. 
+
+![](/images/PostgreSQL/6-defaultport.png)
+
+![](/images/PostgreSQL/7-defaultlocale.png)
+
+3. When installation completed, make sure to uncheck the Stack Builder and then hit the finish button to exit.
+
+![](/images/PostgreSQL/8-launchstackbuilder.png)
+
+4. In the Startup Meanu, locate and launch the admin tool called pgAdmin4
+
+![](/images/PostgreSQL/9-locatepgAdmin4.png)
+
+![](/images/PostgreSQL/10-launchpgAdmin4.png)
+
+5. Once admin tool is open, expand on "Servers" list and open the default server, here it is called "PostgreSQL 17". You will be prompted to enter the password that we setup earlier.
+
+![](/images/PostgreSQL/11-enterpassword.png)
+
+6. You should see the database items are now available for you to use.
+
+![](/images/PostgreSQL/12-finishsetup.png)
+
+🎉🎉 **That's it! You have finished installing PostgreSQL on your own computer!!**
+
+

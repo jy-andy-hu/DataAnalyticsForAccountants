@@ -18,8 +18,14 @@ This session is designed to be a beginner friendly environment in live seminar/l
     
     - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
 
-2. R (see [Get Started with R](Setup-R.qmd))
+2. R/Python setup
+
+  - If session is offered through R, see [Get Started with R](Setup-R.qmd)
+
+  - If session is offered through Python, see [Get Started with Python](Setup-python.qmd)
 
 3. Quarto (see [Get Started with Quarto](Setup-quarto.qmd))
+
+4. PostgreSQL server (see [Get Started with PostgreSQL](Setup-postgreSQL.qmd)) 
 
 🎉🎉 **That's it!! That's all the setup we need to get the show going! I look forward to seeing you see the session!**

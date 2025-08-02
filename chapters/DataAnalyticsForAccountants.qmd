@@ -1,0 +1,53 @@
+---
+title: "Data Analytics for Accountants"
+---
+
+## Description
+
+If you have read my voice to you "From One Accoutant to Another", this flagship course follows the exact spirits and presents as a comprehensive yet beginner-friendly introduction for modern data analytics, designed by accountant, for accountants.
+
+This course offers hands-on data analytical experiences to complete a few end-to-end data projects. Together through popular tool stack in R/Python, we will develop high-value skillsets to improve real-life accounting tasks such as professional data visualization, dashboard design, automation, and working with relational databases. We will also cultivate analytics professional mindset. As a bonus, we will explore modern data platforms through Microsoft Fabric and see where AI could take us. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.
+
+**💡If either the time commitment or you would prefer a deep-dive on a specific topic, please head to "in-depth Sessions" section.**
+
+## Length
+
+R: 24 hours.
+
+Python: 26 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- Introduction to R/Python, and how to productively set up the powerful open-source tools for projects  
+- Using R/Python to conduct data processing and create desired data outputs
+- Understanding a framework and design thinking for professional data visualization
+- Introduction to relational databases, SQL and server-client computing
+- Development and application of analytics engineering mindset 
+- Understanding key components to modecrn data platform through one of the most popular option, Microsoft Fabric
+- Navigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing and impact of AI.
+
+## Target Audience
+
+This course appeals to several demographics: 
+
+- Analysts, especially who 
+
+  a. have access to detailed data through databases and seek opportunities to improve work life through automation 
+
+  b. advance skills in or pivot toward data analytics speace;
+
+- Managers, especially who
+
+  a. seek inspirations to improve team's productivity with limited budget, 
+  
+  b. want to stay relevant with staff who possess analytics skillsets, or
+  
+  c. lead modernization projects with analytics
+
+## Prerequisite(s)
+
+No previous programming knowledge required. This is beginner friendly session.
+
+To fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

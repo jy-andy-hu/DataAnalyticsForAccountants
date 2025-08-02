@@ -12,14 +12,14 @@ This session is designed to be a beginner friendly environment in live seminar/l
 
 1. Personal laptop.
 
-  - Windows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.
+  - Windows OS preferred, as I will be using a Windows laptop for the session, but macOS should also have no problem.
 
   - ***Why Personal laptops?***
     
     - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
 
-2. R (see [Get Started with R](Setup-R.qmd))
+2. PostgreSQL server (see [Get Started with PostgreSQL](Setup-postgreSQL.qmd))
 
-3. Quarto (see [Get Started with Quarto](Setup-quarto.qmd))
+3. R (see [Get Started with R](Setup-R.qmd))
 
 🎉🎉 **That's it!! That's all the setup we need to get the show going! I look forward to seeing you see the session!**
