@@ -2,10 +2,11 @@
 title: Get Started with PostgreSQL
 ---
 
-PostgreSQL is a powerful, open source object-relational database system. It is free for personal use. It is also available across many different platforms including Windows, macOS and Linux. This guide is written on Windows OS. Installation on macOS should follow similar settings.
+PostgreSQL is a powerful, open source object-relational database system. It is free for personal use. It is also available across many different platforms including Windows, macOS and Linux. 
 
+The following guide is written for Windows OS users.
 
-1. Head to website: https://www.postgresql.org/download/, download PostgreSQL server installation package, and launch the installer file.
+1. Head to website: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads, download PostgreSQL server installation package (the 17th edition), and launch the installer file.
 
 ![](/images/PostgreSQL/1-postgresinstall.png)
 
@@ -47,4 +48,6 @@ PostgreSQL is a powerful, open source object-relational database system. It is f
 
 🎉🎉 **That's it! You have finished installing PostgreSQL on your own computer!!**
 
+⚠️ Installation on macOS should follow similar settings. Here is a reference video to walk you through the installation process: 
 
+[postgreSQL macOS installation](https://www.youtube.com/watch?v=PShGF_udSpk)
