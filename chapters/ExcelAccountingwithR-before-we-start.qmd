@@ -18,9 +18,21 @@ This session is designed to be a beginner friendly environment in live seminar/l
     
     - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
 
-2. R (see [Get Started with R](Setup-R.qmd))
+2. Microsoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see [how-to](Setup-anacondacode.qmd))
 
-3. Positron (see [Get Started with Positron](Setup-positron.qmd))
+    - Preferrably desktop app
+    
+    - Alternatively, Excel Online (via Microsoft Account, see "2")
+
+    - ***Why Personal Account?***
+      
+      - Similar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.
+
+3. Anaconda Code and Anaconda Toolbox with an Anaconda Account signed in  (see [how-to](Setup-anacondacode.qmd))
+
+4. R (see [Get Started with R](Setup-R.qmd))
+
+5. Positron (see [Get Started with Positron](Setup-positron.qmd))
 
 <!-- 4. Quarto (see [Get Started with Quarto](Setup-quarto.qmd)) -->
 

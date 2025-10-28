@@ -1,10 +1,10 @@
 ---
-title: "Elevate Accounting with Analytics of R"
+title: "Excel Accounting with R"
 ---
 
 ## Description
 
-This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.
+This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will explore the powerful, popular open-source analytical solution R and even better, how to integrate R right into your Excel workbooks, inspiring you to enhance your accounting Life. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.
 
 ## Length
 
@@ -16,15 +16,15 @@ Upon completion of this course, you will understand:
 
 - Introduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners. 
 
-- Data Management with R: Gain skills in importing, exporting, and processing data using R. 
+- Super charge Excel with R: How to create and run R programs in Excel workbooks and supercharge your Excel productivity.
 
-- Automate Reporting with R: Build a practical department distribution workflows with R. 
+- Data Management with R: Gain skills in importing, exporting, and processing data using R. 
 
 - Advanced Data Visualization Techniques: Discover how to create impactful visualizations with R. 
 
-- Professional and Versatile Publishing: Learn to build and publish professional reports of various file formats (webpage/html, PDF, PowerPoint, Word) effectively. 
+- Automate Reporting with R: Build a practical department distribution workflows with R. 
 
-- Adopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects. 
+- Data Management with R: Gain skills in importing, exporting, and processing data using R. 
 
 - Navigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.
 

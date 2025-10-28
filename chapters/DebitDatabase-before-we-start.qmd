@@ -22,4 +22,6 @@ This session is designed to be a beginner friendly environment in live seminar/l
 
 3. R (see [Get Started with R](Setup-R.qmd))
 
+4. Positron (see [Get Started with Positron](Setup-positron.qmd))
+
 🎉🎉 **That's it!! That's all the setup we need to get the show going! I look forward to seeing you see the session!**

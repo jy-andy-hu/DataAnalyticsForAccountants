@@ -2,27 +2,46 @@
 title: "Get Started with R"
 ---
 
+# Context
+
 R is a data-first language that has extensive and powerful packages. It is also open-source, meaning it is free to use.
 
-There are 2 parts:
+We need to install a software that can "understand" R lanugage and command your computer to do things accordingly. This software is called "R", yes the same as the language name "R". 
 
-1. We need to install a software that can "understand" R lanugage and command your computer to do things accordingly. This software is called "R", yes the same as the language name "R". You can find it here: [CRAN R Download](https://cran.rstudio.com/).
+# Install R
 
-2. We need to install another software that can help us to be very productive working with R. 
+⚠️ Please know that the following guide is for Windows users. If you are macOS users, please know that installing R follows standard macOS installer process, only choosing macOS installer to download at the source page.
 
-There are many options in this category. The top 2 choices are: 
+⚠️ Please note that the R version in this reference (4.5.1) might not be as recent as you will see, but the installation process will be the same. 
 
-- RStudio 
-  - This is considered as the Go-to tool to work with R, highly recommeded for beginner with R. For maximum beginner friendliness, this is what we will use here.
-  - [RStudio Desktop Download Link](https://posit.co/download/rstudio-desktop/)
-- Positron 
-  - This is still currently in preview, but it will likely be successor to RStudio one day. 
-- Visual Studio Code 
-  - This excellent to work with multiple programming lanugage environments, but it requires a quite bit setup, so not recommended for beginner. 
+<br>
 
-At this stage, there are many publicly available walkthroughs to install both of the tools. I will recommend a few here, one for each major personal computer environment. 
+1. Download R here: [CRAN R Download](https://cran.rstudio.com/).
 
-- [Walkthrough - Install R and RStudio on Windows](https://www.youtube.com/watch?v=H9EBlFDGG4k)
-- [Walkthrough - Install R and RStudio on macOS](https://www.youtube.com/watch?v=I5WIMX4LK8M)
+![](/images/R/1-cranr.png)
 
-Please note that the R version in the referenced videoes might not be as recent as you will see, but the installation process will be the same. 
+<br>
+
+![](/images/R/2-cranr2.png)
+
+<br>
+
+![](/images/R/3-cranr3.png)
+
+2. Install R by following the installer instruction. You can keep all the default options and settings.
+
+![](/images/R/4-rpath.png)
+
+<br>
+
+![](/images/R/5-rcomponents.png)
+
+<br>
+
+![](/images/R/6-startup.png)
+
+<br>
+
+![](/images/R/7-additional.png)
+
+🎉🎉 **That's it! You have finished installing R!!**

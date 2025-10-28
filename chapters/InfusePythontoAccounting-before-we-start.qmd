@@ -20,6 +20,8 @@ This session is designed to be intermediate level environment in live seminar/la
 
 2. Python (see [Get Started with Python](Setup-python.qmd))
 
-3. Quarto (see [Get Started with Quarto](Setup-quarto.qmd))
+3. Positron (see [Get Started with Positron](Setup-positron.qmd))
+
+4. Quarto (see [Get Started with Quarto](Setup-quarto.qmd))
 
 🎉🎉 **That's it!! That's all the setup we need to get the show going! I look forward to seeing you see the session!**
