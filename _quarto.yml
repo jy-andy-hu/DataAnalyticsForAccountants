@@ -49,7 +49,7 @@ website:
       href: https://jy-andy-hu.github.io/AllAboutMe/
     
     contents:
-      - text: "From One Accountant to Another"
+      - text: "Preface: From One Accountant to Another"
         href: index.qmd
 
       - section: "Comprehensive Session"
@@ -69,7 +69,7 @@ website:
             href: chapters/ExcelAccountingwithR.qmd
           - text: "To Do, Before We Start"
             href: chapters/ExcelAccountingwithR-before-we-start.qmd
-        - section: "2. Elevate Accounting with Analytics"
+        - section: "2. Elevate Accounting with Analytics of R"
           contents: 
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-R.qmd
@@ -99,6 +99,10 @@ website:
             href: chapters/DebitDatabase.qmd
           - text: "To Do, Before We Start"
             href: chapters/DebitDatabase-before-we-start.qmd
+        - section: '8. "GAAP" for Data Visualization'
+          contents:
+          - text: "Overview"
+            href: chapters/GAAPforDataVisualization.qmd
 
 
       - section: "Detailed Setup Guides"
@@ -118,10 +122,11 @@ website:
 
 format:
   html:
-    theme: cerulean
+    theme:
+      - cerulean
+      - custom.scss
     toc: true
     grid:
-      sidebar-width: 250px
+      sidebar-width: 320px
       body-width: 800px
-      margin-width: 300px
-    # css: styles.css
+      margin-width: 200px

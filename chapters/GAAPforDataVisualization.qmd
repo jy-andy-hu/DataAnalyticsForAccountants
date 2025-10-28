@@ -5,19 +5,19 @@ subtitle: Overview
 
 ## Description
 
-As an accountant, GAAP fundamentally guides us working with transactions and money. It's almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is "GAAP" for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R.
+As an accountant, GAAP fundamentally guides us working with transactions and money. It's almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is "GAAP" for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.
 
 ## Key Takeaways
 
 Upon completion of this course, you will be able to:
 
-- Understand the basics about R.
+- Understand the basics about R/Python.
 
 - Appreciate main chart types and when to use each chart type
 
 - Understand a framework and design thinking for professional data visualization
 
-- Use R to produce a variety of info graphics  
+- Use R/Python to produce a variety of info graphics  
 
 - Understand the additional design thinking for interactive data visualization (BI) solutions.  
 

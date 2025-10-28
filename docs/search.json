@@ -59,7 +59,7 @@
     "href": "chapters/GAAPforDataVisualization.html",
     "title": "“GAPP” for Data Visualization",
     "section": "",
-    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R.",
+    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "6. \"GAAP\" for Data Visualization",
@@ -71,7 +71,7 @@
     "href": "chapters/GAAPforDataVisualization.html#description",
     "title": "“GAPP” for Data Visualization",
     "section": "",
-    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R.",
+    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "6. \"GAAP\" for Data Visualization",
@@ -83,7 +83,7 @@
     "href": "chapters/GAAPforDataVisualization.html#key-takeaways",
     "title": "“GAPP” for Data Visualization",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will be able to:\n\nUnderstand the basics about R.\nAppreciate main chart types and when to use each chart type\nUnderstand a framework and design thinking for professional data visualization\nUse R to produce a variety of info graphics\nUnderstand the additional design thinking for interactive data visualization (BI) solutions.\nUnderstand pros and cons for a variety of common tools with data visualization capabilities and when to choose each.\nUnderstand current analytics landscape and data technology landscape.",
+    "text": "Key Takeaways\nUpon completion of this course, you will be able to:\n\nUnderstand the basics about R/Python.\nAppreciate main chart types and when to use each chart type\nUnderstand a framework and design thinking for professional data visualization\nUse R/Python to produce a variety of info graphics\nUnderstand the additional design thinking for interactive data visualization (BI) solutions.\nUnderstand pros and cons for a variety of common tools with data visualization capabilities and when to choose each.\nUnderstand current analytics landscape and data technology landscape.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "6. \"GAAP\" for Data Visualization",
@@ -326,7 +326,7 @@
     "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
@@ -338,7 +338,7 @@
     "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
@@ -350,7 +350,7 @@
     "text": "Length\n8 hours.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
@@ -362,7 +362,7 @@
     "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nAutomate Reporting with R: Build a practical department distribution workflows with R.\nAdvanced Data Visualization Techniques: Discover how to create impactful visualizations with R.\nProfessional and Versatile Publishing: Learn to build and publish professional reports of various file formats (webpage/html, PDF, PowerPoint, Word) effectively.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
@@ -374,7 +374,7 @@
     "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
@@ -386,7 +386,7 @@
     "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
@@ -541,7 +541,7 @@
     "section": "",
     "text": "As I am writing this, I have been a CPA for 5 years and almost 10 years since I started working as an accountant. Like many of you, my job is mostly about getting numbers and reports from one side to another, hoping that people can have a more intelligent and productive life about decisions involving lots of dollar signs. I really enjoy playing these roles and I am amazed how good data are changing co-workers’ and management’s work life. For that matter, I want to bring programming literacy and analytical thinking to my fellow accountants so that we can endure the impact of big data and AI much better. Let me share with you a few of my own stories.\n\nHow I Started…\nMy accounting career life isn’t always fulfilling. Also just like many of you, I had many mundane things that no one else wanted to do. Poor data quality, complicated logic, repetitiveness, all trouble my accounting life left and right. I was quite functional with Excel, even praised by my boss and my-workers sometimes, but I still felt pulling my hair off from time to time. Here are a few common examples:\n\nsome elegant and impactful data visualization that can only live as my imagination;\nI could get one Excel workbook done but I need to repeat for 20 other similar Excel workbooks;\ndata are in a database, on a webpage or PDF documents, but I didn’t know how to pull them together. Friends at IT were always busy to save their world already…\n\nIt felt defeating, even maddening sometimes. I wanted to get to the accounting part, and yet, I just couldn’t even activate my accounting skills because the data were just not there. I then began to realize Excel started becoming a bottleneck not a solution, regardless of how everyone else thought I were good with it. I lacked of: a) imagination of what’s possible and b) the actual skillsets to design and implement solutions.\nCourtesy of COVID, when social life was overrated at best, a soul search put me a path to pursue a master degree in management analytics. It was quite some work for an accountant with zero computer science training or programming skills, but it was very much doable and the reward is immense. It provided my ammunition to change my work life. I have the conviction now, that the era where programming should be handled by “IT” or “specialists” is over. Analytics skills are well charted on the wall for accountants’ future. I.e. it will be a literacy requirement.\n\n\nNot Just Staff, Managers, Too…\nLater on, I was pulled into different brainstorming sessions how to modernize workflows and better deliver accounting information. Data lake, OLAP cloud database, data modelling, ETL pipeline, tasks schedulers, Spark, Python/R … they just don’t seem to click well with the champions of the modernization projects. Yet, these concepts play fundamental role in their projects, because even Excel Macros can’t save the day anymore. It then occurred to me that programming enables with me a whole set of literacy and analytical thinking. Managers who never experienced programming or develop analytical thinking will face challenges leading their future workforces, much less leading the change itself.\n\n\nWhat About Generative AI?\nWe can’t ignore the power of Gen AI anymore. ChatGPT, Gemini, Claude… you name it, they are getting very good. Regardless of how good we are at asking, after all, we still don’t know what we don’t know. If Gen AI writes us some codes either error or don’t yield properly, we still need to fix it. We can’t just turn around and say, it’s not my fault, it’s the AI… still nothing gets done. Then what? If anything, I found it combining human knowledge and inspiration from AI is quite powerful sauce. That said, back to square one, we still need to learn some programming.\n\n\nIt’s Still Hard to Start…\nI have talked to many fellow CPAs, and most feel they have no footing in analytics. Why data analytics changed my accounting life but not so much for the others? Why so many businesses or their finance/accounting team struggle to pull off business analytics projects and can’t realize returns on their investment in analytics?\nGood thing you are looking at an accountant, I relate this too well. A lot lie in the lack of technological literacy. Two folds on this:\n\nMost of the accountants are not equipped with data technology/programming at all through their formal edcuation. Analytics by definition involves programmatic processes, so it is hard for us start analytics or to lead modern business intelligence projects. After all, you can’t be blamed for or be comfortable with what you don’t know.\nMost of analytics professionals and educators usually have mastery of their fields, and they cannot properly relate to accounting folks’ learning needs and bridge them over properly. This usually leads to dismay learners.\n\nThis consistent demand and supply awkwardness leaves the CPA community unattended long enough that accountants start feeling “left out”, which is quite unfortunate.\n\n\nMy Final Encouragement to You…\nMy fellow accountants, you have gone through a lot to be come CPAs, so you definitely have the curiosity, intelligence and perseverance for data analytics. You just need a bit of hand-holding and a few leads, especially from one of your own:\n\nto overcome the fear of the unknown - data technologies\nto make that first step to write their first line of codes\nto get their first project done, and eventually,\nto strategize and lead their organizational analytics projects.\n\nI hope to be that person for you, to get you to make that first baby-step. Analytics changed my accounting life, it can change yours, too.\nI have taught in colleges and universities for 6 years and counting. Education is more than just a gig for me, even more than I care admit. To me, getting paid to help others succeed is the best value propositions that I have heard. I fundamentally believe the role it plays for anyone to achieve their definition of success and pursue their desirable life. I have no intention to keep my knowledge and experience to myself, or at least, that would be a rather lonely world where I will have to start living in. Hopefully, not too long, you will feel in good hands.\nTrust me, I am, by no means a genius and if I can do it, you can function in data analytics world, as well.\nWelcome to “Data Analytics For Accounting Folks”, we are getting into the mysterious analytics world together, in a very folky way.\n\n\nWhat’s Here for You…\nOn the navigation pane, you will be able to find a selection of topics and sessions that I created and delivered before. I hope you will find something of great interests and values to you.\nIf you like what you see and would like to collaborate on or to ask me to deliver something for you or your community, feel free to reach out through LinkedIn. You can reach me right here from this page through the LinkedIn logo (upper left corner, under the title).",
     "crumbs": [
-      "From One Accountant to Another"
+      "Preface: From One Accountant to Another"
     ]
   },
   {
@@ -624,7 +624,7 @@
     "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "To Do, Before We Start"
     ]
   },
@@ -636,7 +636,7 @@
     "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "To Do, Before We Start"
     ]
   },
@@ -648,7 +648,7 @@
     "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "2. Elevate Accounting with Analytics",
+      "2. Elevate Accounting with Analytics of R",
       "To Do, Before We Start"
     ]
   },
