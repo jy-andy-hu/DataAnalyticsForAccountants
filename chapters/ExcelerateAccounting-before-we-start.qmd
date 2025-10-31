@@ -1,0 +1,33 @@
+---
+title: To-Dos, Before Our Session Begins
+---
+
+## Why Chores Before Our Session Even Begins?
+
+This session is designed to be in seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session. 
+
+***Please ensure all of the setups in the "What Setups Do We Need?" completed before joining the session.***
+
+## What Setups Do We Need? 
+
+1. Personal laptop.
+
+    - Windows OS preferred, as I will be using a Windows laptop for the session.
+
+    - ***Why Personal laptops?***
+      
+      - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
+
+2. Microsoft Excel (Microsoft 365 version) with personal microsoft account signed in.
+
+    - Preferrably desktop app
+    
+    - Alternatively, Excel Online (via Microsoft Account, see "2")
+
+    - ***Why Personal Account?***
+      
+      - Similar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.
+
+On this note, **CONGRATULATIONS! You have successfully finished all the technical setups required for this session!**🎉🎉 
+
+I will look forward to meeting you all soon and walk through this exciting learning journey together!!

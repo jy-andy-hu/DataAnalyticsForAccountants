@@ -13,6 +13,8 @@ project:
     - chapters/Excel-Python-before-we-start.qmd
     - chapters/ExcelAccountingwithR.qmd
     - chapters/ExcelAccountingwithR-before-we-start.qmd
+    - chapters/ExcelerateAccounting.qmd
+    - chapters/ExcelerateAccounting-before-we-start.qmd
     - chapters/InfusePythontoAccounting.qmd
     - chapters/InfusePythontoAccounting-before-we-start.qmd
     - chapters/GAAPforDataVisualization.qmd
@@ -63,25 +65,31 @@ website:
 
       - section: "Topical In-Depth Sessions"
         contents:
-        - section: "1. Excel Accounting with R"
+        - section: '1. Modern "Excel-erated" Accounting'
+          contents: 
+          - text: "Overview"
+            href: chapters/ExcelerateAccounting.qmd
+          - text: "To Do, Before We Start"
+            href: chapters/ExcelerateAccounting-before-we-start.qmd
+        - section: "2. Excel Accounting with R"
           contents: 
           - text: "Overview"
             href: chapters/ExcelAccountingwithR.qmd
           - text: "To Do, Before We Start"
             href: chapters/ExcelAccountingwithR-before-we-start.qmd
-        - section: "2. Elevate Accounting with Analytics of R"
+        - section: "3. Elevate Accounting with Analytics of R"
           contents: 
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-R.qmd
           - text: "To Do, Before We Start"
             href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-        - section: "3. Excel and Python: A Tale of Two Power Tools"
+        - section: "4. Excel and Python: A Tale of Two Power Tools"
           contents:
           - text: "Overview"
             href: chapters/Excel-Python.qmd
           - text: "To Do, Before We Start"
             href: chapters/Excel-Python-before-we-start.qmd
-        - section: "4. Infuse Python to Accounting"
+        - section: "5. Infuse Python to Accounting"
           contents:
           - text: "Overview"
             href: chapters/InfusePythontoAccounting.qmd
@@ -93,7 +101,7 @@ website:
             href: chapters/GAAPforDataVisualization.qmd
           - text: "To Do, Before We Start"
             href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-        - section: "7. Debit Databases, Credit Analytics for Accounting"
+        - section: "7. Debit Databases, Credit Analytics"
           contents:
           - text: "Overview"
             href: chapters/DebitDatabase.qmd

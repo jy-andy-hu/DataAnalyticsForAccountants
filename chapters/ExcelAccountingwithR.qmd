@@ -40,4 +40,4 @@ This course caters to several professionals, including the following groups:
 
 No previous programming knowledge required. This is beginner friendly session.
 
-To fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
+To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.

@@ -6,24 +6,16 @@
 }
 
 /* Active link color and optional left border */
-.sidebar li.active > a {
-  color: #2fa4e7 !important; /* Replace with your desired active color */
-  // border-left: solid 4px #68ace5; /* Optional: vertical line indicator */
+
+.sidebar-item-text.sidebar-link.active {
+  color: #2fa4e7 !important;
+  font-weight: bold;
 }
 
-// .sidebar-item-container.active.sidebar-item-text {
-//   color: #2fa4e7 !important;
-//   border-left: 4px solid #68ace5;
-// }
-
+/* Default section header font */
 .sidebar-item-text.sidebar-link.text-start {
   // font-size: 1.2em; /* Adjust as needed */
   font-weight: bold; /* Or 'normal', 'lighter', etc. */
   // color: #2fa4e7;
   /* Add other styles like color, text-transform, etc. */
 }
-
-//   .sidebar-item-subsection.sidebar-item-text.sidebar-link.text-start {
-//   font-weight: bold;
-//   font-style: italic;
-// }
