@@ -179,7 +179,7 @@
     "href": "chapters/ExcelerateAccounting.html",
     "title": "Modern “Excel-erated” Accounting",
     "section": "",
-    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive a variety of these features together, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
+    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "1. Modern \"Excel-erated\" Accounting",
@@ -191,7 +191,7 @@
     "href": "chapters/ExcelerateAccounting.html#description",
     "title": "Modern “Excel-erated” Accounting",
     "section": "",
-    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive a variety of these features together, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
+    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "1. Modern \"Excel-erated\" Accounting",
@@ -319,8 +319,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python.html",
-    "href": "chapters/Excel-Python.html",
+    "objectID": "chapters/ExcelPython.html",
+    "href": "chapters/ExcelPython.html",
     "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "",
     "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.",
@@ -331,8 +331,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python.html#description",
-    "href": "chapters/Excel-Python.html#description",
+    "objectID": "chapters/ExcelPython.html#description",
+    "href": "chapters/ExcelPython.html#description",
     "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "",
     "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.",
@@ -343,8 +343,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python.html#length",
-    "href": "chapters/Excel-Python.html#length",
+    "objectID": "chapters/ExcelPython.html#length",
+    "href": "chapters/ExcelPython.html#length",
     "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "Length",
     "text": "Length\n8 hours.",
@@ -355,8 +355,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python.html#key-takeaways",
-    "href": "chapters/Excel-Python.html#key-takeaways",
+    "objectID": "chapters/ExcelPython.html#key-takeaways",
+    "href": "chapters/ExcelPython.html#key-takeaways",
     "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "Key Takeaways",
     "text": "Key Takeaways\nUpon completion of this course, you will:\n\nLearn dynamic array functions in Microsoft Excel.\nUtilize dynamic array functions to process, manage, and perform advanced operations on data in Excel.\nExplore Python and its integration with Excel. Discover Python for data analysis and data visualization.\nApply Python in Excel to tackle data processing and data visualization tasks.\nUnderstand the potential, impact and trade-off of using Python in Excel.\nUnderstand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.",
@@ -367,8 +367,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python.html#target-audience",
-    "href": "chapters/Excel-Python.html#target-audience",
+    "objectID": "chapters/ExcelPython.html#target-audience",
+    "href": "chapters/ExcelPython.html#target-audience",
     "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "Target Audience",
     "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their staff begin to utilize these tools in their domain of work.",
@@ -379,8 +379,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python.html#prerequisites",
-    "href": "chapters/Excel-Python.html#prerequisites",
+    "objectID": "chapters/ExcelPython.html#prerequisites",
+    "href": "chapters/ExcelPython.html#prerequisites",
     "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "Prerequisite(s)",
     "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
@@ -725,8 +725,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python-before-we-start.html",
-    "href": "chapters/Excel-Python-before-we-start.html",
+    "objectID": "chapters/ExcelPython-before-we-start.html",
+    "href": "chapters/ExcelPython-before-we-start.html",
     "title": "To-Dos, Before Our Session Begins",
     "section": "",
     "text": "Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.\nThis session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\n\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
@@ -737,8 +737,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/Excel-Python-before-we-start.html#why-chores-before-our-session-even-begins",
+    "objectID": "chapters/ExcelPython-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/ExcelPython-before-we-start.html#why-chores-before-our-session-even-begins",
     "title": "To-Dos, Before Our Session Begins",
     "section": "",
     "text": "Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.\nThis session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\n\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
@@ -749,8 +749,8 @@
     ]
   },
   {
-    "objectID": "chapters/Excel-Python-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/Excel-Python-before-we-start.html#what-setups-do-we-need",
+    "objectID": "chapters/ExcelPython-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/ExcelPython-before-we-start.html#what-setups-do-we-need",
     "title": "To-Dos, Before Our Session Begins",
     "section": "What Setups Do We Need?",
     "text": "What Setups Do We Need?\n\nPersonal laptop.\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see how-to)\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\nAnaconda Code and Anaconda Toolbox with an Anaconda Account signed in (see how-to)\n\nOn this note, CONGRATULATIONS! You have successfully finished all the technical setups required for this session!🎉🎉\nI will look forward to meeting you all soon and walk through this exciting learning journey together!!",

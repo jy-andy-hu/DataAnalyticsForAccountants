@@ -4,7 +4,7 @@ title: 'Modern "Excel-erated" Accounting'
 
 ## Description
 
-Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive a variety of these features together, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.
+Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.
 
 ## Length
 

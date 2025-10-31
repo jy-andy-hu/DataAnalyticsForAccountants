@@ -9,8 +9,8 @@ project:
     - chapters/DebitDatabase-before-we-start.qmd
     - chapters/ElevateAccountingWithAnalytics-R.qmd
     - chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-    - chapters/Excel-Python.qmd
-    - chapters/Excel-Python-before-we-start.qmd
+    - chapters/ExcelPython.qmd
+    - chapters/ExcelPython-before-we-start.qmd
     - chapters/ExcelAccountingwithR.qmd
     - chapters/ExcelAccountingwithR-before-we-start.qmd
     - chapters/ExcelerateAccounting.qmd
@@ -86,9 +86,9 @@ website:
         - section: "4. Excel and Python: A Tale of Two Power Tools"
           contents:
           - text: "Overview"
-            href: chapters/Excel-Python.qmd
+            href: chapters/ExcelPython.qmd
           - text: "To Do, Before We Start"
-            href: chapters/Excel-Python-before-we-start.qmd
+            href: chapters/ExcelPython-before-we-start.qmd
         - section: "5. Infuse Python to Accounting"
           contents:
           - text: "Overview"
