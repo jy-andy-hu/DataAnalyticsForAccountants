@@ -55,410 +55,408 @@
     ]
   },
   {
-    "objectID": "chapters/GAAPforDataVisualization.html",
-    "href": "chapters/GAAPforDataVisualization.html",
-    "title": "“GAPP” for Data Visualization",
+    "objectID": "chapters/ModernDataPlatform.html",
+    "href": "chapters/ModernDataPlatform.html",
+    "title": "Modern Data Platform with Microsoft Fabric",
     "section": "",
-    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.",
+    "text": "Accountants are arguably the most essential force of business intelligence and as such, are very often called upon to “modernize” or “leverage advanced tech”. Feel familiar? However, when it comes to communicate IT departments or AI engineers/data scientists, jargons like “dataOps”, “lakehouse”, “spark cluster” become uncomfortable, alien, and yet unavoidable. This session builds a strong literacy and overcome the discomfort with modern data platform for you. We will use Microsoft Fabric (including Microsoft Power BI) as context. Whether you are leading modernization projects or working side-by-side with specialists/consultants, you can be more knowledgable and effective with your collaboration. If you are comtemplating strategic modernization with analytics/AI, this session can help you with more intentional and rational investing in talents/infrastructure.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "6. \"GAAP\" for Data Visualization",
+      "8. Modern Data Platform",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/GAAPforDataVisualization.html#description",
-    "href": "chapters/GAAPforDataVisualization.html#description",
-    "title": "“GAPP” for Data Visualization",
+    "objectID": "chapters/ModernDataPlatform.html#description",
+    "href": "chapters/ModernDataPlatform.html#description",
+    "title": "Modern Data Platform with Microsoft Fabric",
     "section": "",
-    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.",
+    "text": "Accountants are arguably the most essential force of business intelligence and as such, are very often called upon to “modernize” or “leverage advanced tech”. Feel familiar? However, when it comes to communicate IT departments or AI engineers/data scientists, jargons like “dataOps”, “lakehouse”, “spark cluster” become uncomfortable, alien, and yet unavoidable. This session builds a strong literacy and overcome the discomfort with modern data platform for you. We will use Microsoft Fabric (including Microsoft Power BI) as context. Whether you are leading modernization projects or working side-by-side with specialists/consultants, you can be more knowledgable and effective with your collaboration. If you are comtemplating strategic modernization with analytics/AI, this session can help you with more intentional and rational investing in talents/infrastructure.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "6. \"GAAP\" for Data Visualization",
+      "8. Modern Data Platform",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/GAAPforDataVisualization.html#key-takeaways",
-    "href": "chapters/GAAPforDataVisualization.html#key-takeaways",
-    "title": "“GAPP” for Data Visualization",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will be able to:\n\nUnderstand the basics about R/Python.\nAppreciate main chart types and when to use each chart type\nUnderstand a framework and design thinking for professional data visualization\nUse R/Python to produce a variety of info graphics\nUnderstand the additional design thinking for interactive data visualization (BI) solutions.\nUnderstand pros and cons for a variety of common tools with data visualization capabilities and when to choose each.\nUnderstand current analytics landscape and data technology landscape.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "6. \"GAAP\" for Data Visualization",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/GAAPforDataVisualization.html#target-audience",
-    "href": "chapters/GAAPforDataVisualization.html#target-audience",
-    "title": "“GAPP” for Data Visualization",
-    "section": "Target Audience",
-    "text": "Target Audience\nYou can be:\n\nA student, who considers brushing up data visualization skills, either for academic/research projects or future employment.\nAn analyst or staff accountant, who are recurringly or ad-hoc tasked with creating data info graphics for business intelligence (BI) apps, presentations or publications.\nA manager, who look for inspirations/possibilities to increase team’s data visualization or BI capabilities or who lead others for data visualization assignments or dashboard design projects.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "6. \"GAAP\" for Data Visualization",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/GAAPforDataVisualization.html#prerequisites",
-    "href": "chapters/GAAPforDataVisualization.html#prerequisites",
-    "title": "“GAPP” for Data Visualization",
-    "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with basic concepts of info graphics and have created some info graphics with Microsoft Excel.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "6. \"GAAP\" for Data Visualization",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/InfusePythontoAccounting.html",
-    "href": "chapters/InfusePythontoAccounting.html",
-    "title": "Infuse Python to Accounting",
-    "section": "",
-    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "5. Infuse Python to Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/InfusePythontoAccounting.html#description",
-    "href": "chapters/InfusePythontoAccounting.html#description",
-    "title": "Infuse Python to Accounting",
-    "section": "",
-    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "5. Infuse Python to Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/InfusePythontoAccounting.html#key-takeaways",
-    "href": "chapters/InfusePythontoAccounting.html#key-takeaways",
-    "title": "Infuse Python to Accounting",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to Python: Learn the fundamentals of Python, an open-source general-purposed programming language and how to manage and set up Python environments to be productive.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nData Analytics with Python: Gain skills in designing modules for importing, exporting, processing and visualizing data using Python.\nReport Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "5. Infuse Python to Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/InfusePythontoAccounting.html#target-audience",
-    "href": "chapters/InfusePythontoAccounting.html#target-audience",
-    "title": "Infuse Python to Accounting",
-    "section": "Target Audience",
-    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools. computer\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "5. Infuse Python to Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/InfusePythontoAccounting.html#prerequisites",
-    "href": "chapters/InfusePythontoAccounting.html#prerequisites",
-    "title": "Infuse Python to Accounting",
-    "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\n\nSome basic level of understanding about Python or programming tools such as R and others.\n\nIf you are coming from primarily Excel background and have little experiences in programming-based solutions, please start with “Excel and Python - A Tale of Two Power Tools”. As it transitions you nicely from spreadsheet environment to programming environment.\n\nTo fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "5. Infuse Python to Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelerateAccounting.html",
-    "href": "chapters/ExcelerateAccounting.html",
-    "title": "Modern “Excel-erated” Accounting",
-    "section": "",
-    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "1. Modern \"Excel-erated\" Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelerateAccounting.html#description",
-    "href": "chapters/ExcelerateAccounting.html#description",
-    "title": "Modern “Excel-erated” Accounting",
-    "section": "",
-    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "1. Modern \"Excel-erated\" Accounting",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelerateAccounting.html#length",
-    "href": "chapters/ExcelerateAccounting.html#length",
-    "title": "Modern “Excel-erated” Accounting",
+    "objectID": "chapters/ModernDataPlatform.html#length",
+    "href": "chapters/ModernDataPlatform.html#length",
+    "title": "Modern Data Platform with Microsoft Fabric",
     "section": "Length",
-    "text": "Length\n8 hours.",
+    "text": "Length\n4 hours",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "1. Modern \"Excel-erated\" Accounting",
+      "8. Modern Data Platform",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelerateAccounting.html#key-takeaways",
-    "href": "chapters/ExcelerateAccounting.html#key-takeaways",
-    "title": "Modern “Excel-erated” Accounting",
+    "objectID": "chapters/ModernDataPlatform.html#key-takeaways",
+    "href": "chapters/ModernDataPlatform.html#key-takeaways",
+    "title": "Modern Data Platform with Microsoft Fabric",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will:\n\nDeep dive in dynamic array and dynamic array functions in Microsoft Excel.\nUtilize dynamic array functions to process, manage, and perform advanced operations on data in Excel.\nCreate custom functions to streamline repetitive complex calucaltions in Excel.\nCreate custom calculations for Pivot Table operations.\nExpand data sources options (web sources, PDF, database etc.), with Power Query\nLeverage AI-powered features (Copilot, Image recongition) to dramatically increase productivity in Microsoft Excel.\nUnderstand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.",
+    "text": "Key Takeaways\nUpon completion of this course, you will be able to:\n\nUnderstand key concepts and components of modern analytics workflows annd design patterns.\nUnderstand key concepts and components from data platform and how it supports analytics workflows.\nUnderstand the basic concepts of advanced analytics (e.g. predictive analytics and AIs): how they work at a high level and how they fit into organization data platform\nUnderstand key roles and talent needs to support advanced analytics workflows/applications.\nExplore current analytics landscape and data technology landscape.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "1. Modern \"Excel-erated\" Accounting",
+      "8. Modern Data Platform",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelerateAccounting.html#target-audience",
-    "href": "chapters/ExcelerateAccounting.html#target-audience",
-    "title": "Modern “Excel-erated” Accounting",
+    "objectID": "chapters/ModernDataPlatform.html#target-audience",
+    "href": "chapters/ModernDataPlatform.html#target-audience",
+    "title": "Modern Data Platform with Microsoft Fabric",
     "section": "Target Audience",
-    "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with data wrangling and reporting.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as staff begin to leverage advanced and modern features available in Microsoft Excel.",
+    "text": "Target Audience\nYou can be:\n\nAn analyst or staff accountant, who are modernizing enterprise reporting, plan to build enterprise analytics applications or, collaborate with technical staff/consultants to achieve the same ends.\nA manager, who would like to plan or lead modernization efforts (reporting, analytics, process improvements etc.) more strategically, intentionally and effectively, especially when it comes to collaborating with IT or technical consultants.",
     "crumbs": [
       "Topical In-Depth Sessions",
-      "1. Modern \"Excel-erated\" Accounting",
+      "8. Modern Data Platform",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelerateAccounting.html#prerequisites",
-    "href": "chapters/ExcelerateAccounting.html#prerequisites",
-    "title": "Modern “Excel-erated” Accounting",
+    "objectID": "chapters/ModernDataPlatform.html#prerequisites",
+    "href": "chapters/ModernDataPlatform.html#prerequisites",
+    "title": "Modern Data Platform with Microsoft Fabric",
     "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
+    "text": "Prerequisite(s)\nNo prior experience with programming required. Everyone is welcome to join.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "8. Modern Data Platform",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/InfusePythontoAccounting-before-we-start.html",
+    "href": "chapters/InfusePythontoAccounting-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "5. Infuse Python to Accounting",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/InfusePythontoAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/InfusePythontoAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "5. Infuse Python to Accounting",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/InfusePythontoAccounting-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/InfusePythontoAccounting-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nPython (see Get Started with Python)\nPositron (see Get Started with Positron)\nQuarto (see Get Started with Quarto)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "5. Infuse Python to Accounting",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelerateAccounting-before-we-start.html",
+    "href": "chapters/ExcelerateAccounting-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be in seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "1. Modern \"Excel-erated\" Accounting",
-      "Overview"
+      "To Do, Before We Start"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR.html",
-    "href": "chapters/ExcelAccountingwithR.html",
-    "title": "Excel Accounting with R",
+    "objectID": "chapters/ExcelerateAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/ExcelerateAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
     "section": "",
-    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will explore the powerful, popular open-source analytical solution R and even better, how to integrate R right into your Excel workbooks, inspiring you to enhance your accounting Life. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
+    "text": "This session is designed to be in seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "1. Modern \"Excel-erated\" Accounting",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelerateAccounting-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/ExcelerateAccounting-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in.\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\n\nOn this note, CONGRATULATIONS! You have successfully finished all the technical setups required for this session!🎉🎉\nI will look forward to meeting you all soon and walk through this exciting learning journey together!!",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "1. Modern \"Excel-erated\" Accounting",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelAccountingwithR-before-we-start.html",
+    "href": "chapters/ExcelAccountingwithR-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "2. Excel Accounting with R",
-      "Overview"
+      "To Do, Before We Start"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR.html#description",
-    "href": "chapters/ExcelAccountingwithR.html#description",
-    "title": "Excel Accounting with R",
+    "objectID": "chapters/ExcelAccountingwithR-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/ExcelAccountingwithR-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
     "section": "",
-    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will explore the powerful, popular open-source analytical solution R and even better, how to integrate R right into your Excel workbooks, inspiring you to enhance your accounting Life. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "2. Excel Accounting with R",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelAccountingwithR-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/ExcelAccountingwithR-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see how-to)\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\nAnaconda Code and Anaconda Toolbox with an Anaconda Account signed in (see how-to)\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "2. Excel Accounting with R",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelPython-before-we-start.html",
+    "href": "chapters/ExcelPython-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.\nThis session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\n\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "4. Excel and Python: A Tale of Two Power Tools",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelPython-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/ExcelPython-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.\nThis session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\n\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "4. Excel and Python: A Tale of Two Power Tools",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelPython-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/ExcelPython-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see how-to)\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\nAnaconda Code and Anaconda Toolbox with an Anaconda Account signed in (see how-to)\n\nOn this note, CONGRATULATIONS! You have successfully finished all the technical setups required for this session!🎉🎉\nI will look forward to meeting you all soon and walk through this exciting learning journey together!!",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "4. Excel and Python: A Tale of Two Power Tools",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html",
+    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/DebitDatabase-before-we-start.html",
+    "href": "chapters/DebitDatabase-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "7. Debit Databases, Credit Analytics",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/DebitDatabase-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/DebitDatabase-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "7. Debit Databases, Credit Analytics",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/DebitDatabase-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/DebitDatabase-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the session, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nPostgreSQL server (see Get Started with PostgreSQL)\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "7. Debit Databases, Credit Analytics",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/DataAnalyticsForAccountants-before-we-start.html",
+    "href": "chapters/DataAnalyticsForAccountants-before-we-start.html",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/DataAnalyticsForAccountants-before-we-start.html#why-chores-before-our-session-even-begins",
+    "href": "chapters/DataAnalyticsForAccountants-before-we-start.html#why-chores-before-our-session-even-begins",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "",
+    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "crumbs": [
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "chapters/DataAnalyticsForAccountants-before-we-start.html#what-setups-do-we-need",
+    "href": "chapters/DataAnalyticsForAccountants-before-we-start.html#what-setups-do-we-need",
+    "title": "To-Dos, Before Our Session Begins",
+    "section": "What Setups Do We Need?",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nR/Python setup\n\n\nIf session is offered through R, see Get Started with R\nIf session is offered through Python, see Get Started with Python\n\n\nQuarto (see Get Started with Quarto)\nPostgreSQL server (see Get Started with PostgreSQL)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "crumbs": [
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
+      "To Do, Before We Start"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "From One Accountant to Another",
+    "section": "",
+    "text": "As I am writing this, I have been a CPA for 5 years and almost 10 years since I started working as an accountant. Like many of you, my job is mostly about getting numbers and reports from one side to another, hoping that people can have a more intelligent and productive life about decisions involving lots of dollar signs. I really enjoy playing these roles and I am amazed how good data are changing co-workers’ and management’s work life. For that matter, I want to bring programming literacy and analytical thinking to my fellow accountants so that we can endure the impact of big data and AI much better. Let me share with you a few of my own stories.\n\nHow I Started…\nMy accounting career life isn’t always fulfilling. Also just like many of you, I had many mundane things that no one else wanted to do. Poor data quality, complicated logic, repetitiveness, all trouble my accounting life left and right. I was quite functional with Excel, even praised by my boss and my-workers sometimes, but I still felt pulling my hair off from time to time. Here are a few common examples:\n\nsome elegant and impactful data visualization that can only live as my imagination;\nI could get one Excel workbook done but I need to repeat for 20 other similar Excel workbooks;\ndata are in a database, on a webpage or PDF documents, but I didn’t know how to pull them together. Friends at IT were always busy to save their world already…\n\nIt felt defeating, even maddening sometimes. I wanted to get to the accounting part, and yet, I just couldn’t even activate my accounting skills because the data were just not there. I then began to realize Excel started becoming a bottleneck not a solution, regardless of how everyone else thought I were good with it. I lacked of: a) imagination of what’s possible and b) the actual skillsets to design and implement solutions.\nCourtesy of COVID, when social life was overrated at best, a soul search put me a path to pursue a master degree in management analytics. It was quite some work for an accountant with zero computer science training or programming skills, but it was very much doable and the reward is immense. It provided my ammunition to change my work life. I have the conviction now, that the era where programming should be handled by “IT” or “specialists” is over. Analytics skills are well charted on the wall for accountants’ future. I.e. it will be a literacy requirement.\n\n\nNot Just Staff, Managers, Too…\nLater on, I was pulled into different brainstorming sessions how to modernize workflows and better deliver accounting information. Data lake, OLAP cloud database, data modelling, ETL pipeline, tasks schedulers, Spark, Python/R … they just don’t seem to click well with the champions of the modernization projects. Yet, these concepts play fundamental role in their projects, because even Excel Macros can’t save the day anymore. It then occurred to me that programming enables with me a whole set of literacy and analytical thinking. Managers who never experienced programming or develop analytical thinking will face challenges leading their future workforces, much less leading the change itself.\n\n\nWhat About Generative AI?\nWe can’t ignore the power of Gen AI anymore. ChatGPT, Gemini, Claude… you name it, they are getting very good. Regardless of how good we are at asking, after all, we still don’t know what we don’t know. If Gen AI writes us some codes either error or don’t yield properly, we still need to fix it. We can’t just turn around and say, it’s not my fault, it’s the AI… still nothing gets done. Then what? If anything, I found it combining human knowledge and inspiration from AI is quite powerful sauce. That said, back to square one, we still need to learn some programming.\n\n\nIt’s Still Hard to Start…\nI have talked to many fellow CPAs, and most feel they have no footing in analytics. Why data analytics changed my accounting life but not so much for the others? Why so many businesses or their finance/accounting team struggle to pull off business analytics projects and can’t realize returns on their investment in analytics?\nGood thing you are looking at an accountant, I relate this too well. A lot lie in the lack of technological literacy. Two folds on this:\n\nMost of the accountants are not equipped with data technology/programming at all through their formal edcuation. Analytics by definition involves programmatic processes, so it is hard for us start analytics or to lead modern business intelligence projects. After all, you can’t be blamed for or be comfortable with what you don’t know.\nMost of analytics professionals and educators usually have mastery of their fields, and they cannot properly relate to accounting folks’ learning needs and bridge them over properly. This usually leads to dismay learners.\n\nThis consistent demand and supply awkwardness leaves the CPA community unattended long enough that accountants start feeling “left out”, which is quite unfortunate.\n\n\nMy Final Encouragement to You…\nMy fellow accountants, you have gone through a lot to be come CPAs, so you definitely have the curiosity, intelligence and perseverance for data analytics. You just need a bit of hand-holding and a few leads, especially from one of your own:\n\nto overcome the fear of the unknown - data technologies\nto make that first step to write their first line of codes\nto get their first project done, and eventually,\nto strategize and lead their organizational analytics projects.\n\nI hope to be that person for you, to get you to make that first baby-step. Analytics changed my accounting life, it can change yours, too.\nI have taught in colleges and universities for 6 years and counting. Education is more than just a gig for me, even more than I care admit. To me, getting paid to help others succeed is the best value propositions that I have heard. I fundamentally believe the role it plays for anyone to achieve their definition of success and pursue their desirable life. I have no intention to keep my knowledge and experience to myself, or at least, that would be a rather lonely world where I will have to start living in. Hopefully, not too long, you will feel in good hands.\nTrust me, I am, by no means a genius and if I can do it, you can function in data analytics world, as well.\nWelcome to “Data Analytics For Accounting Folks”, we are getting into the mysterious analytics world together, in a very folky way.\n\n\nWhat’s Here for You…\nOn the navigation pane, you will be able to find a selection of topics and sessions that I created and delivered before. I hope you will find something of great interests and values to you.\nIf you like what you see and would like to collaborate on or to ask me to deliver something for you or your community, feel free to reach out through LinkedIn. You can reach me right here from this page through the LinkedIn logo (upper left corner, under the title).",
+    "crumbs": [
+      "Preface: From One Accountant to Another"
+    ]
+  },
+  {
+    "objectID": "chapters/DataAnalyticsForAccountants.html",
+    "href": "chapters/DataAnalyticsForAccountants.html",
+    "title": "Data Analytics for Accountants",
+    "section": "",
+    "text": "If you have read my voice to you “From One Accoutant to Another”, this flagship course follows the exact spirits and presents as a comprehensive yet beginner-friendly introduction for modern data analytics, designed by accountant, for accountants.\nThis course offers hands-on data analytical experiences to complete a few end-to-end data projects. Together through popular tool stack in R/Python, we will develop high-value skillsets to improve real-life accounting tasks such as professional data visualization, dashboard design, automation, and working with relational databases. We will also cultivate analytics professional mindset. As a bonus, we will explore modern data platforms through Microsoft Fabric and see where AI could take us. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.\n💡If either the time commitment or you would prefer a deep-dive on a specific topic, please head to “in-depth Sessions” section.",
+    "crumbs": [
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR.html#length",
-    "href": "chapters/ExcelAccountingwithR.html#length",
-    "title": "Excel Accounting with R",
+    "objectID": "chapters/DataAnalyticsForAccountants.html#description",
+    "href": "chapters/DataAnalyticsForAccountants.html#description",
+    "title": "Data Analytics for Accountants",
+    "section": "",
+    "text": "If you have read my voice to you “From One Accoutant to Another”, this flagship course follows the exact spirits and presents as a comprehensive yet beginner-friendly introduction for modern data analytics, designed by accountant, for accountants.\nThis course offers hands-on data analytical experiences to complete a few end-to-end data projects. Together through popular tool stack in R/Python, we will develop high-value skillsets to improve real-life accounting tasks such as professional data visualization, dashboard design, automation, and working with relational databases. We will also cultivate analytics professional mindset. As a bonus, we will explore modern data platforms through Microsoft Fabric and see where AI could take us. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.\n💡If either the time commitment or you would prefer a deep-dive on a specific topic, please head to “in-depth Sessions” section.",
+    "crumbs": [
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/DataAnalyticsForAccountants.html#length",
+    "href": "chapters/DataAnalyticsForAccountants.html#length",
+    "title": "Data Analytics for Accountants",
     "section": "Length",
-    "text": "Length\n8 hours.",
+    "text": "Length\nR: 24 hours.\nPython: 26 hours.",
     "crumbs": [
-      "Topical In-Depth Sessions",
-      "2. Excel Accounting with R",
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR.html#key-takeaways",
-    "href": "chapters/ExcelAccountingwithR.html#key-takeaways",
-    "title": "Excel Accounting with R",
+    "objectID": "chapters/DataAnalyticsForAccountants.html#key-takeaways",
+    "href": "chapters/DataAnalyticsForAccountants.html#key-takeaways",
+    "title": "Data Analytics for Accountants",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nSuper charge Excel with R: How to create and run R programs in Excel workbooks and supercharge your Excel productivity.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nAdvanced Data Visualization Techniques: Discover how to create impactful visualizations with R.\nAutomate Reporting with R: Build a practical department distribution workflows with R.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
+    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R/Python, and how to productively set up the powerful open-source tools for projects\n\nUsing R/Python to conduct data processing and create desired data outputs\nUnderstanding a framework and design thinking for professional data visualization\nIntroduction to relational databases, SQL and server-client computing\nDevelopment and application of analytics engineering mindset\nUnderstanding key components to modecrn data platform through one of the most popular option, Microsoft Fabric\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing and impact of AI.",
     "crumbs": [
-      "Topical In-Depth Sessions",
-      "2. Excel Accounting with R",
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR.html#target-audience",
-    "href": "chapters/ExcelAccountingwithR.html#target-audience",
-    "title": "Excel Accounting with R",
+    "objectID": "chapters/DataAnalyticsForAccountants.html#target-audience",
+    "href": "chapters/DataAnalyticsForAccountants.html#target-audience",
+    "title": "Data Analytics for Accountants",
     "section": "Target Audience",
-    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
+    "text": "Target Audience\nThis course appeals to several demographics:\n\nAnalysts, especially who\n\nhave access to detailed data through databases and seek opportunities to improve work life through automation\nadvance skills in or pivot toward data analytics speace;\n\nManagers, especially who\n\nseek inspirations to improve team’s productivity with limited budget,\nwant to stay relevant with staff who possess analytics skillsets, or\nlead modernization projects with analytics",
     "crumbs": [
-      "Topical In-Depth Sessions",
-      "2. Excel Accounting with R",
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR.html#prerequisites",
-    "href": "chapters/ExcelAccountingwithR.html#prerequisites",
-    "title": "Excel Accounting with R",
+    "objectID": "chapters/DataAnalyticsForAccountants.html#prerequisites",
+    "href": "chapters/DataAnalyticsForAccountants.html#prerequisites",
+    "title": "Data Analytics for Accountants",
     "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
+    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
     "crumbs": [
-      "Topical In-Depth Sessions",
-      "2. Excel Accounting with R",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython.html",
-    "href": "chapters/ExcelPython.html",
-    "title": "Excel and Python: A Tale of Two Power Tools",
-    "section": "",
-    "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "4. Excel and Python: A Tale of Two Power Tools",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython.html#description",
-    "href": "chapters/ExcelPython.html#description",
-    "title": "Excel and Python: A Tale of Two Power Tools",
-    "section": "",
-    "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "4. Excel and Python: A Tale of Two Power Tools",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython.html#length",
-    "href": "chapters/ExcelPython.html#length",
-    "title": "Excel and Python: A Tale of Two Power Tools",
-    "section": "Length",
-    "text": "Length\n8 hours.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "4. Excel and Python: A Tale of Two Power Tools",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython.html#key-takeaways",
-    "href": "chapters/ExcelPython.html#key-takeaways",
-    "title": "Excel and Python: A Tale of Two Power Tools",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will:\n\nLearn dynamic array functions in Microsoft Excel.\nUtilize dynamic array functions to process, manage, and perform advanced operations on data in Excel.\nExplore Python and its integration with Excel. Discover Python for data analysis and data visualization.\nApply Python in Excel to tackle data processing and data visualization tasks.\nUnderstand the potential, impact and trade-off of using Python in Excel.\nUnderstand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "4. Excel and Python: A Tale of Two Power Tools",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython.html#target-audience",
-    "href": "chapters/ExcelPython.html#target-audience",
-    "title": "Excel and Python: A Tale of Two Power Tools",
-    "section": "Target Audience",
-    "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their staff begin to utilize these tools in their domain of work.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "4. Excel and Python: A Tale of Two Power Tools",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython.html#prerequisites",
-    "href": "chapters/ExcelPython.html#prerequisites",
-    "title": "Excel and Python: A Tale of Two Power Tools",
-    "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "4. Excel and Python: A Tale of Two Power Tools",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html",
-    "href": "chapters/ElevateAccountingWithAnalytics-R.html",
-    "title": "Elevate Accounting with Analytics of R",
-    "section": "",
-    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#description",
-    "href": "chapters/ElevateAccountingWithAnalytics-R.html#description",
-    "title": "Elevate Accounting with Analytics of R",
-    "section": "",
-    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#length",
-    "href": "chapters/ElevateAccountingWithAnalytics-R.html#length",
-    "title": "Elevate Accounting with Analytics of R",
-    "section": "Length",
-    "text": "Length\n8 hours.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#key-takeaways",
-    "href": "chapters/ElevateAccountingWithAnalytics-R.html#key-takeaways",
-    "title": "Elevate Accounting with Analytics of R",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nAutomate Reporting with R: Build a practical department distribution workflows with R.\nAdvanced Data Visualization Techniques: Discover how to create impactful visualizations with R.\nProfessional and Versatile Publishing: Learn to build and publish professional reports of various file formats (webpage/html, PDF, PowerPoint, Word) effectively.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#target-audience",
-    "href": "chapters/ElevateAccountingWithAnalytics-R.html#target-audience",
-    "title": "Elevate Accounting with Analytics of R",
-    "section": "Target Audience",
-    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#prerequisites",
-    "href": "chapters/ElevateAccountingWithAnalytics-R.html#prerequisites",
-    "title": "Elevate Accounting with Analytics of R",
-    "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nIf you have never had programming experience before, it is highly recommended to take Excel Accounting with R first.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
+      "Comprehensive Session",
+      "Data Analytics for Accountants",
       "Overview"
     ]
   },
@@ -535,337 +533,411 @@
     ]
   },
   {
-    "objectID": "chapters/DataAnalyticsForAccountants.html",
-    "href": "chapters/DataAnalyticsForAccountants.html",
-    "title": "Data Analytics for Accountants",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html",
+    "title": "Elevate Accounting with Analytics of R",
     "section": "",
-    "text": "If you have read my voice to you “From One Accoutant to Another”, this flagship course follows the exact spirits and presents as a comprehensive yet beginner-friendly introduction for modern data analytics, designed by accountant, for accountants.\nThis course offers hands-on data analytical experiences to complete a few end-to-end data projects. Together through popular tool stack in R/Python, we will develop high-value skillsets to improve real-life accounting tasks such as professional data visualization, dashboard design, automation, and working with relational databases. We will also cultivate analytics professional mindset. As a bonus, we will explore modern data platforms through Microsoft Fabric and see where AI could take us. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.\n💡If either the time commitment or you would prefer a deep-dive on a specific topic, please head to “in-depth Sessions” section.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/DataAnalyticsForAccountants.html#description",
-    "href": "chapters/DataAnalyticsForAccountants.html#description",
-    "title": "Data Analytics for Accountants",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#description",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#description",
+    "title": "Elevate Accounting with Analytics of R",
     "section": "",
-    "text": "If you have read my voice to you “From One Accoutant to Another”, this flagship course follows the exact spirits and presents as a comprehensive yet beginner-friendly introduction for modern data analytics, designed by accountant, for accountants.\nThis course offers hands-on data analytical experiences to complete a few end-to-end data projects. Together through popular tool stack in R/Python, we will develop high-value skillsets to improve real-life accounting tasks such as professional data visualization, dashboard design, automation, and working with relational databases. We will also cultivate analytics professional mindset. As a bonus, we will explore modern data platforms through Microsoft Fabric and see where AI could take us. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.\n💡If either the time commitment or you would prefer a deep-dive on a specific topic, please head to “in-depth Sessions” section.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/DataAnalyticsForAccountants.html#length",
-    "href": "chapters/DataAnalyticsForAccountants.html#length",
-    "title": "Data Analytics for Accountants",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#length",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#length",
+    "title": "Elevate Accounting with Analytics of R",
     "section": "Length",
-    "text": "Length\nR: 24 hours.\nPython: 26 hours.",
+    "text": "Length\n8 hours.",
     "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/DataAnalyticsForAccountants.html#key-takeaways",
-    "href": "chapters/DataAnalyticsForAccountants.html#key-takeaways",
-    "title": "Data Analytics for Accountants",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#key-takeaways",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#key-takeaways",
+    "title": "Elevate Accounting with Analytics of R",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R/Python, and how to productively set up the powerful open-source tools for projects\n\nUsing R/Python to conduct data processing and create desired data outputs\nUnderstanding a framework and design thinking for professional data visualization\nIntroduction to relational databases, SQL and server-client computing\nDevelopment and application of analytics engineering mindset\nUnderstanding key components to modecrn data platform through one of the most popular option, Microsoft Fabric\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing and impact of AI.",
+    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nAutomate Reporting with R: Build a practical department distribution workflows with R.\nAdvanced Data Visualization Techniques: Discover how to create impactful visualizations with R.\nProfessional and Versatile Publishing: Learn to build and publish professional reports of various file formats (webpage/html, PDF, PowerPoint, Word) effectively.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/DataAnalyticsForAccountants.html#target-audience",
-    "href": "chapters/DataAnalyticsForAccountants.html#target-audience",
-    "title": "Data Analytics for Accountants",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#target-audience",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#target-audience",
+    "title": "Elevate Accounting with Analytics of R",
     "section": "Target Audience",
-    "text": "Target Audience\nThis course appeals to several demographics:\n\nAnalysts, especially who\n\nhave access to detailed data through databases and seek opportunities to improve work life through automation\nadvance skills in or pivot toward data analytics speace;\n\nManagers, especially who\n\nseek inspirations to improve team’s productivity with limited budget,\nwant to stay relevant with staff who possess analytics skillsets, or\nlead modernization projects with analytics",
+    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
     "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
   {
-    "objectID": "chapters/DataAnalyticsForAccountants.html#prerequisites",
-    "href": "chapters/DataAnalyticsForAccountants.html#prerequisites",
-    "title": "Data Analytics for Accountants",
+    "objectID": "chapters/ElevateAccountingWithAnalytics-R.html#prerequisites",
+    "href": "chapters/ElevateAccountingWithAnalytics-R.html#prerequisites",
+    "title": "Elevate Accounting with Analytics of R",
     "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
+    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nIf you have never had programming experience before, it is highly recommended to take Excel Accounting with R first.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
     "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
+      "Topical In-Depth Sessions",
+      "3. Elevate Accounting with Analytics of R",
       "Overview"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "From One Accountant to Another",
+    "objectID": "chapters/ExcelPython.html",
+    "href": "chapters/ExcelPython.html",
+    "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "",
-    "text": "As I am writing this, I have been a CPA for 5 years and almost 10 years since I started working as an accountant. Like many of you, my job is mostly about getting numbers and reports from one side to another, hoping that people can have a more intelligent and productive life about decisions involving lots of dollar signs. I really enjoy playing these roles and I am amazed how good data are changing co-workers’ and management’s work life. For that matter, I want to bring programming literacy and analytical thinking to my fellow accountants so that we can endure the impact of big data and AI much better. Let me share with you a few of my own stories.\n\nHow I Started…\nMy accounting career life isn’t always fulfilling. Also just like many of you, I had many mundane things that no one else wanted to do. Poor data quality, complicated logic, repetitiveness, all trouble my accounting life left and right. I was quite functional with Excel, even praised by my boss and my-workers sometimes, but I still felt pulling my hair off from time to time. Here are a few common examples:\n\nsome elegant and impactful data visualization that can only live as my imagination;\nI could get one Excel workbook done but I need to repeat for 20 other similar Excel workbooks;\ndata are in a database, on a webpage or PDF documents, but I didn’t know how to pull them together. Friends at IT were always busy to save their world already…\n\nIt felt defeating, even maddening sometimes. I wanted to get to the accounting part, and yet, I just couldn’t even activate my accounting skills because the data were just not there. I then began to realize Excel started becoming a bottleneck not a solution, regardless of how everyone else thought I were good with it. I lacked of: a) imagination of what’s possible and b) the actual skillsets to design and implement solutions.\nCourtesy of COVID, when social life was overrated at best, a soul search put me a path to pursue a master degree in management analytics. It was quite some work for an accountant with zero computer science training or programming skills, but it was very much doable and the reward is immense. It provided my ammunition to change my work life. I have the conviction now, that the era where programming should be handled by “IT” or “specialists” is over. Analytics skills are well charted on the wall for accountants’ future. I.e. it will be a literacy requirement.\n\n\nNot Just Staff, Managers, Too…\nLater on, I was pulled into different brainstorming sessions how to modernize workflows and better deliver accounting information. Data lake, OLAP cloud database, data modelling, ETL pipeline, tasks schedulers, Spark, Python/R … they just don’t seem to click well with the champions of the modernization projects. Yet, these concepts play fundamental role in their projects, because even Excel Macros can’t save the day anymore. It then occurred to me that programming enables with me a whole set of literacy and analytical thinking. Managers who never experienced programming or develop analytical thinking will face challenges leading their future workforces, much less leading the change itself.\n\n\nWhat About Generative AI?\nWe can’t ignore the power of Gen AI anymore. ChatGPT, Gemini, Claude… you name it, they are getting very good. Regardless of how good we are at asking, after all, we still don’t know what we don’t know. If Gen AI writes us some codes either error or don’t yield properly, we still need to fix it. We can’t just turn around and say, it’s not my fault, it’s the AI… still nothing gets done. Then what? If anything, I found it combining human knowledge and inspiration from AI is quite powerful sauce. That said, back to square one, we still need to learn some programming.\n\n\nIt’s Still Hard to Start…\nI have talked to many fellow CPAs, and most feel they have no footing in analytics. Why data analytics changed my accounting life but not so much for the others? Why so many businesses or their finance/accounting team struggle to pull off business analytics projects and can’t realize returns on their investment in analytics?\nGood thing you are looking at an accountant, I relate this too well. A lot lie in the lack of technological literacy. Two folds on this:\n\nMost of the accountants are not equipped with data technology/programming at all through their formal edcuation. Analytics by definition involves programmatic processes, so it is hard for us start analytics or to lead modern business intelligence projects. After all, you can’t be blamed for or be comfortable with what you don’t know.\nMost of analytics professionals and educators usually have mastery of their fields, and they cannot properly relate to accounting folks’ learning needs and bridge them over properly. This usually leads to dismay learners.\n\nThis consistent demand and supply awkwardness leaves the CPA community unattended long enough that accountants start feeling “left out”, which is quite unfortunate.\n\n\nMy Final Encouragement to You…\nMy fellow accountants, you have gone through a lot to be come CPAs, so you definitely have the curiosity, intelligence and perseverance for data analytics. You just need a bit of hand-holding and a few leads, especially from one of your own:\n\nto overcome the fear of the unknown - data technologies\nto make that first step to write their first line of codes\nto get their first project done, and eventually,\nto strategize and lead their organizational analytics projects.\n\nI hope to be that person for you, to get you to make that first baby-step. Analytics changed my accounting life, it can change yours, too.\nI have taught in colleges and universities for 6 years and counting. Education is more than just a gig for me, even more than I care admit. To me, getting paid to help others succeed is the best value propositions that I have heard. I fundamentally believe the role it plays for anyone to achieve their definition of success and pursue their desirable life. I have no intention to keep my knowledge and experience to myself, or at least, that would be a rather lonely world where I will have to start living in. Hopefully, not too long, you will feel in good hands.\nTrust me, I am, by no means a genius and if I can do it, you can function in data analytics world, as well.\nWelcome to “Data Analytics For Accounting Folks”, we are getting into the mysterious analytics world together, in a very folky way.\n\n\nWhat’s Here for You…\nOn the navigation pane, you will be able to find a selection of topics and sessions that I created and delivered before. I hope you will find something of great interests and values to you.\nIf you like what you see and would like to collaborate on or to ask me to deliver something for you or your community, feel free to reach out through LinkedIn. You can reach me right here from this page through the LinkedIn logo (upper left corner, under the title).",
-    "crumbs": [
-      "Preface: From One Accountant to Another"
-    ]
-  },
-  {
-    "objectID": "chapters/DataAnalyticsForAccountants-before-we-start.html",
-    "href": "chapters/DataAnalyticsForAccountants-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
-    "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/DataAnalyticsForAccountants-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/DataAnalyticsForAccountants-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
-    "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/DataAnalyticsForAccountants-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/DataAnalyticsForAccountants-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nR/Python setup\n\n\nIf session is offered through R, see Get Started with R\nIf session is offered through Python, see Get Started with Python\n\n\nQuarto (see Get Started with Quarto)\nPostgreSQL server (see Get Started with PostgreSQL)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
-    "crumbs": [
-      "Comprehensive Session",
-      "Data Analytics for Accountants",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/DebitDatabase-before-we-start.html",
-    "href": "chapters/DebitDatabase-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "7. Debit Databases, Credit Analytics",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/DebitDatabase-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/DebitDatabase-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "7. Debit Databases, Credit Analytics",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/DebitDatabase-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/DebitDatabase-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the session, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nPostgreSQL server (see Get Started with PostgreSQL)\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "7. Debit Databases, Credit Analytics",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html",
-    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/ElevateAccountingWithAnalytics-R-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
-    "crumbs": [
-      "Topical In-Depth Sessions",
-      "3. Elevate Accounting with Analytics of R",
-      "To Do, Before We Start"
-    ]
-  },
-  {
-    "objectID": "chapters/ExcelPython-before-we-start.html",
-    "href": "chapters/ExcelPython-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "",
-    "text": "Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.\nThis session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\n\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "4. Excel and Python: A Tale of Two Power Tools",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelPython-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/ExcelPython-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/ExcelPython.html#description",
+    "href": "chapters/ExcelPython.html#description",
+    "title": "Excel and Python: A Tale of Two Power Tools",
     "section": "",
-    "text": "Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.\nThis session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\n\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel’s dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "4. Excel and Python: A Tale of Two Power Tools",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelPython-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/ExcelPython-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see how-to)\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\nAnaconda Code and Anaconda Toolbox with an Anaconda Account signed in (see how-to)\n\nOn this note, CONGRATULATIONS! You have successfully finished all the technical setups required for this session!🎉🎉\nI will look forward to meeting you all soon and walk through this exciting learning journey together!!",
+    "objectID": "chapters/ExcelPython.html#length",
+    "href": "chapters/ExcelPython.html#length",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Length",
+    "text": "Length\n8 hours.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "4. Excel and Python: A Tale of Two Power Tools",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR-before-we-start.html",
-    "href": "chapters/ExcelAccountingwithR-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/ExcelPython.html#key-takeaways",
+    "href": "chapters/ExcelPython.html#key-takeaways",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will:\n\nLearn dynamic array functions in Microsoft Excel.\nUtilize dynamic array functions to process, manage, and perform advanced operations on data in Excel.\nExplore Python and its integration with Excel. Discover Python for data analysis and data visualization.\nApply Python in Excel to tackle data processing and data visualization tasks.\nUnderstand the potential, impact and trade-off of using Python in Excel.\nUnderstand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "4. Excel and Python: A Tale of Two Power Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelPython.html#target-audience",
+    "href": "chapters/ExcelPython.html#target-audience",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with generating accounting reports or visualizations for recurring or ad-hoc analysis.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as their staff begin to utilize these tools in their domain of work.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "4. Excel and Python: A Tale of Two Power Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelPython.html#prerequisites",
+    "href": "chapters/ExcelPython.html#prerequisites",
+    "title": "Excel and Python: A Tale of Two Power Tools",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "4. Excel and Python: A Tale of Two Power Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelAccountingwithR.html",
+    "href": "chapters/ExcelAccountingwithR.html",
+    "title": "Excel Accounting with R",
     "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will explore the powerful, popular open-source analytical solution R and even better, how to integrate R right into your Excel workbooks, inspiring you to enhance your accounting Life. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "2. Excel Accounting with R",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/ExcelAccountingwithR-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/ExcelAccountingwithR.html#description",
+    "href": "chapters/ExcelAccountingwithR.html#description",
+    "title": "Excel Accounting with R",
     "section": "",
-    "text": "This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will explore the powerful, popular open-source analytical solution R and even better, how to integrate R right into your Excel workbooks, inspiring you to enhance your accounting Life. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "2. Excel Accounting with R",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelAccountingwithR-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/ExcelAccountingwithR-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the sessio, but macOS should also have no problem.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see how-to)\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\nAnaconda Code and Anaconda Toolbox with an Anaconda Account signed in (see how-to)\nR (see Get Started with R)\nPositron (see Get Started with Positron)\n\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "objectID": "chapters/ExcelAccountingwithR.html#length",
+    "href": "chapters/ExcelAccountingwithR.html#length",
+    "title": "Excel Accounting with R",
+    "section": "Length",
+    "text": "Length\n8 hours.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "2. Excel Accounting with R",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelerateAccounting-before-we-start.html",
-    "href": "chapters/ExcelerateAccounting-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/ExcelAccountingwithR.html#key-takeaways",
+    "href": "chapters/ExcelAccountingwithR.html#key-takeaways",
+    "title": "Excel Accounting with R",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners.\nSuper charge Excel with R: How to create and run R programs in Excel workbooks and supercharge your Excel productivity.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nAdvanced Data Visualization Techniques: Discover how to create impactful visualizations with R.\nAutomate Reporting with R: Build a practical department distribution workflows with R.\nData Management with R: Gain skills in importing, exporting, and processing data using R.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "2. Excel Accounting with R",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelAccountingwithR.html#target-audience",
+    "href": "chapters/ExcelAccountingwithR.html#target-audience",
+    "title": "Excel Accounting with R",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools.\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "2. Excel Accounting with R",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelAccountingwithR.html#prerequisites",
+    "href": "chapters/ExcelAccountingwithR.html#prerequisites",
+    "title": "Excel Accounting with R",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "2. Excel Accounting with R",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelerateAccounting.html",
+    "href": "chapters/ExcelerateAccounting.html",
+    "title": "Modern “Excel-erated” Accounting",
     "section": "",
-    "text": "This session is designed to be in seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "1. Modern \"Excel-erated\" Accounting",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelerateAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/ExcelerateAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/ExcelerateAccounting.html#description",
+    "href": "chapters/ExcelerateAccounting.html#description",
+    "title": "Modern “Excel-erated” Accounting",
     "section": "",
-    "text": "This session is designed to be in seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "1. Modern \"Excel-erated\" Accounting",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/ExcelerateAccounting-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/ExcelerateAccounting-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\nMicrosoft Excel (Microsoft 365 version) with personal microsoft account signed in.\n\nPreferrably desktop app\nAlternatively, Excel Online (via Microsoft Account, see “2”)\nWhy Personal Account?\n\nSimilar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.\n\n\n\nOn this note, CONGRATULATIONS! You have successfully finished all the technical setups required for this session!🎉🎉\nI will look forward to meeting you all soon and walk through this exciting learning journey together!!",
+    "objectID": "chapters/ExcelerateAccounting.html#length",
+    "href": "chapters/ExcelerateAccounting.html#length",
+    "title": "Modern “Excel-erated” Accounting",
+    "section": "Length",
+    "text": "Length\n8 hours.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "1. Modern \"Excel-erated\" Accounting",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/InfusePythontoAccounting-before-we-start.html",
-    "href": "chapters/InfusePythontoAccounting-before-we-start.html",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/ExcelerateAccounting.html#key-takeaways",
+    "href": "chapters/ExcelerateAccounting.html#key-takeaways",
+    "title": "Modern “Excel-erated” Accounting",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will:\n\nDeep dive in dynamic array and dynamic array functions in Microsoft Excel.\nUtilize dynamic array functions to process, manage, and perform advanced operations on data in Excel.\nCreate custom functions to streamline repetitive complex calucaltions in Excel.\nCreate custom calculations for Pivot Table operations.\nExpand data sources options (web sources, PDF, database etc.), with Power Query\nLeverage AI-powered features (Copilot, Image recongition) to dramatically increase productivity in Microsoft Excel.\nUnderstand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "1. Modern \"Excel-erated\" Accounting",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelerateAccounting.html#target-audience",
+    "href": "chapters/ExcelerateAccounting.html#target-audience",
+    "title": "Modern “Excel-erated” Accounting",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis seminar will benefit the following groups:\n\nAnalyst(s) who works with detailed data and is frequently tasked with data wrangling and reporting.\nManager(s) who seeks inspiration and opportunities to increase their team’s reporting productivity with Microsoft Excel, or who aims to enhance their knowledge and literacy to navigate change management as staff begin to leverage advanced and modern features available in Microsoft Excel.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "1. Modern \"Excel-erated\" Accounting",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/ExcelerateAccounting.html#prerequisites",
+    "href": "chapters/ExcelerateAccounting.html#prerequisites",
+    "title": "Modern “Excel-erated” Accounting",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "1. Modern \"Excel-erated\" Accounting",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/InfusePythontoAccounting.html",
+    "href": "chapters/InfusePythontoAccounting.html",
+    "title": "Infuse Python to Accounting",
     "section": "",
-    "text": "This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "5. Infuse Python to Accounting",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/InfusePythontoAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
-    "href": "chapters/InfusePythontoAccounting-before-we-start.html#why-chores-before-our-session-even-begins",
-    "title": "To-Dos, Before Our Session Begins",
+    "objectID": "chapters/InfusePythontoAccounting.html#description",
+    "href": "chapters/InfusePythontoAccounting.html#description",
+    "title": "Infuse Python to Accounting",
     "section": "",
-    "text": "This session is designed to be intermediate level environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.\nPlease ensure all setups in the “What Setups Do We Need?” completed before joining the session.",
+    "text": "This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will transform a dataset into a professional report using open-source solutions: Python and Quarto, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, and how accountants can capitalize on these trends. This course is designed for those who have basic level of knowledge about Python or other syntax-driven analytical tools such as R and others.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "5. Infuse Python to Accounting",
-      "To Do, Before We Start"
+      "Overview"
     ]
   },
   {
-    "objectID": "chapters/InfusePythontoAccounting-before-we-start.html#what-setups-do-we-need",
-    "href": "chapters/InfusePythontoAccounting-before-we-start.html#what-setups-do-we-need",
-    "title": "To-Dos, Before Our Session Begins",
-    "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS preferred, as I will be using a Windows laptop for the session.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.\n\n\n\nPython (see Get Started with Python)\nPositron (see Get Started with Positron)\nQuarto (see Get Started with Quarto)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "objectID": "chapters/InfusePythontoAccounting.html#key-takeaways",
+    "href": "chapters/InfusePythontoAccounting.html#key-takeaways",
+    "title": "Infuse Python to Accounting",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will understand:\n\nIntroduction to Python: Learn the fundamentals of Python, an open-source general-purposed programming language and how to manage and set up Python environments to be productive.\nAdopting an Analytics Mindset: Explore essential concepts and key components of successful analytics projects.\nData Analytics with Python: Gain skills in designing modules for importing, exporting, processing and visualizing data using Python.\nReport Creation with Quarto: Learn to build and publish professional reports of various file formats (webpage/html, PDF) effectively.\nNavigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.",
     "crumbs": [
       "Topical In-Depth Sessions",
       "5. Infuse Python to Accounting",
-      "To Do, Before We Start"
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/InfusePythontoAccounting.html#target-audience",
+    "href": "chapters/InfusePythontoAccounting.html#target-audience",
+    "title": "Infuse Python to Accounting",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis course caters to several professionals, including the following groups:\n\nAnalysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools. computer\nManagers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "5. Infuse Python to Accounting",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/InfusePythontoAccounting.html#prerequisites",
+    "href": "chapters/InfusePythontoAccounting.html#prerequisites",
+    "title": "Infuse Python to Accounting",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\n\nSome basic level of understanding about Python or programming tools such as R and others.\n\nIf you are coming from primarily Excel background and have little experiences in programming-based solutions, please start with “Excel and Python - A Tale of Two Power Tools”. As it transitions you nicely from spreadsheet environment to programming environment.\n\nTo fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "5. Infuse Python to Accounting",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/GAAPforDataVisualization.html",
+    "href": "chapters/GAAPforDataVisualization.html",
+    "title": "“GAPP” for Data Visualization",
+    "section": "",
+    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "6. \"GAAP\" for Data Visualization",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/GAAPforDataVisualization.html#description",
+    "href": "chapters/GAAPforDataVisualization.html#description",
+    "title": "“GAPP” for Data Visualization",
+    "section": "",
+    "text": "As an accountant, GAAP fundamentally guides us working with transactions and money. It’s almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is “GAAP” for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "6. \"GAAP\" for Data Visualization",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/GAAPforDataVisualization.html#key-takeaways",
+    "href": "chapters/GAAPforDataVisualization.html#key-takeaways",
+    "title": "“GAPP” for Data Visualization",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nUpon completion of this course, you will be able to:\n\nUnderstand the basics about R/Python.\nAppreciate main chart types and when to use each chart type\nUnderstand a framework and design thinking for professional data visualization\nUse R/Python to produce a variety of info graphics\nUnderstand the additional design thinking for interactive data visualization (BI) solutions.\nUnderstand pros and cons for a variety of common tools with data visualization capabilities and when to choose each.\nUnderstand current analytics landscape and data technology landscape.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "6. \"GAAP\" for Data Visualization",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/GAAPforDataVisualization.html#target-audience",
+    "href": "chapters/GAAPforDataVisualization.html#target-audience",
+    "title": "“GAPP” for Data Visualization",
+    "section": "Target Audience",
+    "text": "Target Audience\nYou can be:\n\nA student, who considers brushing up data visualization skills, either for academic/research projects or future employment.\nAn analyst or staff accountant, who are recurringly or ad-hoc tasked with creating data info graphics for business intelligence (BI) apps, presentations or publications.\nA manager, who look for inspirations/possibilities to increase team’s data visualization or BI capabilities or who lead others for data visualization assignments or dashboard design projects.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "6. \"GAAP\" for Data Visualization",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/GAAPforDataVisualization.html#prerequisites",
+    "href": "chapters/GAAPforDataVisualization.html#prerequisites",
+    "title": "“GAPP” for Data Visualization",
+    "section": "Prerequisite(s)",
+    "text": "Prerequisite(s)\nNo previous programming knowledge required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with basic concepts of info graphics and have created some info graphics with Microsoft Excel.",
+    "crumbs": [
+      "Topical In-Depth Sessions",
+      "6. \"GAAP\" for Data Visualization",
+      "Overview"
     ]
   },
   {

@@ -18,6 +18,7 @@ project:
     - chapters/InfusePythontoAccounting.qmd
     - chapters/InfusePythontoAccounting-before-we-start.qmd
     - chapters/GAAPforDataVisualization.qmd
+    - chapters/ModernDataPlatform.qmd
     - chapters/Setup-anacondacode.qmd
     - chapters/Setup-postgreSQL.qmd
     - chapters/Setup-python.qmd
@@ -107,10 +108,10 @@ website:
             href: chapters/DebitDatabase.qmd
           - text: "To Do, Before We Start"
             href: chapters/DebitDatabase-before-we-start.qmd
-        - section: '8. "GAAP" for Data Visualization'
+        - section: '8. Modern Data Platform'
           contents:
           - text: "Overview"
-            href: chapters/GAAPforDataVisualization.qmd
+            href: chapters/ModernDataPlatform.qmd
 
 
       - section: "Detailed Setup Guides"

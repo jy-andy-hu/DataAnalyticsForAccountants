@@ -32,6 +32,6 @@ computer
 
 - Some basic level of understanding about Python or programming tools such as R and others. 
 
-  - If you are coming from primarily Excel background and have little experiences in programming-based solutions, please start with ["Excel and Python - A Tale of Two Power Tools"](/chapters/Excel-Python.qmd). As it transitions you nicely from spreadsheet environment to programming environment.
+  - If you are coming from primarily Excel background and have little experiences in programming-based solutions, please start with ["Excel and Python - A Tale of Two Power Tools"](ExcelPython.qmd). As it transitions you nicely from spreadsheet environment to programming environment.
 
 - To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
