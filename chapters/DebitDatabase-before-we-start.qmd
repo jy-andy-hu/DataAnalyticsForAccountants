@@ -16,7 +16,7 @@ This session is designed to be a beginner friendly environment in live seminar/l
 
   - ***Why Personal laptops?***
     
-    - Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.
+    - Company-managed laptops tend to have restrictive IT policies that tend to prohibit us from installing the tools as we need.
 
 2. PostgreSQL server (see [Get Started with PostgreSQL](Setup-postgreSQL.qmd))
 

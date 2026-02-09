@@ -1,0 +1,38 @@
+---
+title: Modern Data Platform with Microsoft Fabric
+subtitle: Overview
+---
+
+## Description
+
+Accountants are arguably the most essential force of business intelligence and as such, are very often called upon to "modernize" or "leverage advanced tech". Feel familiar? However, when it comes to communicate IT departments or AI engineers/data scientists, jargons like "dataOps", "lakehouse", "spark cluster" become uncomfortable, alien, and yet unavoidable. This session builds a strong literacy and overcome the discomfort with modern data platform for you. We will use **Microsoft Fabric (including Microsoft Power BI)** as context. Whether you are leading modernization projects or working side-by-side with specialists/consultants, you can be more knowledgable and effective with your collaboration. If you are comtemplating strategic modernization with analytics/AI, this session can help you with more intentional and rational investing in talents/infrastructure.
+
+## Length
+
+4 hours
+
+## Key Takeaways
+
+Upon completion of this course, you will be able to:
+
+- Understand key concepts and components of modern analytics workflows annd design patterns.
+
+- Understand key concepts and components from data platform and how it supports analytics workflows.
+
+- Understand the basic concepts of advanced analytics (e.g. predictive analytics and AIs): how they work at a high level and how they fit into organization data platform 
+
+- Understand key roles and talent needs to support advanced analytics workflows/applications.
+
+- Explore current analytics landscape and data technology landscape.
+
+## Target Audience
+
+You can be:
+
+- An analyst or staff accountant, who are modernizing enterprise reporting, plan to build enterprise analytics applications or, collaborate with technical staff/consultants to achieve the same ends.
+
+- A manager, who would like to plan or lead modernization efforts (reporting, analytics, process improvements etc.) more strategically, intentionally and effectively, especially when it comes to collaborating with IT or technical consultants.
+
+## Prerequisite(s)
+
+No prior experience with programming required. Everyone is welcome to join. 

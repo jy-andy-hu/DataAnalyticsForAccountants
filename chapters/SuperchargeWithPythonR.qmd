@@ -1,5 +1,5 @@
 ---
-title: "Data Analytics for Accountants"
+title: "Supercharge Accountants with Analytics"
 ---
 
 ## Description

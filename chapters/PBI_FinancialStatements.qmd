@@ -1,0 +1,49 @@
+---
+title: "Power BI for Accountant 1: Engaging Custom Financial Statements"
+---
+
+## Description
+
+This session is to equip accountants with strong foundations to create custom financial statements, without relying on additional paid add-ons. We will build a financial reporting package with hands-on project connecting a simulated general ledger database. We will also cover best practices for data visualizations and dashboard design to enhance communication effectiveness, which can be easily overlooked. This session is a specialty Power BI lab that focuses on techniques beyong introductory level, so it is recommended for audience already understand the basics of Power BI.
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- How to create and customize financial statements with Power BI
+- How to work with databases as a data source with Power BI
+- Basics about relational database and why it matters to your Power BI projects
+- How to choose the proper chart types to communicate different types of financial information
+- Best practices in data visualizations and dashboard design
+- Analytics engineering mindset and product management mindset and why they matter deeply to your Power BI projects
+
+## Target Audience
+
+This seminar appeals to several demographics: 
+
+- **Analysts/staff accountants**, especially who 
+
+  a. are tasked/interested in building custom financial reports with Power BI and have access to ledger-level details as a data source, 
+
+  b. want to advance skills in developing Power BI report products, or
+
+  c. want to improve effectiveness of data visualization and dashboard desgins;
+
+- **Managers**, especially who
+
+  a. seek inspirations to improve team's financial reporting productivity with Power BI, 
+  
+  b. lead financial reporting modernization projects, 
+  
+  c. want to understand common best practices contribute to effective data visualization, or
+
+  d. want to stay relevant with staff and colleagues about Power BI and effective data visualization techniques
+  
+
+## Prerequisite(s)
+
+Basic understanding and hands-on expereinces of Microsoft Power BI is required.

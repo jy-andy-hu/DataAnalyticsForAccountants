@@ -3,8 +3,8 @@ project:
   output-dir: docs
   render: 
     - index.qmd
-    - chapters/DataAnalyticsForAccountants.qmd
-    - chapters/DataAnalyticsForAccountants-before-we-start.qmd
+    - chapters/SuperchargeWithPythonR.qmd
+    - chapters/SuperchargeWithPythonR-before-we-start.qmd
     - chapters/DebitDatabase.qmd
     - chapters/DebitDatabase-before-we-start.qmd
     - chapters/ElevateAccountingWithAnalytics-R.qmd
@@ -18,8 +18,12 @@ project:
     - chapters/InfusePythontoAccounting.qmd
     - chapters/InfusePythontoAccounting-before-we-start.qmd
     - chapters/GAAPforDataVisualization.qmd
-    - chapters/ModernDataPlatform.qmd
+    - chapters/PBI_FinancialStatements.qmd
+    - chapters/PBI_ForAccountantSeries-before-we-start.qmd
+    - chapters/PBI_ForAccountantSeries.qmd
+    - chapters/PBI_ManageBudget.qmd
     - chapters/Setup-anacondacode.qmd
+    - chapters/Setup-pbidesktop.qmd
     - chapters/Setup-postgreSQL.qmd
     - chapters/Setup-python.qmd
     - chapters/Setup-quarto.qmd
@@ -55,16 +59,24 @@ website:
       - text: "Preface: From One Accountant to Another"
         href: index.qmd
 
-      - section: "Comprehensive Session"
+      - section: "Zero to Pro Bootcamps"
         contents:
-        - section: "Data Analytics for Accountants"
+        - section: "Supercharge Accountants with Analytics"
           contents: 
           - text: "Overview"
-            href: chapters/DataAnalyticsForAccountants.qmd
+            href: chapters/SuperchargeWithPythonR.qmd
           - text: "To Do, Before We Start"
-            href: chapters/DataAnalyticsForAccountants-before-we-start.qmd
+            href: chapters/SuperchargeWithPythonR-before-we-start.qmd
+        
+        - section: "Power BI Works for Power Accountants"
+          contents: 
+          - text: "Overview"
+            href: chapters/PBI_ForAccountantSeries.qmd
+          - text: "To Do, Before We Start"
+            href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
+        
 
-      - section: "Topical In-Depth Sessions"
+      - section: "In-Depth Topics"
         contents:
         - section: '1. Modern "Excel-erated" Accounting'
           contents: 
@@ -78,7 +90,7 @@ website:
             href: chapters/ExcelAccountingwithR.qmd
           - text: "To Do, Before We Start"
             href: chapters/ExcelAccountingwithR-before-we-start.qmd
-        - section: "3. Elevate Accounting with Analytics of R"
+        - section: "3. Elevate Accounting with Analytics in R"
           contents: 
           - text: "Overview"
             href: chapters/ElevateAccountingWithAnalytics-R.qmd
@@ -108,7 +120,19 @@ website:
             href: chapters/DebitDatabase.qmd
           - text: "To Do, Before We Start"
             href: chapters/DebitDatabase-before-we-start.qmd
-        - section: '8. Modern Data Platform'
+        - section: "8. Power BI for Accountants 1: Engaging Custom Financial Statements"
+          contents:
+          - text: "Overview"
+            href: chapters/PBI_FinancialStatements.qmd
+          - text: "To Do, Before We Start"
+            href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
+        - section: "9. Power BI for Accountants 2: Managing Budget"
+          contents:
+          - text: "Overview"
+            href: chapters/PBI_ManageBudget.qmd  
+          - text: "To Do, Before We Start"
+            href: chapters/PBI_ForAccountantSeries-before-we-start.qmd        
+        - section: "10. Modern Data Platform"
           contents:
           - text: "Overview"
             href: chapters/ModernDataPlatform.qmd
@@ -128,6 +152,8 @@ website:
             href: chapters/Setup-anacondacode.qmd
           - text: "Get Started with PostgresSQL"
             href: chapters/Setup-postgreSQL.qmd
+          - text: "Get Started with Power BI Desktop"
+            href: chapters/Setup-pbidesktop.qmd
 
 format:
   html:

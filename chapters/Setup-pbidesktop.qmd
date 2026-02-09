@@ -1,0 +1,21 @@
+---
+title: Get Started with Power BI Desktop
+---
+
+## Install Power BI Desktop
+
+:::{.callout-note}
+
+⚠️ **Before You Begin**:
+  
+1. Power BI Desktop is offered on Windows OS only and is not available for macOS computer users (sorry, this isn't me, Microsoft thinks that this is good idea). 
+
+2. Poewr BI Service (sometimes called "Power BI Online") is not a full replacement to our learning experience.
+
+3. Power BI is actually hardware-hungry software that consumes a lot of RAM (memory). It is recommended to have at least 8GM installed on your Windows laptop for a smooth experience. 
+
+:::
+
+There is an excellent YouTube channel called "Guys in A Cube" for many Power BI related tricks. They also provided one of the best Power BI Desktop walk through. Please follow the link and video to complete your installation process. 
+
+  - [Walkthrough - Install VS Code on macOS](https://www.youtube.com/watch?v=qIt2n46Qa7s)

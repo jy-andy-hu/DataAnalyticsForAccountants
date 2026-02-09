@@ -14,7 +14,6 @@ Between self-analytics and big data, accountants are directly exposed to databas
 
 Upon completion of this course, you will understand:
 
-- Introduction to R, and how to productively set up projects  
 - Using R to conduct data processing and automate workflows
 - Introduction to relational databases, SQL and server-client computing
 - Develop and application of analytics engineering mindset 
@@ -29,15 +28,15 @@ This course appeals to several demographics:
 
   a. have access to detailed data through databases and seek opportunities to improve work life through automation 
 
-  b. advance skills in or pivot toward data analytics speace;
+  b. want to advance skills in or pivot toward data analytics speace;
 
 - Managers, especially who
 
-  a. seek inspirations to improve team's productivity with limited budget, 
+  a. seek inspirations to improve team's financial reporting productivity with Power BI, 
   
-  b. want to stay relevant with staff who possess analytics skillsets, or
-  
-  c. lead modernization projects with analytics
+  b. lead financial reporting modernization projects, 
+
+  c. want to stay relevant with staff and colleagues about Power BI and effective data visualization techniques
 
 ## Prerequisite(s)
 
