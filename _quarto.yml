@@ -22,6 +22,7 @@ project:
     - chapters/PBI_ForAccountantSeries-before-we-start.qmd
     - chapters/PBI_ForAccountantSeries.qmd
     - chapters/PBI_ManageBudget.qmd
+    - chapters/ModernDataPlatform.qmd
     - chapters/Setup-anacondacode.qmd
     - chapters/Setup-pbidesktop.qmd
     - chapters/Setup-postgreSQL.qmd

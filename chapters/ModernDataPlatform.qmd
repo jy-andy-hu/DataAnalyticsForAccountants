@@ -5,7 +5,7 @@ subtitle: Overview
 
 ## Description
 
-Accountants are arguably the most essential force of business intelligence and as such, are very often called upon to "modernize" or "leverage advanced tech". Feel familiar? However, when it comes to communicate IT departments or AI engineers/data scientists, jargons like "dataOps", "lakehouse", "spark cluster" become uncomfortable, alien, and yet unavoidable. This session builds a strong literacy and overcome the discomfort with modern data platform for you. We will use **Microsoft Fabric (including Microsoft Power BI)** as context. Whether you are leading modernization projects or working side-by-side with specialists/consultants, you can be more knowledgable and effective with your collaboration. If you are comtemplating strategic modernization with analytics/AI, this session can help you with more intentional and rational investing in talents/infrastructure.
+Accountants are the most essential force of providing business intelligence and are often tasked to "modernize" or "leverage analytics". However, when working with IT specialists or AI engineers/data scientists, unavoidable jargons like "lakehouse", "compute cluster", "data lake" present challenge to effective communications. This session builds a strong literacy and overcome the discomfort with modern data platform for you, through **Microsoft Fabric**, a powerful data platform deeply integrated with **Microsoft Power BI**. Whether you are extending your knowledge beyond Power BI, leading enterprise modernization projects, working with specialists, or contemplating on strategic investment choices in analytics/AI, you will walk away with valuable knowledge.
 
 ## Length
 

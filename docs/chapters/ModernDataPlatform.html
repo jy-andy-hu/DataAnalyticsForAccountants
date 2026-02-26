@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jianyuan(Andy) Hu">
 
-<title>To-Dos, Before Our Session Begins – Data Analytics For Accounting Folks</title>
+<title>Modern Data Platform with Microsoft Fabric – Data Analytics For Accounting Folks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">In-Depth Topics</li><li class="breadcrumb-item"><a href="../chapters/ExcelPython.html">4. Excel and Python: A Tale of Two Power Tools</a></li><li class="breadcrumb-item"><a href="../chapters/ExcelPython-before-we-start.html">To Do, Before We Start</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">In-Depth Topics</li><li class="breadcrumb-item"><a href="../chapters/ModernDataPlatform.html">10. Modern Data Platform</a></li><li class="breadcrumb-item"><a href="../chapters/ModernDataPlatform.html">Overview</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -261,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ExcelPython-before-we-start.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/ExcelPython-before-we-start.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">To Do, Before We Start</span></a>
   </div>
 </li>
@@ -393,7 +393,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ModernDataPlatform.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/ModernDataPlatform.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
@@ -464,17 +464,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-chores-before-our-session-even-begins" id="toc-why-chores-before-our-session-even-begins" class="nav-link active" data-scroll-target="#why-chores-before-our-session-even-begins">Why Chores Before Our Session Even Begins?</a></li>
-  <li><a href="#what-setups-do-we-need" id="toc-what-setups-do-we-need" class="nav-link" data-scroll-target="#what-setups-do-we-need">What Setups Do We Need?</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#length" id="toc-length" class="nav-link" data-scroll-target="#length">Length</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target Audience</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisite(s)</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">In-Depth Topics</li><li class="breadcrumb-item"><a href="../chapters/ExcelPython.html">4. Excel and Python: A Tale of Two Power Tools</a></li><li class="breadcrumb-item"><a href="../chapters/ExcelPython-before-we-start.html">To Do, Before We Start</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">In-Depth Topics</li><li class="breadcrumb-item"><a href="../chapters/ModernDataPlatform.html">10. Modern Data Platform</a></li><li class="breadcrumb-item"><a href="../chapters/ModernDataPlatform.html">Overview</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">To-Dos, Before Our Session Begins</h1>
+<h1 class="title">Modern Data Platform with Microsoft Fabric</h1>
+<p class="subtitle lead">Overview</p>
 </div>
 
 
@@ -497,38 +501,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="why-chores-before-our-session-even-begins" class="level2">
-<h2 class="anchored" data-anchor-id="why-chores-before-our-session-even-begins">Why Chores Before Our Session Even Begins?</h2>
-<ol type="1">
-<li><p>Running Python is not natively supported in Excel environment, so to achieve the best of both worlds, we need to set up a bit.</p></li>
-<li><p>This session is designed to be a beginner friendly environment in live seminar/lab style. To follow along, we need to have the same tools to work with. We are completing setups before our session so that we can dive right into the good stuff in our session.</p></li>
-</ol>
-<p><strong><em>Please ensure all of the setups in the “What Setups Do We Need?” completed before joining the session.</em></strong></p>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Accountants are the most essential force of providing business intelligence and are often tasked to “modernize” or “leverage analytics”. However, when working with IT specialists or AI engineers/data scientists, unavoidable jargons like “lakehouse”, “compute cluster”, “data lake” present challenge to effective communications. This session builds a strong literacy and overcome the discomfort with modern data platform for you, through <strong>Microsoft Fabric</strong>, a powerful data platform deeply integrated with <strong>Microsoft Power BI</strong>. Whether you are extending your knowledge beyond Power BI, leading enterprise modernization projects, working with specialists, or contemplating on strategic investment choices in analytics/AI, you will walk away with valuable knowledge.</p>
 </section>
-<section id="what-setups-do-we-need" class="level2">
-<h2 class="anchored" data-anchor-id="what-setups-do-we-need">What Setups Do We Need?</h2>
-<ol type="1">
-<li><p>Personal laptop.</p>
+<section id="length" class="level2">
+<h2 class="anchored" data-anchor-id="length">Length</h2>
+<p>4 hours</p>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<p>Upon completion of this course, you will be able to:</p>
 <ul>
-<li><p>Windows OS preferred, as I will be using a Windows laptop for the session.</p></li>
-<li><p><strong><em>Why Personal laptops?</em></strong></p>
+<li><p>Understand key concepts and components of modern analytics workflows annd design patterns.</p></li>
+<li><p>Understand key concepts and components from data platform and how it supports analytics workflows.</p></li>
+<li><p>Understand the basic concepts of advanced analytics (e.g.&nbsp;predictive analytics and AIs): how they work at a high level and how they fit into organization data platform</p></li>
+<li><p>Understand key roles and talent needs to support advanced analytics workflows/applications.</p></li>
+<li><p>Explore current analytics landscape and data technology landscape.</p></li>
+</ul>
+</section>
+<section id="target-audience" class="level2">
+<h2 class="anchored" data-anchor-id="target-audience">Target Audience</h2>
+<p>You can be:</p>
 <ul>
-<li>Company-managed laptops tend to have restrictive IT policies that tend to prohit us from installing the tools as we need.</li>
-</ul></li>
-</ul></li>
-<li><p>Microsoft Excel (Microsoft 365 version) with personal microsoft account signed in. (see <a href="../chapters/Setup-anacondacode.html">how-to</a>)</p>
-<ul>
-<li><p>Preferrably desktop app</p></li>
-<li><p>Alternatively, Excel Online (via Microsoft Account, see “2”)</p></li>
-<li><p><strong><em>Why Personal Account?</em></strong></p>
-<ul>
-<li>Similar to the above, organization Microsoft 365 accounts tend to have restrictive IT policies that tend to prohit us from installing Add-ins, which are needed for this workshop.</li>
-</ul></li>
-</ul></li>
-<li><p>Anaconda Code and Anaconda Toolbox with an Anaconda Account signed in (see <a href="../chapters/Setup-anacondacode.html">how-to</a>)</p></li>
-</ol>
-<p>On this note, <strong>CONGRATULATIONS! You have successfully finished all the technical setups required for this session!</strong>🎉🎉</p>
-<p>I will look forward to meeting you all soon and walk through this exciting learning journey together!!</p>
+<li><p>An analyst or staff accountant, who are modernizing enterprise reporting, plan to build enterprise analytics applications or, collaborate with technical staff/consultants to achieve the same ends.</p></li>
+<li><p>A manager, who would like to plan or lead modernization efforts (reporting, analytics, process improvements etc.) more strategically, intentionally and effectively, especially when it comes to collaborating with IT or technical consultants.</p></li>
+</ul>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisite(s)</h2>
+<p>No prior experience with programming required. Everyone is welcome to join.</p>
 
 
 </section>
