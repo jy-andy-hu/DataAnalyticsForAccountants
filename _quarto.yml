@@ -133,7 +133,7 @@ website:
             href: chapters/PBI_ManageBudget.qmd  
           - text: "To Do, Before We Start"
             href: chapters/PBI_ForAccountantSeries-before-we-start.qmd        
-        - section: "10. Modern Data Platform"
+        - section: "10. Modern Data Platform with Microsoft Fabric"
           contents:
           - text: "Overview"
             href: chapters/ModernDataPlatform.qmd
