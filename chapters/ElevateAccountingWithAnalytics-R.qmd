@@ -1,10 +1,14 @@
 ---
-title: "Elevate Accounting with Analytics of R"
+title: "Elevate Accounting with Analytics in R"
 ---
 
 ## Description
 
-This seminar provides hands-on experience in completing a comprehensive data project and is designed by accountants for accountants. Participants will learn to harness power of R to transform a dataset into a vareity of professional reports (like PDFs, webpages, Excel workbooks, even PowerPoint) using open-source solutions, inspiring you to enhance your accounting workflows. We will delve into the mindset of analytics professionals and explore the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can capitalize on these trends. This course is designed to be welcoming for those new to analytics.
+Many have heard of Python due to its popularity, but it is also known for its steep learning curve at the beginning for people who never learn to program. What if there is an alternative that is arguably more powerful than Python for data analyses, also open-source (i.e. free), and yet, much more friendly to non-programming-background people? Let's scope this appealing langauge called "R"!
+
+This seminar provides hands-on experience in completing a comprehensive accounting project through a modern analytics approach. Audience will learn using R to streamline a typical accounting task that produces ready-to-distribute outputs (like PDFs, webpages, Excel workbooks), inspiring to dramatically enhance their accounting workflows. 
+
+We will also delve into key mindsets of analytics professionals and feel the synergy between analytics and accounting. The seminar will conclude with an overview of the current analytics and technology landscape, highlighting how accountants can pivot/capitalize on these trends. 
 
 ## Length
 
@@ -14,11 +18,11 @@ This seminar provides hands-on experience in completing a comprehensive data pro
 
 Upon completion of this course, you will understand:
 
-- Introduction to R: Learn the fundamentals of R, an open-source data-focused programming language for beginners. 
+- How to work with R: a powerful, free, data-analytics-first programming language. 
 
 - Data Management with R: Gain skills in importing, exporting, and processing data using R. 
 
-- Automate Reporting with R: Build a practical department distribution workflows with R. 
+- Automate Reporting with R: Build a practical departmental report distribution workflows with R. 
 
 - Advanced Data Visualization Techniques: Discover how to create impactful visualizations with R. 
 
@@ -30,16 +34,22 @@ Upon completion of this course, you will understand:
 
 ## Target Audience
 
-This course caters to several professionals, including the following groups: 
+This course caters to several professional profiles, highlighting key ones here: 
 
-- Analysts: Ideal for those with access to detailed data who seek to automate professional reports and visualizations using free open-source tools. 
+- Analysts: Ideal for those with access to detailed data who seek to dramatically increase processing/cleaning capability, automate professional reports and crafting professional grade data visualizations using free open-source tools. 
 
-- Managers: Designed for managers looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics processes.
+- Managers: Ideal for those looking for inspiration and strategies to boost team productivity in reporting, particularly within budget constraints, or those interested in enhancing their understanding of modern analytics and new possibilities.
 
 ## Prerequisite(s)
 
-No previous programming knowledge required. This is beginner friendly session. 
+No previous programming knowledge required. 
 
-If you have never had programming experience before, it is highly recommended to take [Excel Accounting with R](ExcelAccountingwithR.qmd) first. 
+:::{.callout-tip}
+
+If you feel unsure about jumping into a programming lanugage, please take [Excel Accounting with R](/chapters/ExcelAccountingwithR.qmd) first. 
+
+:::
 
 To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

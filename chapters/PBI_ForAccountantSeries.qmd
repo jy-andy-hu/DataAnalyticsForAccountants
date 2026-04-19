@@ -4,7 +4,7 @@ title: "Power BI Works for Power Accountants"
 
 ## Description
 
-This condensed certificate program equips accountants with strong foundations to handle a variety of common accounting tasks. We will go through a few diverse hands-on projects such as financial reporting and budget management tasks, without any extra paid add-ons. By the end of the course, you can expect to have solid understanding how Power BI works. Even better, you will walk away with tangible projects that you have built, either to demonstrate your skills or to reference later. We will also cover best practices for data visualizations and dashboard design, which are critical to communication effectiveness, but also are easily overlooked. This course is beginner-friendly and lab-style. It starts with basics and quickly rises to intermediate/advanced techniques to focus on real world applications.
+This condensed certificate program equips accountants with strong foundation to handle a variety of common accounting tasks. We will go through some in-depth hands-on projects on financial reporting and budget management, **without any extra paid add-ons**. By the end of the course, you will have solid understanding how Power BI works and how to work with Power BI. Even better, you will take away with tangible projects that you have built, either to demonstrate your skills or to reference later. We will also discover best practices for data visualizations and dashboard design. These are critical to effective communicatimg insights, but also are easily and often overlooked. This course is beginner-friendly and in hands-on lab-style. It starts with basics and quickly rises to intermediate/advanced techniques to focus on real world applications.
 
 ## Length
 
@@ -18,9 +18,10 @@ Upon completion of this course, you will understand:
 - How to use Power BI to handle a variety of financial tasks such as
   
   - Constructing custom financial statements, 
-  - KPI management 
-  - Budget reports and variance analysis
-  - Cash/liquidity analysis
+  - Enabling self-served what-if analyses
+  - Managing KPIs  
+  - Constructing custom budget reports
+  - Conducting variance analyses
 
 - Best practices in data visualizations and dashboard design techniques and how they can make your reports effective and stand out 
 - Introduction to relational databases and cloud computing, and why they matter to your Power BI projects
@@ -52,6 +53,8 @@ This course appeals to several demographics:
 
 ## Prerequisite(s)
 
-No previous knowledge about Power BI required. This is beginner friendly session.
+Any level of knowledge about Power BI is welcome. No previous knowledge about Power BI required. This is beginner friendly session.
 
 To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

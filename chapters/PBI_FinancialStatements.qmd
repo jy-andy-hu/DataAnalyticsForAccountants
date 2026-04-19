@@ -8,7 +8,7 @@ This session is to equip accountants with strong foundations to create custom fi
 
 ## Length
 
-8 hours.
+12 hours.
 
 ## Key Takeaways
 
@@ -46,4 +46,10 @@ This seminar appeals to several demographics:
 
 ## Prerequisite(s)
 
-Basic understanding and hands-on expereinces of Microsoft Power BI is required.
+
+To fully enjoy the hands-on experience, prospective auidence should have
+
+- Introductory understanding Microsoft Power BI (Power Query, DAX, Relational Database Modelling) is required.
+- Ideally with hands-on expereinces of building solutions with Microsoft Power BI.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

@@ -4,7 +4,15 @@ title: "Power BI for Accountants 2: Managing Budget Cycles"
 
 ## Description
 
-This session is to equip accountants with strong Power BI foundations to effectively manage key tasks in budget cycles (e.g. variance analysis, custom budget reports, scalable KPI management). We will learn through hands-on projects with simulated budget ledger database. We will also cover best practices for data visualizations and dashboard design to enhance communication effectiveness, which can be easily overlooked. This session is a specialty Power BI lab that focuses on techniques beyong introductory level, so it is recommended for audience already understand the basics of Power BI.
+This session is to equip accountants with strong Power BI foundations to effectively manage key tasks in budget cycles (e.g. variance analysis, custom budget reports, what-if analyses). We will learn through hands-on projects with simulated budget ledger database. We will also cover best practices for data visualizations and dashboard design to enhance communication effectiveness, which can be easily overlooked. 
+
+:::{.callout-tip}
+
+## Note
+
+This session is a specialty Power BI lab-style seminar that focuses on techniques beyong introductory level, so it is recommended for audience already understand the basics of Power BI.
+
+:::
 
 ## Length
 
@@ -14,13 +22,13 @@ This session is to equip accountants with strong Power BI foundations to effecti
 
 Upon completion of this course, you will understand:
 
-- How to create and customize budget reports with Power BI
-- How to leverage Power BI for productive variance anlaysis
-- How to work with databases as a data source with Power BI
-- Basics about relational database and why it matters to your Power BI projects
-- How to choose the proper chart types to communicate different types of financial information
-- Best practices in data visualizations and dashboard design
-- Analytics engineering mindset and product management mindset and why they matter deeply to your Power BI projects
+- How to create and customize budget reports with Power BI;
+- How to leverage Power BI for productive variance anlaysis;
+- How to work with databases as a data source with Power BI;
+- Basics about relational database and why it matters to your Power BI projects;
+- How to choose the proper chart types to communicate different types of financial information;
+- Best practices in data visualizations and dashboard design;
+- Analytics mindset and product management mindset and why they matter deeply to your Power BI projects.
 
 
 ## Target Audience
@@ -46,4 +54,6 @@ This seminar appeals to several demographics:
 
 ## Prerequisite(s)
 
-Basic understanding and hands-on expereinces of Microsoft Power BI is required.
+Basic understanding and hands-on expereinces of building solutions with Microsoft Power BI is required.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

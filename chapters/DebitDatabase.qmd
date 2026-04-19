@@ -4,7 +4,15 @@ title: "Debit Databases, Credit Analytics for Accounting"
 
 ## Description
 
-Between self-analytics and big data, accountants are directly exposed to databases, more often than ever. This specialty seminar introduces accountants to relational databases and inspires audience how to satisfy reporting and data analysis tasks — making workflows efficient, and scalable. With hands-on examples tailored to accounting workflows, audience will gain confidence in managing and querying data with relational database, preparing them for collaboration across teams in modern analytics environment.As a big bonus, audience get to develop analytics mindset and further enhance their analytical literacy through exposure to a modern data platform, Microsoft Fabric.
+Driven by self-serve analytics trend and big data environment, accountants more often than ever work directly with databases. This lab-style seminar introduces accountants to relational databases and inspires audience to dramatically streamline/automate reporting tasks and data analyses — making workflows efficient, and scalable. With hands-on examples tailored to accounting workflows, audience gain confidence in managing and querying data with relational database. This seminar further increases big data analytics literacy and enable accountants to effectively collaborate with modern IT/analytics specialists. As a big bonus, audience get to experience using popular, powerful and beginner-friendly open-source (i.e. free) langauge R to build integrated accounting applications.
+
+:::{.callout-tip}
+
+## Note
+
+This seminar can also be offered in Python if desired. By default it will be offered using R, as R is more beginner-friendly for non-programming-based audiences.
+
+:::
 
 ## Length
 
@@ -14,10 +22,14 @@ Between self-analytics and big data, accountants are directly exposed to databas
 
 Upon completion of this course, you will understand:
 
-- Using R to conduct data processing and automate workflows
+- Using powerful source solutions from R (or Python) to conduct data processing and automate workflows
+
 - Introduction to relational databases, SQL and server-client computing
-- Develop and application of analytics engineering mindset 
-- Understanding key components to modecrn data platform through one of the most popular option, Microsoft Fabric
+
+- Big data, modern data infrastructure, and key components to modecrn data platform 
+
+- The critical role of analytics engineering mindset 
+
 - Navigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing.
 
 ## Target Audience
@@ -26,20 +38,40 @@ This course appeals to several demographics:
 
 - Analysts, especially who 
 
-  a. have access to detailed data through databases and seek opportunities to improve work life through automation 
+  a. have access to detailed data through databases and seek opportunities to improve work effciency through automation 
 
   b. want to advance skills in or pivot toward data analytics speace;
 
 - Managers, especially who
 
-  a. seek inspirations to improve team's financial reporting productivity with Power BI, 
+  a. seek inspirations to improve team's Financial Planning & Analytics (FP&A) productivity,
   
-  b. lead financial reporting modernization projects, 
+  b. lead enterprise FP&A modernization projects
 
-  c. want to stay relevant with staff and colleagues about Power BI and effective data visualization techniques
+  c. often collaborate with IT/analytics professionals/specialists 
+  
+  d. attempt to get front-line understanding analytics processes and what to strategically invest in big data era 
 
 ## Prerequisite(s)
 
-No previous programming knowledge required. This is beginner friendly session.
+::: {.panel-tabset}
 
-To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
+## R Version (by default)
+
+This semimnar is beginner friendly. 
+
+Any prior programming experience is welcome but not necessary. If in doubt, please consider taking [Elevate Accounting with Analytics in R](/chapters/ElevateAccountingWithAnalytics-R.qmd) first.
+
+Users should have 2-3 years of experiences in working with tabular datasets and spreadsheet software such as Microsoft Excel.
+
+
+## Python Version
+
+Auidence should have
+
+  - basic Python programming knowledge (environment, basic Python elements, managing modules etc.) experience, or
+  - have taken [Infuse Python to Accounting](/chapters/InfusePythontoAccounting.qmd)
+
+:::
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

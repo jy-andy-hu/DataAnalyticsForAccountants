@@ -1,11 +1,13 @@
 ---
-title: Modern Data Platform with Microsoft Fabric
+title: Big Data and Modern Data Platform
 subtitle: Overview
 ---
 
 ## Description
 
-Accountants are the most essential force of providing business intelligence and are often tasked to "modernize" or "leverage analytics". However, when working with IT specialists or AI engineers/data scientists, unavoidable jargons like "lakehouse", "compute cluster", "data lake" present challenge to effective communications. This session builds a strong literacy and overcome the discomfort with modern data platform for you, through **Microsoft Fabric**, a powerful data platform deeply integrated with **Microsoft Power BI**. Whether you are extending your knowledge beyond Power BI, leading enterprise modernization projects, working with specialists, or contemplating on strategic investment choices in analytics/AI, you will walk away with valuable knowledge.
+Accountants are the most essential force of providing business intelligence and are often tasked to "modernize" or "leverage big data analytics". However, when working with IT specialists or AI engineers/data scientists, unavoidable jargons like "lakehouse", "compute cluster", "data lake" present big barrier to effective collaboration. This session builds a strong literacy of analytical technology and overcome the discomfort. 
+
+We learn about these technical jargons through practical demonstration using a modern data platform, **Microsoft Fabric**, a powerful data platform deeply integrated with **Microsoft Power BI**, and desirable by many organizations that already using Microsoft toolstack such as Azure or Power Platform. Whether you are extending your knowledge beyond Power BI, leading enterprise modernization projects, working with analytics technology specialists, or contemplating on strategic investment choices in analytics/AI, you will walk away with valuable knowledge.
 
 ## Length
 
@@ -13,25 +15,27 @@ Accountants are the most essential force of providing business intelligence and 
 
 ## Key Takeaways
 
-Upon completion of this course, you will be able to:
+Upon completion of this course, you will understand:
 
-- Understand key concepts and components of modern analytics workflows annd design patterns.
+- Key concepts and components of big-data and modern analytics workflows and their common patterns;
 
-- Understand key concepts and components from data platform and how it supports analytics workflows.
+- Key concepts and components of data platform and how it supports analytics workflows;
 
-- Understand the basic concepts of advanced analytics (e.g. predictive analytics and AIs): how they work at a high level and how they fit into organization data platform 
+- Key concepts of advanced analytics (e.g. predictive analytics and AIs);
 
-- Understand key roles and talent needs to support advanced analytics workflows/applications.
+- How predictive analytics and AI work at a high level and how a data platform supports creating these applications;
 
-- Explore current analytics landscape and data technology landscape.
+- Key roles and human talents to build, implement, and support advanced big-data analytics/AI applications;
+
+- How to plan and invest in modernizing enterprise financial analytical capabilities through data platform. 
 
 ## Target Audience
 
 You can be:
 
-- An analyst or staff accountant, who are modernizing enterprise reporting, plan to build enterprise analytics applications or, collaborate with technical staff/consultants to achieve the same ends.
+- Analyst/Staff accountant, who try modernize enterprise reporting, plan to build enterprise analytics applications or, collaborate with technical staff/consultants to build enterprise analytics applications.
 
-- A manager, who would like to plan or lead modernization efforts (reporting, analytics, process improvements etc.) more strategically, intentionally and effectively, especially when it comes to collaborating with IT or technical consultants.
+- Manager, who would like to plan or lead enterprise modernization efforts on budgeting/planning, reporting, analytics, and process improvements through big data initiatives, more strategically, intentionally and effectively, especially when it comes to collaborating with IT or technical consultants.
 
 ## Prerequisite(s)
 

@@ -4,7 +4,7 @@ title: 'Modern "Excel-erated" Accounting'
 
 ## Description
 
-Microsoft Excel has been bread-and-butter for almost every single accountants. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours, deliver amazing outputs, and allow you to focus more on accounting. We will dive into a variety of these features together through real use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows.
+Microsoft Excel has been bread-and-butter for almost every single accountant. Its evolution continues fast and furious, more than ever. Dynamic arrays, creating custom functions, lambda functions, importing database data, local linear optimization and of course, AI-powered features when used properly could save you or teams hours/days, deliver amazing outputs, and put focus back on accounting, instead of data readiness. We will dive into a variety of these features together through real-world use cases, hoping that you/your team will be more productive and be inspired to adapt to your accounting workflows. We will end on a higher note about best practices of spreadsheet modelling so that your work is not only effective, but also professional and user-friendly.
 
 ## Length
 
@@ -12,21 +12,23 @@ Microsoft Excel has been bread-and-butter for almost every single accountants. I
 
 ## Key Takeaways 
 
-Upon completion of this course, you will:
+Upon completion of this course, you will have a good understanding about Microsoft Excel of:
 
-- Deep dive in dynamic array and dynamic array functions in Microsoft Excel. 
+- Dynamic array and dynamic array functions in Microsoft Excel. 
 
-- Utilize dynamic array functions to process, manage, and perform advanced operations on data in Excel. 
+- How to use dynamic array functions to process, manage, and perform advanced operations on data in Excel. 
 
-- Create custom functions to streamline repetitive complex calucaltions in Excel.
+- How to create custom functions and streamline repetitive yet complex data processing and calucaltions in Excel.
 
-- Create custom calculations for Pivot Table operations.
+- How to create custom calculations charge up Pivot Table beyond its basic functionalities.
 
-- Expand data sources options (web sources, PDF, database etc.), with Power Query
+- How to ingest and transform data from a variety of sources (web pages, PDF, database etc.)
 
-- Leverage AI-powered features (Copilot, Image recongition) to dramatically increase productivity in Microsoft Excel.
+- How to leverage AI-powered features (Copilot, Image recongition) to dramatically increase productivity in Microsoft Excel.
 
-- Understand the current analytics landscape, data technology landscape, and basic concepts of cloud computing.
+- How to use Python in Excel to handle analyses and process data beyond what Excel functions can handle.
+
+- Best practices of professionally spreadsheet modelling. 
 
 ## Target Audience
 
@@ -38,4 +40,4 @@ This seminar will benefit the following groups:
 
 ## Prerequisite(s)
 
-To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
+To get the most out of this session, prospective audience should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.

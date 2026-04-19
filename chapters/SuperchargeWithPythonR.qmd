@@ -4,29 +4,47 @@ title: "Supercharge Accountants with Analytics"
 
 ## Description
 
-If you have read my voice to you "From One Accoutant to Another", this flagship course follows the exact spirits and presents as a comprehensive yet beginner-friendly introduction for modern data analytics, designed by accountant, for accountants.
+If you have read my voice to you "From One Accoutant to Another", this flagship course brings the exact spirits to their full extent and presents as a comprehensive yet beginner-friendly introduction for modern data analytics with powerful open-source tools. This course is designed by accountant, for accountants.
 
-This course offers hands-on data analytical experiences to complete a few end-to-end data projects. Together through popular tool stack in R/Python, we will develop high-value skillsets to improve real-life accounting tasks such as professional data visualization, dashboard design, automation, and working with relational databases. We will also cultivate analytics professional mindset. As a bonus, we will explore modern data platforms through Microsoft Fabric and see where AI could take us. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.
+This course offers hands-on data analytical experiences to complete a few end-to-end accounting projects using real-world data. As a big bonus, audience get to experience using popular, powerful and beginner-friendly open-source (i.e. free) langauge R or Python to build integrated accounting applications. We will develop high-value modern analytical skillsets such as
 
-**💡If either the time commitment or you would prefer a deep-dive on a specific topic, please head to "in-depth Sessions" section.**
+- importing data through diverse sources,
+- cleaning/transforming data,
+- professional data visualization,
+- automating departmental reports, and 
+- working with databases. 
+
+We will also cultivate professional analytics mindset and explore how AI fits into modern/progamming-based analytics. This is a beginner-friendly environment for accountants and their management who strive to stay relevant with analytics/AI world.
+
+**💡If you would prefer a deep-dive on a specific topic, please head to "in-depth Sessions" section.**
 
 ## Length
 
-R: 24 hours.
+::: {.panel-tabset}
 
-Python: 26 hours.
+## R Version (by default)
+
+24 hours. 
+
+## Python Version
+
+26 hours. (Because Python comes with a steeper learning curve for those who have never experienced in programming.)
+
+:::
 
 ## Key Takeaways
 
-Upon completion of this course, you will understand:
+Upon completion of this course, you will be able to:
 
-- Introduction to R/Python, and how to productively set up the powerful open-source tools for projects  
-- Using R/Python to conduct data processing and create desired data outputs
-- Understanding a framework and design thinking for professional data visualization
-- Introduction to relational databases, SQL and server-client computing
-- Development and application of analytics engineering mindset 
-- Understanding key components to modecrn data platform through one of the most popular option, Microsoft Fabric
-- Navigating the Analytics Landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing and impact of AI.
+- Set up R (or Python) for analytical projects productively;
+- Work with R (or Python) to import data, process data, visualize data and export outputs, to achieve an integrated data analytical process;
+- Work with R (or Python) directly within Microsoft Excel;
+- Appreciate main infographic types and when to use each chart type;
+- Systematically deliberate on and execute on data visualization tasks; 
+- Understand the key concepts about relational databases;
+- Work with relational databases;
+- Develope and apply analytics mindset; 
+- Navigating the current analytics landscape: Understand the current trends in analytics and data technology, along with foundational concepts of cloud computing and impact of AI.
 
 ## Target Audience
 
@@ -34,20 +52,24 @@ This course appeals to several demographics:
 
 - Analysts, especially who 
 
-  a. have access to detailed data through databases and seek opportunities to improve work life through automation 
+  a. have access to detailed data through databases and seek opportunities to dramatically improve work life through automation with popular free open-source tools such as R (or Python).
 
   b. advance skills in or pivot toward data analytics speace;
 
 - Managers, especially who
 
-  a. seek inspirations to improve team's productivity with limited budget, 
+  a. seek inspirations to dramatically improve team's reporting/analytical capacity with limited budget and headcounts, 
   
-  b. want to stay relevant with staff who possess analytics skillsets, or
+  b. want to gain comfort leading new-generation staff who possess programming-based analytics skillsets, or
   
-  c. lead modernization projects with analytics
+  c. lead modernization projects with powerful open-source analytics options.
 
 ## Prerequisite(s)
 
-No previous programming knowledge required. This is beginner friendly session.
+This semimnar is beginner friendly. 
 
-To fully engage in this course, please ensure you have access to a PC and are prepared to install the necessary open-source tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
+Any prior programming experience is welcome but not necessary. 
+
+Users should have 2-3 years of experiences in working with tabular datasets and spreadsheet software such as Microsoft Excel.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

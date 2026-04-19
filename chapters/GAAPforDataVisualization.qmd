@@ -5,25 +5,35 @@ subtitle: Overview
 
 ## Description
 
-As an accountant, GAAP fundamentally guides us working with transactions and money. It's almost a pet peeve for us to see someone treat cash deposits the same as revenue. However, what if there is "GAAP" for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses the blind spots through a framework for professional data visualization and practical hands-on exercises with modern open-source data analytics tool stacks in R or Python.
+For accountants, GAAP fundamentally guides us working with transactions and money. It's a pet peeve for us accountants to see someone treat cash deposits the same as revenue. However, what if there is "GAAP" for data info graphics? What if our innocent graphs are pet peeve to our target audience? This beginner-friendly seminar addresses this big blind spot through a systematic framework for professional data visualization and practical hands-on exercises, As a big bonus, audience get to experience using popular, powerful and beginner-friendly open-source (i.e. free) langauge R to build professional-grade data visualizations.
+
+:::{.callout-tip}
+
+## Note
+
+This seminar can also be offered in Python if desired. By default it will be offered using R, as R is more beginner-friendly for non-programming-based audiences.
+
+:::
+
+## Length
+
+8 hours.
 
 ## Key Takeaways
 
 Upon completion of this course, you will be able to:
 
-- Understand the basics about R/Python.
+- Use powerful source solutions from R (or Python) to read data from files (like Excel, csv etc.) and building data visualizations
 
-- Appreciate main chart types and when to use each chart type
+- Appreciate main infographic types and when to use each chart type
 
-- Understand a framework and design thinking for professional data visualization
+- Systematically deliberate on and execute on data visualization tasks 
 
-- Use R/Python to produce a variety of info graphics  
+- Appreciate the additional design thinking required for interactive data visualization (i.e. BI, or Business Intelligence) solutions.  
 
-- Understand the additional design thinking for interactive data visualization (BI) solutions.  
+- Understand pros and cons for a variety of common tools with data visualization capabilities and when to what.
 
-- Understand pros and cons for a variety of common tools with data visualization capabilities and when to choose each.
-
-- Understand current analytics landscape and data technology landscape.
+- Understand how current analytics landscape and data technology landscape change we work with data visualizations.
 
 ## Target Audience
 
@@ -31,12 +41,29 @@ You can be:
 
 - A student, who considers brushing up data visualization skills, either for academic/research projects or future employment.
 
-- An analyst or staff accountant, who are recurringly or ad-hoc tasked with creating data info graphics for business intelligence (BI) apps, presentations or publications.
+- An analyst or staff accountant, who are recurringly or ad-hoc tasked with creating data infographics as part of their analyses/presentations/publications, creating dasboard apps.
 
-- A manager, who look for inspirations/possibilities to increase team's data visualization or BI capabilities or who lead others for data visualization assignments or dashboard design projects.
+- A manager, who look for inspirations/possibilities to increase/professionalize team's data visualization or BI capabilities or who lead data visualization assignments or dashboard design projects.
 
 ## Prerequisite(s)
 
-No previous programming knowledge required. This is beginner friendly session.
+::: {.panel-tabset}
 
-To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with basic concepts of info graphics and have created some info graphics with Microsoft Excel.
+## R Version (by default)
+
+This semimnar is beginner friendly. 
+
+Any prior programming experience is welcome but not necessary. If in doubt, please consider taking [Elevate Accounting with Analytics in R](/chapters/ElevateAccountingWithAnalytics-R.qmd) first.
+
+Users should have 2-3 years of experiences in working with tabular datasets and spreadsheet software such as Microsoft Excel.
+
+## Python Version
+
+Auidence should have
+
+  - basic Python programming knowledge (environment, basic Python elements, managing modules etc.) experience, or
+  - have taken [Infuse Python to Accounting](/chapters/InfusePythontoAccounting.qmd)
+
+:::
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

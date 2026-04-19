@@ -4,7 +4,7 @@ title: "Excel and Python: A Tale of Two Power Tools"
 
 ## Description
 
-Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on demonstration-driven learning environment. You will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel's dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.
+Microsoft Excel dynamic array functions and Python in Excel are both very powerful tools. This seminar offers a hands-on lab-style learning environment. We will complete a series of advanced data processing and data visualization tasks that require Microsoft Excel's dynamic array functions and Python in Excel. This doubles as a quick and basic introduction to Python for data analytics to beginners. We will end our journey with a practical understanding how to consciously choose between dynamic array functions and Python in Excel. Bonus knowledge include the current analytics landscape, how to advance learning and problem-solving analytics with Python.
 
 
 ## Length
@@ -40,3 +40,5 @@ This seminar will benefit the following groups:
 No previous programming knowledge required. This is beginner friendly session.
 
 To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
