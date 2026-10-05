@@ -1,5 +1,8 @@
 ---
 title: 'Modern "Excel-erated" Accounting'
+description: "Dynamic arrays, lambda functions and database connections: the modern Excel toolkit for accountants."
+categories: [Analytics, Excel, In-Depth]
+order: 12
 ---
 
 ## Description

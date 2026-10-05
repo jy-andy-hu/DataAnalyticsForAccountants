@@ -1,0 +1,45 @@
+---
+title: "Context Engineering and Agents: Your Team's AI Assistants"
+description: "Teach AI your policies and processes, then delegate repeatable multi-step tasks to assistants and agents, with people in control."
+categories: [AI, In-Depth]
+order: 28
+draft: true
+---
+
+## Description
+
+A generic AI answers generically. The real productivity jump comes when AI knows your business (policies, chart of accounts, close calendar, templates and prior memos) and can carry out repeatable, multi-step tasks. This accountant-first session covers both halves. First, context engineering: deciding what information an AI sees, and in what form, so answers are grounded and cited. Second, assistants and agents: reusable AI helpers (such as Claude Projects, Gemini Gems and Copilot agents) and lightly agentic workflows that gather information, run checks and draft deliverables for human review. We start with no-code tools, explain MCP and agents in plain language, and focus on design principles: approval gates, limits, logging and testing. Optional extensions show what developers can add.
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- What context is, why it limits (and powers) LLMs, and how to prepare your documents so AI can use them well
+- How to build and test a grounded assistant that answers from your policies and cites the source
+- How agents differ from chat: planning, tools and multi-step execution, and when a task suits an agent
+- A plain-language introduction to MCP and tool connections
+- How to design human approval gates, limits and audit logs so agents remain accountable
+- How to test an assistant against known answers and decide whether it is reliable enough to use
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples include:
+
+- Policy assistant: answers questions from your accounting policy manual, with citations to the source section
+- Close assistant: knows your checklist and owners, and drafts status updates and follow-ups
+- Technical accounting helper: structured abstracts from lease or revenue-contract excerpts
+- Accounts payable: triage incoming invoices against purchase orders and queue exceptions for review
+- Audit prep: organize PBC lists and draft responses from prior-year documentation
+
+## Target Audience
+
+- **Experienced accountants and finance managers** ready to build AI helpers for their team
+- **Finance transformation and operations leaders** evaluating assistants and agents
+
+## Prerequisite(s)
+
+Strong comfort with prompting is expected ("Prompt Like a Pro" is recommended). "Trust, but Verify: AI Governance" is strongly recommended. No programming is required.

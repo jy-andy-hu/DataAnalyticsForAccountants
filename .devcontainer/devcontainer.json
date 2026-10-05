@@ -1,0 +1,35 @@
+{
+  // Copy this file into each project as:  <your project>\.devcontainer\devcontainer.json
+  "name": "Claude Project",
+
+  // Uses the shared image you built once with: docker build -t claude-base:latest .
+  "image": "claude-base:latest",
+
+  // Run as a normal user, not root
+  "remoteUser": "vscode",
+
+  // Only THIS project folder is mounted into the container, at /workspace.
+  // Nothing else on your Windows PC is visible inside.
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+
+  // One shared Docker volume keeps your Claude login across all projects and rebuilds.
+  // For a separate login per project, change the name to: claude-code-config-${devcontainerId}
+  "mounts": [
+    "source=claude-code-config,target=/home/vscode/.claude,type=volume"
+  ],
+  "containerEnv": {
+    "CLAUDE_CONFIG_DIR": "/home/vscode/.claude"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "quarto.quarto"
+      ]
+    }
+  }
+}

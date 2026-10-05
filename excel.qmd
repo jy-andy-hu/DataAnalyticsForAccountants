@@ -1,0 +1,12 @@
+---
+title: "Microsoft Excel Arena"
+subtitle: "Get more from the tool every accountant already uses"
+---
+
+## Recommended sequence
+
+1. [Modern "Excel-erated" Accounting](chapters/ExcelerateAccounting.qmd): dynamic arrays, custom and lambda functions, database connections and more.
+
+2. [AI with Excel: From Spreadsheets to Insights](chapters/AI-Excel.qmd): use Copilot and other LLMs to clean, analyze and verify. *(coming soon)*
+
+More Excel sessions are on the way. Looking to combine Excel with a programming language? See the [Python](python.qmd) and [R](r.qmd) arenas, which start with Excel-focused sessions.

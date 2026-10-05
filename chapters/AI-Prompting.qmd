@@ -1,0 +1,48 @@
+---
+title: "Prompt Like a Pro: Practical Prompt Patterns for Accounting Work"
+description: "Reusable prompt patterns and templates for month-end commentary, reconciliations, memos, research and documentation."
+categories: [AI, In-Depth]
+order: 22
+draft: true
+---
+
+## Description
+
+Beyond the basics, the accountants who get the most from AI are the ones who prompt deliberately. This lab-style session teaches a toolkit of reusable prompt patterns (structured prompts, examples, step-by-step reasoning, critique-and-revise, and output formats you can paste straight into Excel or a memo) and applies each to routine accounting deliverables. You will build your own prompt library that you can share with your team.
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- A repeatable method for turning a vague request into a precise prompt
+- Core prompt patterns: role and audience, few-shot examples, structured output, chain of thought, and self-review
+- How to get consistent, review-ready formatting (tables, bullet summaries, JSON/CSV) from an LLM
+- How to iterate: diagnose why a prompt failed and improve it
+- How to build, document and share a team prompt library, including version notes and known limitations
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples across functions and industries include:
+
+- Month-end close: first-draft flux commentary and a close-status summary
+- Accounts payable and receivable: classify and explain unusual transactions from a sample list
+- Technical accounting: structure a position memo outline, including facts, issue, analysis and conclusion
+- Audit: draft test procedures and documentation language from a control description
+- Tax and compliance: build a checklist from a regulatory update
+- Management reporting: tailor the same results for a CFO, a board and a department head
+
+Exercises are tool-agnostic. You can follow along with Claude, Gemini, Microsoft Copilot or ChatGPT, whichever your organization permits.
+
+## Target Audience
+
+- **Accountants who already use AI occasionally** and want more consistent, higher-quality results
+- **Team leads and managers** who want to standardize good AI habits across a team
+- **Finance professionals in any function**, including FP&A, controllership, audit, tax and treasury
+
+## Prerequisite(s)
+
+Basic experience using an LLM tool is expected. Completing "AI Foundations for Accountants" is recommended but not required.

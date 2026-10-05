@@ -1,0 +1,61 @@
+---
+title: "AI for Intelligent Accountants"
+description: "Bootcamp: a hands-on journey from first prompts to analysis and AI-assisted workflows, built around the daily work of accountants."
+categories: [AI, Bootcamp]
+order: 19
+draft: true
+---
+
+## Description
+
+This flagship bootcamp condenses the AI series into one cohesive 24-hour program for accountants, and it is deliberately AI-centric rather than tool-centric. We start with what LLMs are and how to prompt them well, put professional ethics up front, and then apply AI to spreadsheets, the one tool every accountant shares. We close with governance, plus an introduction to assistants and agents. Every module is anchored on routine accounting workflows, so you finish with a personal toolkit of prompts, assistants and verified processes, plus the judgment to use them responsibly. In the capstone project, you choose a workflow from your own job and build a documented, reviewable AI solution for it.
+
+:::{.callout-tip}
+
+## Note
+
+Power BI, Python and R have their own "AI with ..." sessions in their arenas. They are not part of this bootcamp, because they assume hands-on experience with those tools.
+
+:::
+
+## Length
+
+24 hours, in the following modules:
+
+| Module | Hours |
+|---|---|
+| AI Foundations: LLMs, tools and your first wins | 4 |
+| Ethics in the Age of AI (case-based) | 3 |
+| Prompt Like a Pro | 5 |
+| AI with Excel | 4 |
+| Trust, but Verify: governance and controls | 2 |
+| Assistants and agents: an introduction | 3 |
+| Capstone project | 3 |
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- Everything in AI Foundations and Prompt Like a Pro, at an accelerated pace
+- How the profession's ethical principles apply to AI, and how to document your reasoning
+- Hands-on AI-assisted spreadsheet analysis with Excel, including how to verify every number
+- Governance and control essentials for AI in finance, and how to document AI-assisted work
+- An introduction to context engineering, assistants and agents, and when to invest in them
+- A capstone: a documented AI workflow tailored to your role
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples across functions and industries include:
+
+- A capstone workflow chosen from your own function (close, FP&A, audit, tax, AP/AR, treasury or reporting)
+
+Exercises are tool-agnostic. You can follow along with Claude, Gemini, Microsoft Copilot or ChatGPT, whichever your organization permits.
+
+## Target Audience
+
+- **Accountants at any level** who want one structured program rather than a series of separate sessions
+- **Teams** looking for a shared upskilling program
+
+## Prerequisite(s)
+
+No technical background required. Laptop and access to at least one LLM tool.

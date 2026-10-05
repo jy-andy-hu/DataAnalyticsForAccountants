@@ -1,0 +1,47 @@
+---
+title: "Trust, but Verify: AI Governance, Controls and Professional Skepticism"
+description: "Policies, controls and review habits that let accounting teams use AI confidently without creating audit or confidentiality problems."
+categories: [AI, In-Depth]
+order: 27
+draft: true
+---
+
+## Description
+
+Accountants are held to a high standard, and AI introduces new risks: confidentiality, bias, hallucinated citations, weak audit trails and uncertain accountability. This session gives practical answers to the questions your controller, auditor and CFO will ask. We cover how to set a sensible AI-use policy for a finance team, how to document and review AI-assisted work, and how existing frameworks (such as SOX controls, professional standards and data-privacy rules) apply.
+
+## Length
+
+4 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- The main risk categories of using LLMs in finance and accounting, with real-world failure examples
+- How to classify data and decide which tools and settings are appropriate for each class
+- How to design lightweight controls: human review, documentation, version control for prompts and outputs
+- How AI-assisted work fits into audit trails, internal control over financial reporting and professional standards
+- How to evaluate AI vendors and features, and what to ask your IT and risk teams
+- A starter AI-use policy template your team can adapt
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples across functions and industries include:
+
+- Controllership: document AI-assisted account reconciliations so a reviewer can re-perform them
+- Internal audit: assess an AI-enabled process using a control risk matrix
+- Public accounting: client-confidentiality scenarios and engagement-letter considerations
+- Regulated industries (banking, insurance, healthcare): privacy and model-risk considerations
+
+Exercises are tool-agnostic. You can follow along with Claude, Gemini, Microsoft Copilot or ChatGPT, whichever your organization permits.
+
+## Target Audience
+
+- **Controllers, finance managers, directors and partners** responsible for how their teams use AI
+- **Auditors and risk professionals** who need to understand AI-enabled processes
+- **Anyone** who has been told to "be careful with AI" but wants to know exactly what that means
+
+## Prerequisite(s)
+
+No technical background is required. A basic familiarity with using an LLM is helpful. "AI Foundations for Accountants" and "Ethics in the Age of AI" are recommended first. This session works best after you have tried the tools in the hands-on sessions, so that the controls feel concrete.

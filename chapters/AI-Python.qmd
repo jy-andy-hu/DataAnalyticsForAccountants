@@ -1,0 +1,54 @@
+---
+title: "AI with Python: Write Accounting Analytics Code with an AI Pair Programmer"
+description: "Use LLMs to write, explain and debug Python for accounting analytics, and keep that code correct and reproducible."
+categories: [AI, Python, In-Depth]
+order: 25
+draft: true
+---
+
+## Description
+
+AI has lowered the barrier to programming, but not removed the need for judgment. An accountant who can ask an LLM for a Python script, read it critically, test it and run it can automate work that was out of reach before. This session teaches that complete loop. We use chat tools and in-editor assistants to generate analysis code, learn to read what the AI produced, build in tie-outs and tests, and produce a reproducible report. You will learn the habits that separate dependable AI-assisted code from code that merely runs: small steps, checking against known totals, version control and clear documentation.
+
+:::{.callout-tip}
+
+## Note
+
+This session sits in the [Python arena](../python.qmd), right after "Infuse Python to Accounting". A parallel session, [AI with R](AI-R.qmd), serves the R arena.
+
+:::
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- How to describe an accounting task so an LLM produces useful code (inputs, outputs, edge cases)
+- How to read, run and critique AI-generated code well enough to catch wrong logic, silent errors and unsafe operations
+- How to debug with AI: reading error messages, isolating problems, asking better follow-ups
+- How to build checks into analysis: control totals, row counts and reconciliation to source
+- How to make AI-assisted work reproducible: scripts, notebooks and Quarto reports, and version history
+- What data to keep out of AI tools, and how to work with synthetic or masked data
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples include:
+
+- Combining and cleaning monthly ledger exports from many files
+- Aging analysis and expected-credit-loss style calculations on receivables
+- Fuzzy matching of bank transactions to ledger entries
+- Automating a recurring reporting package and rendering it as a document
+- Querying a database with AI-written SQL and checking results against known totals
+
+## Target Audience
+
+- **Accountants who have completed the Python sessions** and want to go much faster
+- **Accountants already using Python** who want a disciplined way to work with AI
+
+## Prerequisite(s)
+
+Completion of [Infuse Python to Accounting](InfusePythontoAccounting.qmd) or equivalent hands-on Python experience is required. You need to understand code to trust it, so this session builds on the fundamentals rather than replacing them. See the [Python Setup Guide](Setup-python.qmd) for the tools.
+

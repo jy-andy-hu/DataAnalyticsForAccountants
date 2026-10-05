@@ -1,5 +1,8 @@
 ---
 title: "Debit Databases, Credit Analytics for Accounting"
+description: "Relational databases and SQL for accountants who work directly with data."
+categories: [Analytics, Python, R, In-Depth]
+order: 8
 ---
 
 ## Description

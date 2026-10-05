@@ -1,0 +1,15 @@
+---
+title: "Data Analytics for Accounting Folks"
+subtitle: "Four arenas, one goal: programming literacy and analytical thinking for accountants"
+---
+
+Pick the arena that matches the tools you want to work with. Each arena lists its sessions in the **recommended order**, and, where available, a condensed bootcamp version of the whole series.
+
+| Arena | Best for | Start here |
+|---|---|---|
+| [Python](python.qmd) | Accountants who want the most widely used language in data and AI | [Excel and Python](chapters/ExcelPython.qmd) |
+| [R](r.qmd) | Accountants who want a gentler learning curve with powerful analytics and visualization | [Excel Accounting with R](chapters/ExcelAccountingwithR.qmd) |
+| [Power BI & Fabric](powerbi.qmd) | Accountants who build financial reports and dashboards, and want to grow into Microsoft Fabric | [Power BI for Power Accountants](chapters/PBI_ForAccountantSeries.qmd) |
+| [Microsoft Excel](excel.qmd) | Accountants who want to get the most out of the tool they already use every day | [Modern "Excel-erated" Accounting](chapters/ExcelerateAccounting.qmd) |
+
+Leading a finance team? See the standalone course [Analytics Strategy for Finance Leaders](chapters/AnalyticsStrategy-Leaders.qmd) *(coming soon)*, which does not belong to any one arena.

@@ -1,0 +1,19 @@
+---
+title: "R Arena"
+subtitle: "Analytics for accountants with R"
+---
+
+::: {.callout-tip}
+## Prefer one comprehensive program?
+The bootcamp version of this series is [Supercharge Accountants with Analytics](chapters/SuperchargeWithPythonR.qmd) (R version).
+:::
+
+## Recommended sequence
+
+1. [Excel Accounting with R](chapters/ExcelAccountingwithR.qmd): build an interactive budget review beyond normal Excel reach.
+2. [Elevate Accounting with Analytics in R](chapters/ElevateAccountingWithAnalytics-R.qmd): go deeper into R for accounting analytics.
+3. [AI with R: Write Accounting Analytics Code with an AI Pair Programmer](chapters/AI-R.qmd): code faster with AI, and learn to trust the result. *(coming soon)*
+4. ["GAAP" for Data Visualization](chapters/GAAPforDataVisualization.qmd): make the output communicate.
+5. [Debit Databases, Credit Analytics for Accounting](chapters/DebitDatabase.qmd): pull data straight from databases.
+
+New to the tools? See the [setup guides](setup.qmd) first.

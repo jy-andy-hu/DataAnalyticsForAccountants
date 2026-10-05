@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jianyuan(Andy) Hu">
 
-<title>From One Accountant to Another – Data Analytics For Accounting Folks</title>
+<title>The Modern Accountant’s Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -40,13 +42,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-88f75507d4abc7dce0aee53cb883ac06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3db365c9c97887be4aa8f125fe5384f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -68,422 +70,161 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-catalog .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-catalog'] = new List('listing-catalog', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface: From One Accountant to Another</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Data Analytics For Accounting Folks</a> 
-        <div class="sidebar-tools-main tools-wide">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">The Modern Accountant’s Lab</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Catalog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./preface.html"> 
+<span class="menu-text">Preface</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analytics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Analytics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-analytics">    
+        <li>
+    <a class="dropdown-item" href="./analytics.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./python.html">
+ <span class="dropdown-text">Python Arena</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./r.html">
+ <span class="dropdown-text">R Arena</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./powerbi.html">
+ <span class="dropdown-text">Power BI &amp; Fabric Arena</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./excel.html">
+ <span class="dropdown-text">Excel Arena</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./chapters/AnalyticsStrategy-Leaders.html">
+ <span class="dropdown-text">Analytics Strategy for Finance Leaders</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./ai.html"> 
+<span class="menu-text">AI</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./setup.html"> 
+<span class="menu-text">Setup</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
     <a href="http://linkedin.com/in/andyhu1" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/jy-andy-hu" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://jy-andy-hu.github.io/AllAboutMe/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-person-square"></i></a>
 </div>
-    </div>
-      </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface: From One Accountant to Another</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Zero to Pro Bootcamps</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Supercharge Accountants with Analytics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/SuperchargeWithPythonR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/SuperchargeWithPythonR-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Power BI Works for Power Accountants</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/PBI_ForAccountantSeries.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/PBI_ForAccountantSeries-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">In-Depth Topics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">1. Modern “Excel-erated” Accounting</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ExcelerateAccounting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ExcelerateAccounting-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">2. Excel Accounting with R</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ExcelAccountingwithR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ExcelAccountingwithR-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">3. Elevate Accounting with Analytics in R</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ElevateAccountingWithAnalytics-R.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ElevateAccountingWithAnalytics-R-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
- <span class="menu-text">4. Excel and Python: A Tale of Two Power Tools</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ExcelPython.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ExcelPython-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
- <span class="menu-text">5. Infuse Python to Accounting</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/InfusePythontoAccounting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/InfusePythontoAccounting-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
- <span class="menu-text">6. “GAAP” for Data Visualization</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/GAAPforDataVisualization.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ElevateAccountingWithAnalytics-R-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
- <span class="menu-text">7. Debit Databases, Credit Analytics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/DebitDatabase.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/DebitDatabase-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
- <span class="menu-text">8. Power BI for Accountants 1: Engaging Custom Financial Statements</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/PBI_FinancialStatements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/PBI_ForAccountantSeries-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
- <span class="menu-text">9. Power BI for Accountants 2: Managing Budget</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/PBI_ManageBudget.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/PBI_ForAccountantSeries-before-we-start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">To Do, Before We Start</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
- <span class="menu-text">10. Modern Data Platform with Microsoft Fabric</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ModernDataPlatform.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
- <span class="menu-text">Detailed Setup Guides</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-R.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with R</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-python.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with Python</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-positron.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with Positron</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-quarto.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with Quarto</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-anacondacode.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with Anaconda Toolbox</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-postgreSQL.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with PostgresSQL</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/Setup-pbidesktop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get Started with Power BI Desktop</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#how-i-started" id="toc-how-i-started" class="nav-link active" data-scroll-target="#how-i-started">How I Started…</a></li>
-  <li><a href="#not-just-staff-managers-too" id="toc-not-just-staff-managers-too" class="nav-link" data-scroll-target="#not-just-staff-managers-too">Not Just Staff, Managers, Too…</a></li>
-  <li><a href="#what-about-generative-ai" id="toc-what-about-generative-ai" class="nav-link" data-scroll-target="#what-about-generative-ai">What About Generative AI?</a></li>
-  <li><a href="#its-still-hard-to-start" id="toc-its-still-hard-to-start" class="nav-link" data-scroll-target="#its-still-hard-to-start">It’s Still Hard to Start…</a></li>
-  <li><a href="#my-final-encouragement-to-you" id="toc-my-final-encouragement-to-you" class="nav-link" data-scroll-target="#my-final-encouragement-to-you">My Final Encouragement to You…</a></li>
-  <li><a href="#whats-here-for-you" id="toc-whats-here-for-you" class="nav-link" data-scroll-target="#whats-here-for-you">What’s Here for You…</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="QW5hbHl0aWNz">Analytics <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Qm9vdGNhbXA=">Bootcamp <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RXhjZWw=">Excel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW4tRGVwdGg=">In-Depth <span class="quarto-category-count">(11)</span></div><div class="category" data-category="UG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYw==">Power BI &amp; Fabric <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U3RhcnQlMjBIZXJl">Start Here <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RyYXRlZ3k=">Strategy <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">From One Accountant to Another</h1>
+<h1 class="title">The Modern Accountant’s Lab</h1>
+<p class="subtitle lead">For accounting folks to change their life and make impacts right now through codes and prompts.</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -501,57 +242,325 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>As I am writing this, I have been a CPA for 5 years and almost 10 years since I started working as an accountant. Like many of you, my job is mostly about getting numbers and reports from one side to another, hoping that people can have a more intelligent and productive life about decisions involving lots of dollar signs. I really enjoy playing these roles and I am amazed how good data are changing co-workers’ and management’s work life. For that matter, I want to bring programming literacy and analytical thinking to my fellow accountants so that we can endure the impact of big data and AI much better. Let me share with you a few of my own stories.</p>
-<section id="how-i-started" class="level1">
-<h1>How I Started…</h1>
-<p>My accounting career life isn’t always fulfilling. Also just like many of you, I had many mundane things that no one else wanted to do. Poor data quality, complicated logic, repetitiveness, all trouble my accounting life left and right. I was quite functional with Excel, even praised by my boss and my-workers sometimes, but I still felt pulling my hair off from time to time. Here are a few common examples:</p>
-<ol type="a">
-<li><p>some elegant and impactful data visualization that can only live as my imagination;</p></li>
-<li><p>I could get one Excel workbook done but I need to repeat for 20 other similar Excel workbooks;</p></li>
-<li><p>data are in a database, on a webpage or PDF documents, but I didn’t know how to pull them together. Friends at IT were always busy to save their world already…</p></li>
-</ol>
-<p>It felt defeating, even maddening sometimes. I wanted to get to the accounting part, and yet, I just couldn’t even activate my accounting skills because the data were just not there. I then began to realize Excel started becoming a bottleneck not a solution, regardless of how everyone else thought I were good with it. I lacked of: a) imagination of what’s possible and b) the actual skillsets to design and implement solutions.</p>
-<p>Courtesy of COVID, when social life was overrated at best, a soul search put me a path to pursue a master degree in management analytics. It was quite some work for an accountant with zero computer science training or programming skills, but it was very much doable and the reward is immense. It provided my ammunition to change my work life. I have the conviction now, that the era where programming should be handled by “IT” or “specialists” is over. Analytics skills are well charted on the wall for accountants’ future. I.e. it will be <strong>a literacy requirement</strong>.</p>
-</section>
-<section id="not-just-staff-managers-too" class="level1">
-<h1>Not Just Staff, Managers, Too…</h1>
-<p>Later on, I was pulled into different brainstorming sessions how to modernize workflows and better deliver accounting information. Data lake, OLAP cloud database, data modelling, ETL pipeline, tasks schedulers, Spark, Python/R … they just don’t seem to click well with the champions of the modernization projects. Yet, these concepts play fundamental role in their projects, because even Excel Macros can’t save the day anymore. It then occurred to me that programming enables with me a whole set of literacy and analytical thinking. Managers who never experienced programming or develop analytical thinking will face challenges leading their future workforces, much less leading the change itself.</p>
-</section>
-<section id="what-about-generative-ai" class="level1">
-<h1>What About Generative AI?</h1>
-<p>We can’t ignore the power of Gen AI anymore. ChatGPT, Gemini, Claude… you name it, they are getting very good. Regardless of how good we are at asking, after all, we still don’t know what we don’t know. If Gen AI writes us some codes either error or don’t yield properly, we still need to fix it. We can’t just turn around and say, it’s not my fault, it’s the AI… still nothing gets done. Then what? If anything, I found it combining human knowledge and inspiration from AI is quite powerful sauce. That said, back to square one, we still need to learn some programming.</p>
-</section>
-<section id="its-still-hard-to-start" class="level1">
-<h1>It’s Still Hard to Start…</h1>
-<p>I have talked to many fellow CPAs, and most feel they have no footing in analytics. Why data analytics changed my accounting life but not so much for the others? Why so many businesses or their finance/accounting team struggle to pull off business analytics projects and can’t realize returns on their investment in analytics?</p>
-<p>Good thing you are looking at an accountant, I relate this too well. A lot lie in the lack of technological literacy. Two folds on this:</p>
-<ol type="a">
-<li><p>Most of the accountants are not equipped with data technology/programming at all through their formal edcuation. Analytics by definition involves programmatic processes, so it is hard for us start analytics or to lead modern business intelligence projects. After all, you can’t be blamed for or be comfortable with what you don’t know.</p></li>
-<li><p>Most of analytics professionals and educators usually have mastery of their fields, and they cannot properly relate to accounting folks’ learning needs and bridge them over properly. This usually leads to dismay learners.</p></li>
-</ol>
-<p>This consistent demand and supply awkwardness leaves the CPA community unattended long enough that accountants start feeling “left out”, which is quite unfortunate.</p>
-</section>
-<section id="my-final-encouragement-to-you" class="level1">
-<h1>My Final Encouragement to You…</h1>
-<p>My fellow accountants, you have gone through a lot to be come CPAs, so you definitely have the curiosity, intelligence and perseverance for data analytics. You just need a bit of hand-holding and a few leads, especially from one of your own:</p>
-<ul>
-<li><p>to overcome the fear of the unknown - data technologies</p></li>
-<li><p>to make that first step to write their first line of codes</p></li>
-<li><p>to get their first project done, and eventually,</p></li>
-<li><p>to strategize and lead their organizational analytics projects.</p></li>
-</ul>
-<p>I hope to be that person for you, to get you to make that first baby-step. Analytics changed my accounting life, it can change yours, too.</p>
-<p>I have taught in colleges and universities for 6 years and counting. Education is more than just a gig for me, even more than I care admit. To me, getting paid to help others succeed is the best value propositions that I have heard. I fundamentally believe the role it plays for anyone to achieve their definition of success and pursue their desirable life. I have no intention to keep my knowledge and experience to myself, or at least, that would be a rather lonely world where I will have to start living in. Hopefully, not too long, you will feel in good hands.</p>
-<p>Trust me, I am, by no means a genius and if I can do it, you can function in data analytics world, as well.</p>
-<p>Welcome to “Data Analytics For Accounting Folks”, we are getting into the mysterious analytics world together, in a very folky way.</p>
-</section>
-<section id="whats-here-for-you" class="level1">
-<h1>What’s Here for You…</h1>
-<p><strong><em>On the navigation pane, you will be able to find a selection of topics and sessions that I created and delivered before. I hope you will find something of great interests and values to you.</em></strong></p>
-<p>If you like what you see and would like to collaborate on or to ask me to deliver something for you or your community, feel free to reach out through LinkedIn. You can reach me right here from this page through the LinkedIn logo (upper left corner, under the title).</p>
+<p>Practical, hands-on courses that help accountants build programming literacy and analytical thinking. New here? Start with the <strong>Preface</strong>, then browse by arena: <a href="./python.html">Python</a>, <a href="./r.html">R</a>, <a href="./powerbi.html">Power BI &amp; Fabric</a>, <a href="./excel.html">Excel</a> or <a href="./ai.html">AI</a>. Use the category chips to filter.</p>
+<div id="listing-catalog" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="U3RhcnQlMjBIZXJl" data-listing-file-modified-sort="1791215505456" data-listing-reading-time-sort="7" data-listing-word-count-sort="1212">
+<a href="./preface.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Preface: From One Accountant to Another
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhcnQlMjBIZXJl'); return false;">Start Here</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Why I believe analytics is now a literacy requirement for accountants, and how this course catalog came to be.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QW5hbHl0aWNzJTJDUHl0aG9uJTJDUiUyQ0Jvb3RjYW1w" data-listing-file-modified-sort="1791216512488" data-listing-reading-time-sort="3" data-listing-word-count-sort="486">
+<a href="./chapters/SuperchargeWithPythonR.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Supercharge Accountants with Analytics
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vdGNhbXA='); return false;">Bootcamp</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Flagship, beginner-friendly bootcamp: modern data analytics for accountants with R or Python.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QW5hbHl0aWNzJTJDUG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYyUyQ0Jvb3RjYW1w" data-listing-file-modified-sort="1791217909200" data-listing-reading-time-sort="3" data-listing-word-count-sort="509">
+<a href="./chapters/PBI_ForAccountantSeries.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Power BI for Power Accountants
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYw=='); return false;">Power BI &amp; Fabric</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vdGNhbXA='); return false;">Bootcamp</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Certificate-style bootcamp: build financial statements and budget reports in Power BI, with no paid add-ons.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="QW5hbHl0aWNzJTJDUHl0aG9uJTJDSW4tRGVwdGg=" data-listing-file-modified-sort="1791216512514" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
+<a href="./chapters/ExcelPython.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Excel and Python: A Tale of Two Power Tools
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A hands-on lab pairing Excel dynamic arrays with Python in Excel.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="QW5hbHl0aWNzJTJDUHl0aG9uJTJDSW4tRGVwdGg=" data-listing-file-modified-sort="1791216512520" data-listing-reading-time-sort="2" data-listing-word-count-sort="381">
+<a href="./chapters/InfusePythontoAccounting.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Infuse Python to Accounting
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Use Python to streamline a typical accounting task into ready-to-distribute output.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="QW5hbHl0aWNzJTJDUiUyQ0luLURlcHRo" data-listing-file-modified-sort="1791216512526" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<a href="./chapters/ExcelAccountingwithR.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Excel Accounting with R
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Build an interactive budget review in Excel with R, with visualizations beyond normal Excel reach.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="QW5hbHl0aWNzJTJDUiUyQ0luLURlcHRo" data-listing-file-modified-sort="1791216512532" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<a href="./chapters/ElevateAccountingWithAnalytics-R.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Elevate Accounting with Analytics in R
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>R as a gentler, powerful alternative to Python for accounting analytics.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="QW5hbHl0aWNzJTJDUHl0aG9uJTJDUiUyQ0luLURlcHRo" data-listing-file-modified-sort="1791216512538" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
+<a href="./chapters/GAAPforDataVisualization.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+“GAAP” for Data Visualization
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A principled “GAAP” for data visualization and infographics that accountants can trust.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="QW5hbHl0aWNzJTJDUHl0aG9uJTJDUiUyQ0luLURlcHRo" data-listing-file-modified-sort="1791216512543" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
+<a href="./chapters/DebitDatabase.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Debit Databases, Credit Analytics for Accounting
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Relational databases and SQL for accountants who work directly with data.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="QW5hbHl0aWNzJTJDUG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYyUyQ0luLURlcHRo" data-listing-file-modified-sort="1791217909201" data-listing-reading-time-sort="2" data-listing-word-count-sort="371">
+<a href="./chapters/PBI_ManageBudget.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Power BI for Accountants 1: Managing Budget Cycles
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYw=='); return false;">Power BI &amp; Fabric</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Variance analysis, custom budget reports and what-if analysis in Power BI.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="QW5hbHl0aWNzJTJDUG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYyUyQ0luLURlcHRo" data-listing-file-modified-sort="1791217909187" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
+<a href="./chapters/PBI_FinancialStatements.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Power BI for Accountants 2: Engaging Custom Financial Statements
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYw=='); return false;">Power BI &amp; Fabric</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Create engaging custom financial statements from a simulated general ledger in Power BI.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="QW5hbHl0aWNzJTJDUG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYyUyQ0luLURlcHRo" data-listing-file-modified-sort="1791217909185" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
+<a href="./chapters/ModernDataPlatform.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Big Data and Modern Data Platform
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSSUyMCUyNiUyMEZhYnJpYw=='); return false;">Power BI &amp; Fabric</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Big data and modern data platforms (Microsoft Fabric), minus the jargon.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="QW5hbHl0aWNzJTJDRXhjZWwlMkNJbi1EZXB0aA==" data-listing-file-modified-sort="1791217070240" data-listing-reading-time-sort="2" data-listing-word-count-sort="352">
+<a href="./chapters/ExcelerateAccounting.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modern “Excel-erated” Accounting
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">Excel</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Dynamic arrays, lambda functions and database connections: the modern Excel toolkit for accountants.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="QW5hbHl0aWNzJTJDU3RyYXRlZ3klMkNJbi1EZXB0aA==" data-listing-file-modified-sort="1791242523554" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
+<a href="./chapters/AnalyticsStrategy-Leaders.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analytics Strategy for Finance Leaders
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RyYXRlZ3k='); return false;">Strategy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW4tRGVwdGg='); return false;">In-Depth</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Coming soon: how finance leaders can treat data as an asset, and build the foundations that analytics and AI depend on.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -957,7 +966,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Created by Jianyuan(Andy) Hu, 2025</p>
+<p>Created by Jianyuan(Andy) Hu, 2026</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

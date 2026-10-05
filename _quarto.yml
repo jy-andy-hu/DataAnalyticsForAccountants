@@ -3,6 +3,14 @@ project:
   output-dir: docs
   render: 
     - index.qmd
+    - preface.qmd
+    - analytics.qmd
+    - python.qmd
+    - r.qmd
+    - powerbi.qmd
+    - excel.qmd
+    - ai.qmd
+    - setup.qmd
     - chapters/SuperchargeWithPythonR.qmd
     - chapters/SuperchargeWithPythonR-before-we-start.qmd
     - chapters/DebitDatabase.qmd
@@ -30,131 +38,276 @@ project:
     - chapters/Setup-quarto.qmd
     - chapters/Setup-R.qmd
     - chapters/Setup-positron.qmd
+    - chapters/AI-Foundations.qmd
+    - chapters/AI-Bootcamp.qmd
+    - chapters/AI-Ethics.qmd
+    - chapters/AI-Excel.qmd
+    - chapters/AI-PowerBI.qmd
+    - chapters/AI-Leaders.qmd
+    - chapters/AnalyticsStrategy-Leaders.qmd
+    - chapters/AI-Python.qmd
+    - chapters/AI-R.qmd
+    - chapters/AI-Assistants.qmd
+    - chapters/AI-Prompting.qmd
+    - chapters/AI-Governance.qmd
+    - chapters/AI-Foundations-before-we-start.qmd
 
 author: Jianyuan(Andy) Hu
 
 website:
-  title: "Data Analytics For Accounting Folks"
+  title: "The Modern Accountant's Lab"
   
   page-footer: 
-    left: Created by Jianyuan(Andy) Hu, 2025 
+    left: Created by Jianyuan(Andy) Hu, 2026 
     right: |
      This webpage was built with <a href="https://quarto.org/">Quarto</a>.
   repo-branch: main
   # page-navigation: true
 
-  sidebar:
-    collapse-level: 3
-    style: "floating"
+  navbar:
+    background: primary
     search: false
-    # background: "none"
-    tools:
-    - icon: linkedin
-      href: http://linkedin.com/in/andyhu1
-    - icon: github
-      href: https://github.com/jy-andy-hu
-    - icon: person-square
-      href: https://jy-andy-hu.github.io/AllAboutMe/
-    
-    contents:
-      - text: "Preface: From One Accountant to Another"
+    left:
+      - text: "Catalog"
         href: index.qmd
+      - text: "Preface"
+        href: preface.qmd
+      - text: "Analytics"
+        menu:
+          - text: "Overview"
+            href: analytics.qmd
+          - text: "Python Arena"
+            href: python.qmd
+          - text: "R Arena"
+            href: r.qmd
+          - text: "Power BI & Fabric Arena"
+            href: powerbi.qmd
+          - text: "Excel Arena"
+            href: excel.qmd
+          - text: "---"
+          - text: "Analytics Strategy for Finance Leaders"
+            href: chapters/AnalyticsStrategy-Leaders.qmd
+      - text: "AI"
+        href: ai.qmd
+      - text: "Setup"
+        href: setup.qmd
+    tools:
+      - icon: linkedin
+        href: http://linkedin.com/in/andyhu1
+      - icon: github
+        href: https://github.com/jy-andy-hu
+      - icon: person-square
+        href: https://jy-andy-hu.github.io/AllAboutMe/
 
-      - section: "Zero to Pro Bootcamps"
-        contents:
-        - section: "Supercharge Accountants with Analytics"
-          contents: 
-          - text: "Overview"
-            href: chapters/SuperchargeWithPythonR.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/SuperchargeWithPythonR-before-we-start.qmd
-        
-        - section: "Power BI Works for Power Accountants"
-          contents: 
-          - text: "Overview"
-            href: chapters/PBI_ForAccountantSeries.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
-        
+  sidebar:
+    - id: analytics
+      title: "Analytics"
+      style: floating
+      collapse-level: 2
+      search: false
+      contents:
+        - text: "Analytics overview"
+          href: analytics.qmd
+        - section: "Python Arena"
+          href: python.qmd
+          contents:
+          - section: 'Bootcamp: Supercharge Accountants with Analytics'
+            contents:
+              - text: "Overview"
+                href: chapters/SuperchargeWithPythonR.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/SuperchargeWithPythonR-before-we-start.qmd
+          - section: '1. Excel and Python: A Tale of Two Power Tools'
+            contents:
+              - text: "Overview"
+                href: chapters/ExcelPython.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/ExcelPython-before-we-start.qmd
+          - section: '2. Infuse Python to Accounting'
+            contents:
+              - text: "Overview"
+                href: chapters/InfusePythontoAccounting.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/InfusePythontoAccounting-before-we-start.qmd
+          - section: '3. AI with Python'
+            contents:
+              - text: "Overview"
+                href: chapters/AI-Python.qmd
+          - section: '4. "GAAP" for Data Visualization'
+            contents:
+              - text: "Overview"
+                href: chapters/GAAPforDataVisualization.qmd
+          - section: '5. Debit Databases, Credit Analytics'
+            contents:
+              - text: "Overview"
+                href: chapters/DebitDatabase.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/DebitDatabase-before-we-start.qmd
+        - section: "R Arena"
+          href: r.qmd
+          contents:
+          - section: 'Bootcamp: Supercharge Accountants with Analytics'
+            contents:
+              - text: "Overview"
+                href: chapters/SuperchargeWithPythonR.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/SuperchargeWithPythonR-before-we-start.qmd
+          - section: '1. Excel Accounting with R'
+            contents:
+              - text: "Overview"
+                href: chapters/ExcelAccountingwithR.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/ExcelAccountingwithR-before-we-start.qmd
+          - section: '2. Elevate Accounting with Analytics in R'
+            contents:
+              - text: "Overview"
+                href: chapters/ElevateAccountingWithAnalytics-R.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
+          - section: '3. AI with R'
+            contents:
+              - text: "Overview"
+                href: chapters/AI-R.qmd
+          - section: '4. "GAAP" for Data Visualization'
+            contents:
+              - text: "Overview"
+                href: chapters/GAAPforDataVisualization.qmd
+          - section: '5. Debit Databases, Credit Analytics'
+            contents:
+              - text: "Overview"
+                href: chapters/DebitDatabase.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/DebitDatabase-before-we-start.qmd
+        - section: "Power BI & Fabric Arena"
+          href: powerbi.qmd
+          contents:
+          - section: 'Bootcamp: Power BI for Power Accountants'
+            contents:
+              - text: "Overview"
+                href: chapters/PBI_ForAccountantSeries.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
+          - section: '1. Managing Budget'
+            contents:
+              - text: "Overview"
+                href: chapters/PBI_ManageBudget.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
+          - section: '2. Engaging Custom Financial Statements'
+            contents:
+              - text: "Overview"
+                href: chapters/PBI_FinancialStatements.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
+          - section: '3. AI with Power BI'
+            contents:
+              - text: "Overview"
+                href: chapters/AI-PowerBI.qmd
+          - section: '4. Big Data and Modern Data Platform'
+            contents:
+              - text: "Overview"
+                href: chapters/ModernDataPlatform.qmd
+        - section: "Excel Arena"
+          href: excel.qmd
+          contents:
+          - section: '1. Modern "Excel-erated" Accounting'
+            contents:
+              - text: "Overview"
+                href: chapters/ExcelerateAccounting.qmd
+              - text: "To Do, Before We Start"
+                href: chapters/ExcelerateAccounting-before-we-start.qmd
+          - section: '2. AI with Excel'
+            contents:
+              - text: "Overview"
+                href: chapters/AI-Excel.qmd
+        - section: "Standalone Courses"
+          contents:
+          - section: 'Analytics Strategy for Finance Leaders'
+            contents:
+              - text: "Overview"
+                href: chapters/AnalyticsStrategy-Leaders.qmd
 
-      - section: "In-Depth Topics"
-        contents:
-        - section: '1. Modern "Excel-erated" Accounting'
-          contents: 
-          - text: "Overview"
-            href: chapters/ExcelerateAccounting.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/ExcelerateAccounting-before-we-start.qmd
-        - section: "2. Excel Accounting with R"
-          contents: 
-          - text: "Overview"
-            href: chapters/ExcelAccountingwithR.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/ExcelAccountingwithR-before-we-start.qmd
-        - section: "3. Elevate Accounting with Analytics in R"
-          contents: 
-          - text: "Overview"
-            href: chapters/ElevateAccountingWithAnalytics-R.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-        - section: "4. Excel and Python: A Tale of Two Power Tools"
+    - id: ai
+      title: "AI for Accounting Folks"
+      style: floating
+      search: false
+      contents:
+        - text: "Arena overview"
+          href: ai.qmd
+        - section: "Bootcamp: AI for Intelligent Accountants"
           contents:
-          - text: "Overview"
-            href: chapters/ExcelPython.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/ExcelPython-before-we-start.qmd
-        - section: "5. Infuse Python to Accounting"
+            - text: "Overview"
+              href: chapters/AI-Bootcamp.qmd
+        - section: "1. AI Foundations for Accountants"
           contents:
-          - text: "Overview"
-            href: chapters/InfusePythontoAccounting.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/InfusePythontoAccounting-before-we-start.qmd
-        - section: '6. "GAAP" for Data Visualization'
+            - text: "Overview"
+              href: chapters/AI-Foundations.qmd
+            - text: "To Do, Before We Start"
+              href: chapters/AI-Foundations-before-we-start.qmd
+        - section: "2. Ethics in the Age of AI"
           contents:
-          - text: "Overview"
-            href: chapters/GAAPforDataVisualization.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/ElevateAccountingWithAnalytics-R-before-we-start.qmd
-        - section: "7. Debit Databases, Credit Analytics"
+            - text: "Overview"
+              href: chapters/AI-Ethics.qmd
+        - section: "3. Prompt Like a Pro"
           contents:
-          - text: "Overview"
-            href: chapters/DebitDatabase.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/DebitDatabase-before-we-start.qmd
-        - section: "8. Power BI for Accountants 1: Engaging Custom Financial Statements"
+            - text: "Overview"
+              href: chapters/AI-Prompting.qmd
+        - section: "4A. AI with Excel"
           contents:
-          - text: "Overview"
-            href: chapters/PBI_FinancialStatements.qmd
-          - text: "To Do, Before We Start"
-            href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
-        - section: "9. Power BI for Accountants 2: Managing Budget"
+            - text: "Overview"
+              href: chapters/AI-Excel.qmd
+        - section: "4B. AI with Power BI"
           contents:
-          - text: "Overview"
-            href: chapters/PBI_ManageBudget.qmd  
-          - text: "To Do, Before We Start"
-            href: chapters/PBI_ForAccountantSeries-before-we-start.qmd        
-        - section: "10. Modern Data Platform with Microsoft Fabric"
+            - text: "Overview"
+              href: chapters/AI-PowerBI.qmd
+        - section: "4C. AI with Python"
           contents:
-          - text: "Overview"
-            href: chapters/ModernDataPlatform.qmd
+            - text: "Overview"
+              href: chapters/AI-Python.qmd
+        - section: "4D. AI with R"
+          contents:
+            - text: "Overview"
+              href: chapters/AI-R.qmd
+        - section: "5. Trust, but Verify: AI Governance"
+          contents:
+            - text: "Overview"
+              href: chapters/AI-Governance.qmd
+        - section: "6. Context Engineering and Agents"
+          contents:
+            - text: "Overview"
+              href: chapters/AI-Assistants.qmd
+        - section: "For Finance Leaders"
+          contents:
+            - section: "AI Strategy for Finance Leaders"
+              contents:
+                - text: "Overview"
+                  href: chapters/AI-Leaders.qmd
+            - section: "Analytics Strategy for Finance Leaders"
+              contents:
+                - text: "Overview"
+                  href: chapters/AnalyticsStrategy-Leaders.qmd
 
-
-      - section: "Detailed Setup Guides"
-        contents: 
-          - text: "Get Started with R"
-            href: chapters/Setup-R.qmd
-          - text: "Get Started with Python"
-            href: chapters/Setup-python.qmd
-          - text: "Get Started with Positron"
-            href: chapters/Setup-positron.qmd
-          - text: "Get Started with Quarto"
-            href: chapters/Setup-quarto.qmd
-          - text: "Get Started with Anaconda Toolbox"
-            href: chapters/Setup-anacondacode.qmd
-          - text: "Get Started with PostgresSQL"
-            href: chapters/Setup-postgreSQL.qmd
-          - text: "Get Started with Power BI Desktop"
-            href: chapters/Setup-pbidesktop.qmd
+    - id: setup
+      title: "Setup Guides"
+      style: floating
+      search: false
+      contents:
+        - text: "All setup guides"
+          href: setup.qmd
+        - text: "Get Started with R"
+          href: chapters/Setup-R.qmd
+        - text: "Get Started with Python"
+          href: chapters/Setup-python.qmd
+        - text: "Get Started with Positron"
+          href: chapters/Setup-positron.qmd
+        - text: "Get Started with Quarto"
+          href: chapters/Setup-quarto.qmd
+        - text: "Get Started with Anaconda Toolbox"
+          href: chapters/Setup-anacondacode.qmd
+        - text: "Get Started with PostgreSQL"
+          href: chapters/Setup-postgreSQL.qmd
+        - text: "Get Started with Power BI Desktop"
+          href: chapters/Setup-pbidesktop.qmd
 
 format:
   html:

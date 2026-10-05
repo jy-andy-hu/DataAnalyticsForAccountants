@@ -1,0 +1,21 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/preface.html",
+      "/chapters/SuperchargeWithPythonR.html",
+      "/chapters/PBI_ForAccountantSeries.html",
+      "/chapters/ExcelPython.html",
+      "/chapters/InfusePythontoAccounting.html",
+      "/chapters/ExcelAccountingwithR.html",
+      "/chapters/ElevateAccountingWithAnalytics-R.html",
+      "/chapters/GAAPforDataVisualization.html",
+      "/chapters/DebitDatabase.html",
+      "/chapters/PBI_ManageBudget.html",
+      "/chapters/PBI_FinancialStatements.html",
+      "/chapters/ModernDataPlatform.html",
+      "/chapters/ExcelerateAccounting.html",
+      "/chapters/AnalyticsStrategy-Leaders.html"
+    ]
+  }
+]

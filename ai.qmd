@@ -1,0 +1,26 @@
+---
+title: "AI for Accounting Folks"
+subtitle: "Practical AI for professional accountants. Courses are coming soon."
+---
+
+::: {.callout-tip}
+## Prefer one comprehensive program?
+The certificate version of this series is [AI for Intelligent Accountants](chapters/AI-Bootcamp.qmd) *(coming soon)*, a 24-hour, AI-centric program with a capstone project.
+:::
+
+## Recommended sequence
+
+1. [AI Foundations for Accountants](chapters/AI-Foundations.qmd) *(coming soon)*: what LLMs are, the tool landscape and your first wins.
+2. [Ethics in the Age of AI](chapters/AI-Ethics.qmd) *(coming soon)*: professional judgment, taught through practical case studies.
+3. [Prompt Like a Pro](chapters/AI-Prompting.qmd) *(coming soon)*: reusable prompt patterns for accounting work.
+4. Apply AI to your tool of your choice (no required order):
+    - [AI with Excel](chapters/AI-Excel.qmd) *(coming soon)*
+    - [AI with Power BI](chapters/AI-PowerBI.qmd) *(coming soon)*
+    - [AI with Python](chapters/AI-Python.qmd) *(coming soon)*
+    - [AI with R](chapters/AI-R.qmd) *(coming soon)*
+5. [Trust, but Verify: AI Governance](chapters/AI-Governance.qmd) *(coming soon)*: controls, audit trail and professional skepticism.
+6. [Context Engineering and Agents](chapters/AI-Assistants.qmd) *(coming soon)*: build your team's AI assistants.
+
+## For finance leaders
+
+[AI Strategy for Finance Leaders](chapters/AI-Leaders.qmd) *(coming soon)* is a standalone, non-technical course on where AI creates value in a finance function and how to lead the change. See also [Analytics Strategy for Finance Leaders](chapters/AnalyticsStrategy-Leaders.qmd).

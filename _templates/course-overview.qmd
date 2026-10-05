@@ -1,0 +1,18 @@
+---
+title: "COURSE TITLE"
+description: "One-sentence pitch shown on the catalog card."
+categories: [AI, In-Depth]   # arena (Python | R | Power BI & Fabric | Excel | AI) + type (Bootcamp | In-Depth)
+order: 20                    # position in the catalog; lower comes first
+---
+
+## Description
+
+## Length
+
+X hours.
+
+## Key Takeaways
+
+## Target Audience
+
+## Prerequisite(s)

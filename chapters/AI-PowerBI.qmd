@@ -1,0 +1,53 @@
+---
+title: "AI with Power BI: Faster Models, Measures and Reports"
+description: "Speed up Power BI work with Copilot and LLMs, with or without MCP servers, while keeping models accurate, governed and explainable."
+categories: [AI, "Power BI & Fabric", In-Depth]
+order: 24
+draft: true
+---
+
+## Description
+
+Building a good Power BI model takes skill: clean Power Query steps, a sound data model, correct DAX, and reports that communicate. AI can accelerate each step, but it can also produce measures that look right and are wrong. This session explores two ways to use AI with Power BI. First, assistant-style help: Copilot in Power BI and general-purpose LLMs that explain DAX, draft measures and Power Query (M) steps, and suggest model improvements. Second, agent-style help through the Model Context Protocol (MCP): Microsoft's Power BI MCP servers let an AI agent inspect and, in the case of the modeling server, modify a semantic model (tables, measures, relationships) or query published models. These servers are in preview and evolving, so we focus on durable skills: how to supervise AI changes to a model, test results against known totals, and keep a record of what changed. We close with a look at how Microsoft Fabric fits in.
+
+:::{.callout-tip}
+
+## Note
+
+This session sits in the [Power BI & Fabric arena](../powerbi.qmd), after the two Power BI sessions and before "Big Data and Modern Data Platform". Power BI MCP servers are currently in public preview and change frequently, so hands-on content will be refreshed before each delivery.
+
+:::
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- How AI can help at each stage: data prep (Power Query), modeling, DAX measures, and report design
+- How to prompt for DAX and M and, more importantly, how to validate the result against known figures
+- What MCP is in plain language, what the current Power BI MCP servers can and cannot do (for example, they do not design report visuals), and their preview status
+- How to set up and supervise an AI agent working on a semantic model, with backups, version control and review before anything is published
+- How to use AI to document a model and generate descriptions so reports are easier to maintain
+- Where Copilot in Power BI and Fabric helps, what it requires (licensing, capacity, tenant settings), and what it cannot do
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples include:
+
+- Budget reporting: generate and verify time-intelligence measures (YTD, prior-year, variance)
+- Financial statements: build and test custom measures for a multi-level P&L
+- Model review: ask AI to audit a semantic model for naming, relationships and measure consistency
+- Documentation: auto-generate a data dictionary and measure descriptions for handover
+- Natural-language Q&A: query a published model, and evaluate when you can trust the answer
+
+## Target Audience
+
+- **Accountants and analysts already building Power BI reports**, especially in FP&A and financial reporting
+- **BI leads and managers** deciding how far to let AI into their reporting stack
+
+## Prerequisite(s)
+
+Practical experience with Power BI Desktop is required: completion of [Power BI for Accountants 1](PBI_ManageBudget.qmd) and [Power BI for Accountants 2](PBI_FinancialStatements.qmd), or equivalent. Power BI Desktop runs on Windows. The MCP portions assume a Windows laptop and may need a developer-style setup (for example, Visual Studio Code with GitHub Copilot); Copilot features may require specific licenses. Details will be in the "Before We Start" guide.

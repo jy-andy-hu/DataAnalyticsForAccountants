@@ -1,5 +1,8 @@
 ---
 title: "Elevate Accounting with Analytics in R"
+description: "R as a gentler, powerful alternative to Python for accounting analytics."
+categories: [Analytics, R, In-Depth]
+order: 6
 ---
 
 ## Description

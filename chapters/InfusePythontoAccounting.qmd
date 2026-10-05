@@ -1,5 +1,8 @@
 ---
 title: "Infuse Python to Accounting"
+description: "Use Python to streamline a typical accounting task into ready-to-distribute output."
+categories: [Analytics, Python, In-Depth]
+order: 4
 ---
 
 ## Description

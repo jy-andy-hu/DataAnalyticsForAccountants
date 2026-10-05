@@ -1,5 +1,8 @@
 ---
-title: "Power BI for Accountant 1: Engaging Custom Financial Statements"
+title: "Power BI for Accountants 2: Engaging Custom Financial Statements"
+description: "Create engaging custom financial statements from a simulated general ledger in Power BI."
+categories: [Analytics, "Power BI & Fabric", In-Depth]
+order: 10
 ---
 
 ## Description

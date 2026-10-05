@@ -1,0 +1,57 @@
+---
+title: "Ethics in the Age of AI: Professional Judgment for Accountants"
+description: "Apply the profession's ethical principles (competence, confidentiality, objectivity, integrity) to real decisions about using AI."
+categories: [AI, In-Depth]
+order: 21
+draft: true
+---
+
+## Description
+
+Technology changes quickly, but an accountant's ethical obligations do not. What changes is how they show up in daily decisions: Is pasting client data into a chatbot a confidentiality breach? How much AI-generated work can you sign off on and still meet due care? Must you tell a client or employer that AI helped? This case-based session works through these questions using the profession's own frameworks: the fundamental principles of integrity, objectivity, professional competence and due care, confidentiality and professional behavior, and the threats-and-safeguards approach used in the AICPA and IESBA codes. We also look at how the IESBA's technology-related revisions to its Code (effective December 2024) frame the mindset professionals should bring to any technology. The goal is not to memorize rules, but to build the judgment to reason through situations no rule anticipated.
+
+:::{.callout-tip}
+
+## Note
+
+Ethics is not a one-time compliance topic. We recommend taking this session early in the series, before the hands-on analysis courses, and revisiting it as your AI use grows.
+
+:::
+
+## Length
+
+6 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- How each fundamental ethical principle applies to AI use, with plain-language examples
+- How to use the threats-and-safeguards framework to evaluate a new AI use case
+- What the AICPA Code, the IESBA Code and other relevant guidance say (and do not say) about technology and AI, and how to keep up with changes
+- How bias, opacity and over-reliance on AI can compromise objectivity and professional skepticism
+- How to think about disclosure and transparency to clients, employers, auditors and regulators
+- Who is accountable when AI is wrong, and the supervisor's responsibility for AI-assisted work by staff
+- How to document your ethical reasoning so you can defend it later
+
+## Practical Case Studies
+
+About half of the session is spent on case studies. Each is worked through in small groups using the same structure: the facts, the principles at stake, the threats to compliance, the available safeguards, a decision, and how you would document it. The cases are realistic composites across public practice, industry and government:
+
+- Confidentiality: a staff accountant pastes a client trial balance into a public chatbot to save time
+- Due care: an AI-drafted technical memo cites a standard paragraph that does not exist
+- Objectivity and bias: an AI model scores customers for collections risk and disadvantages a group
+- Independence (assurance): an audit client uses AI to prepare accounting estimates that the firm must then evaluate
+- Competence: a manager asks a team to deliver AI-produced analysis nobody on the team can explain
+- Integrity and fraud: deepfakes, synthetic invoices and AI-assisted social engineering
+- Tax practice: using AI for research or return preparation under practitioner standards
+
+## Target Audience
+
+- **All accounting professionals**, in public practice, industry, government and nonprofit
+- **CPAs and other credentialed professionals** meeting ethics continuing-education requirements (credit eligibility to be confirmed with each provider)
+- **Managers, partners and controllers** who set the tone for how their teams use AI
+
+## Prerequisite(s)
+
+No technical background is required. "AI Foundations for Accountants" is recommended first. Applicable codes vary by country and licensing body, so we focus on the AICPA and IESBA frameworks, and you will map them to your own jurisdiction's rules.

@@ -1,0 +1,19 @@
+---
+title: "Python Arena"
+subtitle: "Analytics for accountants with Python"
+---
+
+::: {.callout-tip}
+## Prefer one comprehensive program?
+The bootcamp version of this series is [Supercharge Accountants with Analytics](chapters/SuperchargeWithPythonR.qmd) (Python version).
+:::
+
+## Recommended sequence
+
+1. [Excel and Python: A Tale of Two Power Tools](chapters/ExcelPython.qmd): bridge from Excel to Python.
+2. [Infuse Python to Accounting](chapters/InfusePythontoAccounting.qmd): streamline a complete accounting task with Python.
+3. [AI with Python: Write Accounting Analytics Code with an AI Pair Programmer](chapters/AI-Python.qmd): code faster with AI, and learn to trust the result. *(coming soon)*
+4. ["GAAP" for Data Visualization](chapters/GAAPforDataVisualization.qmd): make the output communicate.
+5. [Debit Databases, Credit Analytics for Accounting](chapters/DebitDatabase.qmd): pull data straight from databases.
+
+New to the tools? See the [setup guides](setup.qmd) first.

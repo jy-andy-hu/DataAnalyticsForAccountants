@@ -1,6 +1,9 @@
 ---
-title: '"GAPP" for Data Visualization'
+title: '"GAAP" for Data Visualization'
 subtitle: Overview
+description: 'A principled "GAAP" for data visualization and infographics that accountants can trust.'
+categories: [Analytics, Python, R, In-Depth]
+order: 7
 ---
 
 ## Description

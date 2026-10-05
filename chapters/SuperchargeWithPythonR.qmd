@@ -1,5 +1,8 @@
 ---
 title: "Supercharge Accountants with Analytics"
+description: "Flagship, beginner-friendly bootcamp: modern data analytics for accountants with R or Python."
+categories: [Analytics, Python, R, Bootcamp]
+order: 1
 ---
 
 ## Description

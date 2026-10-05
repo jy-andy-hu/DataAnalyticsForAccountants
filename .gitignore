@@ -1,3 +1,6 @@
 slides/
 /images/
 /.quarto/
+**/*.quarto_ipynb
+.claude/
+

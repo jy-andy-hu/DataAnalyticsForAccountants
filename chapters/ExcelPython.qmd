@@ -1,5 +1,8 @@
 ---
 title: "Excel and Python: A Tale of Two Power Tools"
+description: "A hands-on lab pairing Excel dynamic arrays with Python in Excel."
+categories: [Analytics, Python, In-Depth]
+order: 3
 ---
 
 ## Description

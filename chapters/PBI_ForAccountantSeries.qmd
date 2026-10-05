@@ -1,5 +1,8 @@
 ---
-title: "Power BI Works for Power Accountants"
+title: "Power BI for Power Accountants"
+description: "Certificate-style bootcamp: build financial statements and budget reports in Power BI, with no paid add-ons."
+categories: [Analytics, "Power BI & Fabric", Bootcamp]
+order: 2
 ---
 
 ## Description

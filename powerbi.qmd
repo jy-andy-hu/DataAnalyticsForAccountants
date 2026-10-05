@@ -1,0 +1,18 @@
+---
+title: "Power BI & Fabric Arena"
+subtitle: "Financial reporting, dashboards and modern data platforms for accountants"
+---
+
+::: {.callout-tip}
+## Prefer one comprehensive program?
+The bootcamp version of this series is [Power BI for Power Accountants](chapters/PBI_ForAccountantSeries.qmd).
+:::
+
+## Recommended sequence
+
+1. [Power BI for Accountants 1: Managing Budget](chapters/PBI_ManageBudget.qmd)
+2. [Power BI for Accountants 2: Engaging Custom Financial Statements](chapters/PBI_FinancialStatements.qmd)
+3. [AI with Power BI: Faster Models, Measures and Reports](chapters/AI-PowerBI.qmd): speed up your Power BI work with AI. *(coming soon)*
+4. [Big Data and Modern Data Platform](chapters/ModernDataPlatform.qmd): where Power BI fits in the bigger picture.
+
+New to the tools? See the [Power BI Desktop setup guide](chapters/Setup-pbidesktop.qmd) first.

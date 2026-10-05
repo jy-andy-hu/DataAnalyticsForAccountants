@@ -1,0 +1,43 @@
+---
+title: "Analytics Strategy for Finance Leaders"
+description: "Coming soon: how finance leaders can treat data as an asset, and build the foundations that analytics and AI depend on."
+categories: [Analytics, Strategy, In-Depth]
+order: 13
+---
+
+:::{.callout-note}
+
+## Coming Soon
+
+This course is in development. The outline below is a preview and may change.
+
+:::
+
+## Description
+
+Analytics and AI are only as good as the data beneath them. Yet in many finance teams, data lives in spreadsheets, disconnected systems and individual heads. This session is for finance leaders who need to make decisions about data without becoming technologists. We will discuss data as a strategic asset, what a modern data platform is and what it costs, who owns data quality, and how to structure a finance analytics team and roadmap. The course is a standalone offering and does not belong to any single arena.
+
+## Length
+
+To be determined.
+
+## Key Takeaways (Preview)
+
+Upon completion of this course, you will understand:
+
+- How to frame data as an asset, with owners, quality standards and a roadmap
+- Plain-language concepts: data lake, warehouse, lakehouse, pipelines, semantic models and self-service analytics
+- How a modern data platform (such as Microsoft Fabric) fits into a finance function, and when it is worth investing in
+- How to set up data ownership, quality controls and governance in finance
+- How to organize a finance analytics team: roles, skills, and build versus buy
+- How to connect analytics strategy to AI readiness, and how to make the business case
+
+## Target Audience
+
+- **Controllers, finance directors, VPs of finance and CFOs** responsible for reporting and analytics
+- **Finance transformation leaders** working with IT and data teams
+- **Senior accountants** preparing to lead modernization projects
+
+## Prerequisite(s)
+
+No technical background is required. Participants may find it useful to have attended [Big Data and Modern Data Platform](ModernDataPlatform.qmd), but this is not required. See also the companion course [AI Strategy for Finance Leaders](AI-Leaders.qmd) *(coming soon)*.

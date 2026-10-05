@@ -1,5 +1,8 @@
 ---
 title: "Excel Accounting with R"
+description: "Build an interactive budget review in Excel with R, with visualizations beyond normal Excel reach."
+categories: [Analytics, R, In-Depth]
+order: 5
 ---
 
 ## Description

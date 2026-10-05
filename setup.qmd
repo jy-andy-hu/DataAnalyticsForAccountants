@@ -1,0 +1,12 @@
+---
+title: "Setup Guides"
+subtitle: "Step-by-step installation guides for the tools used across courses"
+---
+
+- [Get Started with R](chapters/Setup-R.qmd)
+- [Get Started with Python](chapters/Setup-python.qmd)
+- [Get Started with Positron](chapters/Setup-positron.qmd)
+- [Get Started with Quarto](chapters/Setup-quarto.qmd)
+- [Get Started with Anaconda Toolbox](chapters/Setup-anacondacode.qmd)
+- [Get Started with PostgreSQL](chapters/Setup-postgreSQL.qmd)
+- [Get Started with Power BI Desktop](chapters/Setup-pbidesktop.qmd)

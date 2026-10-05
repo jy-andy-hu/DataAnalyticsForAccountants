@@ -1,0 +1,48 @@
+---
+title: "AI Foundations for Accountants: LLMs, Prompts and Your First Wins"
+description: "What large language models are, what they are good and bad at, and how to start using them safely in everyday accounting work."
+categories: [AI, In-Depth]
+order: 20
+draft: true
+---
+
+## Description
+
+Everyone is talking about AI, but few accountants have had a calm, practical introduction. This session demystifies large language models (LLMs) in plain accounting language: what they are, why they sometimes sound confident and wrong, and how the major tools (Claude, Gemini, Microsoft Copilot, ChatGPT) compare. We then get hands-on with prompts that save real time on routine work, with clear guardrails around confidentiality and professional skepticism. You leave with a short list of use cases you can apply at your desk the very next day.
+
+## Length
+
+4 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- What an LLM is and is not, in non-technical terms (tokens, training data, hallucinations, why answers vary)
+- How the major LLM tools differ, and how to choose among them for a given task
+- The anatomy of a good prompt: role, task, context, format and constraints
+- What data is safe to share with an AI tool, and how to work within your organization's policy
+- How to check AI output with professional skepticism before it reaches a reviewer, client or auditor
+- A personal list of three to five high-value use cases for your own role
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples across functions and industries include:
+
+- Controllership: draft a plain-English explanation of a technical accounting standard for a non-finance stakeholder
+- FP&A: turn a variance table into first-draft management commentary
+- Audit and assurance: summarize a long process narrative and draft follow-up questions
+- Tax: outline a research question and the factors to consider before consulting authoritative sources
+- Any role: summarize a long email thread or policy document, and draft a clear reply
+
+Exercises are tool-agnostic. You can follow along with Claude, Gemini, Microsoft Copilot or ChatGPT, whichever your organization permits.
+
+## Target Audience
+
+- **Staff and senior accountants** curious about AI who want a safe, practical starting point
+- **Managers and controllers** who need to understand what their teams are doing with AI, and where the risks are
+- **Accountants across industries** (public accounting, corporate finance, nonprofit, government, banking, healthcare and more)
+
+## Prerequisite(s)
+
+No technical background or programming experience is required. Please bring a laptop and an account with at least one LLM tool (a free tier is fine). We will cover choosing one in the "Before We Start" guide.

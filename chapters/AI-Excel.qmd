@@ -1,0 +1,58 @@
+---
+title: "AI with Excel: From Spreadsheets to Insights"
+description: "Use Copilot and other LLMs inside and around Excel to clean data, write formulas, reconcile and explain results, and verify every answer."
+categories: [AI, Excel, In-Depth]
+order: 23
+draft: true
+---
+
+## Description
+
+Excel is where most accountants live, so it is where AI can deliver the quickest wins. This session shows how to use LLMs as an analysis partner for spreadsheet work: cleaning messy exports, generating and explaining formulas, reconciling lists, finding outliers and turning results into clear explanations. Just as important, we practice verification, because an LLM that is confidently wrong about a number is worse than no help at all. We use AI inside Excel (such as Copilot) and general-purpose tools that can read your files, and learn when to ask the AI to write formulas or scripts instead of answering directly so the work is repeatable and auditable.
+
+:::{.callout-tip}
+
+## Note
+
+This session sits in the [Excel arena](../excel.qmd), alongside "Modern Excel-erated Accounting". It is also the one tool-specific session included in the [AI for Intelligent Accountants](AI-Bootcamp.qmd) bootcamp. Sister sessions apply AI to [Power BI](AI-PowerBI.qmd), [Python](AI-Python.qmd) and [R](AI-R.qmd).
+
+:::
+
+## Length
+
+8 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- How to give an LLM your data in a safe, structured way, and what to anonymize first
+- How to generate and explain Excel formulas, including dynamic arrays, XLOOKUP and lambda functions
+- How to use AI for data cleaning, mapping, reconciliation and anomaly detection
+- Why LLMs make arithmetic mistakes and how to design checks that catch them (tie-outs, re-performance, sampling)
+- When to use AI inside Excel versus an external chat tool, and the trade-offs in privacy and control
+- How to turn findings into charts and plain-language insights for decision makers
+
+## Workflows We Will Work Through
+
+Hands-on exercises use realistic, simulated (never confidential) data. Examples include:
+
+- Reconciliation: match bank or intercompany lists with fuzzy descriptions
+- Journal entry testing: flag unusual entries by amount, timing and description
+- Expense analysis: categorize and summarize a messy transaction export
+- Revenue analytics: explain a price, volume and mix variance
+- Master data: standardize vendor or customer names and find duplicates
+
+## Target Audience
+
+- **Staff and senior accountants, FP&A analysts and auditors** who work with data in Excel every day
+- **Managers** who want faster analysis turnaround without sacrificing control
+
+## Prerequisite(s)
+
+No programming knowledge is required. This is a beginner-friendly session on the AI side.
+
+To get the most out of this session, you should have **1 to 2 years of professional experience using Microsoft Excel**. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS. AI can write formulas for you, but you need enough Excel fluency to read them and tell when they are wrong. Access to Excel with Copilot is helpful but not required.
+
+To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
+

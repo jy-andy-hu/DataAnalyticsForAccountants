@@ -1,5 +1,8 @@
 ---
-title: "Power BI for Accountants 2: Managing Budget Cycles"
+title: "Power BI for Accountants 1: Managing Budget Cycles"
+description: "Variance analysis, custom budget reports and what-if analysis in Power BI."
+categories: [Analytics, "Power BI & Fabric", In-Depth]
+order: 9
 ---
 
 ## Description

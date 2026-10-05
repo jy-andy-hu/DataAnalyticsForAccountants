@@ -1,0 +1,54 @@
+---
+title: "AI Strategy for Finance Leaders"
+description: "Where AI creates value in a finance function, how to start, how to govern it, and how to lead the change."
+categories: [AI, Strategy, In-Depth]
+order: 29
+draft: true
+---
+
+## Description
+
+Finance leaders are being asked, by boards, CEOs and their own teams, what the AI plan is. This is a discussion-led, non-technical session for controllers, finance directors, VPs and CFOs. We cut through the hype to focus on where AI creates real value in accounting and finance, how to pick and sequence use cases, what to ask vendors, how to manage risk, and how to lead a team through the change. You do not need to learn to use the tools hands-on, though a short live demonstration grounds each topic.
+
+## Length
+
+4 hours.
+
+## Key Takeaways
+
+Upon completion of this course, you will understand:
+
+- What current AI can and cannot do for accounting and finance, in plain language
+- How to find and prioritize use cases by value, risk and readiness
+- A practical roadmap: start small, prove value, scale, and when to build versus buy
+- How to size the costs and benefits, and what an honest ROI conversation looks like
+- The risks that matter most to finance leaders (confidentiality, control, accountability, vendor risk) and the governance a team needs
+- How AI changes roles, skills and the staffing pyramid, and how to lead upskilling without fear
+- How to talk about AI credibly with your CFO, audit committee, auditors and board
+
+## Topics We Will Discuss
+
+- A map of AI use cases across the finance function (close, FP&A, AP/AR, tax, audit, treasury, reporting)
+- Case discussions: where pilots succeeded, stalled and failed
+- Evaluating AI features in the tools you already own versus new platforms
+- A one-page AI policy and operating model for a finance team
+- Building your team's AI skills: who learns what, and in what order
+- A 90-day plan tailored to your organization
+
+## Target Audience
+
+- **Controllers, finance directors, VPs of finance and CFOs** who need a credible AI plan
+- **Partners and senior managers in public accounting** shaping firm or practice strategy
+- **Finance transformation and operations leaders**
+
+## Prerequisite(s)
+
+No technical background is required. Familiarity with your own function's processes is what matters. Participants who have taken [Ethics in the Age of AI](AI-Ethics.qmd) or [Trust, but Verify: AI Governance](AI-Governance.qmd) will find the risk discussions easier to build on, but these are not required.
+
+:::{.callout-tip}
+
+## Note
+
+This course is a standalone offering and is not part of the [AI for Intelligent Accountants](AI-Bootcamp.qmd) bootcamp. A companion course for leaders, [Analytics Strategy for Finance Leaders](AnalyticsStrategy-Leaders.qmd), covers the data foundations AI depends on.
+
+:::

@@ -1,6 +1,9 @@
 ---
 title: Big Data and Modern Data Platform
 subtitle: Overview
+description: "Big data and modern data platforms (Microsoft Fabric), minus the jargon."
+categories: [Analytics, "Power BI & Fabric", In-Depth]
+order: 11
 ---
 
 ## Description
